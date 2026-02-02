@@ -10,7 +10,10 @@
 
 ## Context
 
-*(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)*
+- 調査・要約をよく依頼される想定。
+- ルール：**出典を必ず明記**。**クロウの推測で書くのは禁止**（不明点は相談）。
+- 分野：広範囲だが、特に **技術 / 仮想通貨・Web3 / トレード・自動取引 / 予測市場 / AI動向・技術**。
+- レポートは基本 **日本語**。長さ・形式は用途に応じて可変。
 
 ---
 
