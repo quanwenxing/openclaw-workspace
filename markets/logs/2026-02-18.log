@@ -1,0 +1,105 @@
+2026-02-18 13:36:36,465 INFO collector start
+2026-02-18 13:36:48,676 INFO collector start
+2026-02-18 13:36:48,678 INFO collecting @Polymarket market=polymarket since_id=0
+2026-02-18 13:36:48,678 INFO collecting @Kalshi market=kalshi since_id=0
+2026-02-18 13:36:48,678 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 13:36:48,678 INFO collector done total_posts=0 success=3 failed=0 dry_run=True
+2026-02-18 14:02:11,115 INFO collector start
+2026-02-18 14:02:11,117 INFO collecting @Polymarket market=polymarket since_id=0
+2026-02-18 14:02:15,536 ERROR failed @Polymarket: status=402 body={"account_id":2021962140379475968,"title":"CreditsDepleted","detail":"Your enrolled account [2021962140379475968] does not have any credits to fulfill this request.","type":"https://api.twitter.com/2/problems/credits"}
+2026-02-18 14:02:15,537 INFO collecting @Kalshi market=kalshi since_id=0
+2026-02-18 14:02:19,884 ERROR failed @Kalshi: status=402 body={"account_id":2021962140379475968,"title":"CreditsDepleted","detail":"Your enrolled account [2021962140379475968] does not have any credits to fulfill this request.","type":"https://api.twitter.com/2/problems/credits"}
+2026-02-18 14:02:19,884 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 14:02:24,197 ERROR failed @opinionlabsxyz: status=402 body={"account_id":2021962140379475968,"title":"CreditsDepleted","detail":"Your enrolled account [2021962140379475968] does not have any credits to fulfill this request.","type":"https://api.twitter.com/2/problems/credits"}
+2026-02-18 14:02:24,199 INFO collector done total_posts=0 success=0 failed=3 dry_run=False
+2026-02-18 14:09:13,789 INFO collector start
+2026-02-18 14:09:13,791 INFO collecting @Polymarket market=polymarket since_id=0
+2026-02-18 14:09:14,331 INFO collecting @Kalshi market=kalshi since_id=0
+2026-02-18 14:09:14,708 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 14:09:15,028 INFO collector done total_posts=53 success=3 failed=0 dry_run=False
+2026-02-18 14:28:25,333 INFO collector start
+2026-02-18 14:28:25,335 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 14:28:25,335 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 14:28:25,335 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 14:28:25,336 INFO collector done total_posts=0 success=3 failed=0 dry_run=True
+2026-02-18 14:28:30,177 INFO collector start
+2026-02-18 14:28:30,439 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 14:28:30,996 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 14:28:31,345 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 14:28:31,696 INFO collecting @Mikocrypto11 market=other-market since_id=0
+2026-02-18 14:28:32,152 INFO collecting @runes_leo market=other-market since_id=0
+2026-02-18 14:28:32,544 INFO collecting @the_smart_ape market=other-market since_id=0
+2026-02-18 14:28:32,911 INFO collecting @hhhx402 market=other-market since_id=0
+2026-02-18 14:28:33,262 INFO collecting @wuyidefi market=other-market since_id=0
+2026-02-18 14:28:33,629 INFO collector done total_posts=25 success=8 failed=0 dry_run=False
+2026-02-18 14:28:47,365 INFO collector start
+2026-02-18 14:28:47,367 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 14:28:47,367 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 14:28:47,367 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 14:28:47,367 INFO collector done total_posts=0 success=3 failed=0 dry_run=True
+2026-02-18 14:59:40,875 INFO collector start
+2026-02-18 14:59:41,130 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 14:59:41,450 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 14:59:41,783 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 14:59:42,120 INFO collecting @Mikocrypto11 market=other-market since_id=2023970734960206025
+2026-02-18 14:59:42,440 INFO collecting @runes_leo market=other-market since_id=2023943479617884647
+2026-02-18 14:59:42,749 INFO collecting @Kakoy97 market=other-market since_id=0
+2026-02-18 14:59:43,052 INFO collecting @the_smart_ape market=other-market since_id=2023701414984466904
+2026-02-18 14:59:43,493 INFO collecting @0xTykoo market=other-market since_id=0
+2026-02-18 14:59:43,822 INFO collecting @hhhx402 market=other-market since_id=0
+2026-02-18 14:59:44,160 INFO collecting @wuyidefi market=other-market since_id=0
+2026-02-18 14:59:44,492 INFO collector done total_posts=4 success=10 failed=0 dry_run=False
+2026-02-18 15:51:25,504 INFO collector start
+2026-02-18 15:51:25,767 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 15:51:26,089 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 15:51:26,398 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 15:51:26,707 INFO collecting @Mikocrypto11 market=other-market since_id=2023993380468834509
+2026-02-18 15:51:27,039 INFO collecting @runes_leo market=other-market since_id=2023943479617884647
+2026-02-18 15:51:27,343 INFO collecting @Kakoy97 market=other-market since_id=0
+2026-02-18 15:51:27,655 INFO collecting @the_smart_ape market=other-market since_id=2023701414984466904
+2026-02-18 15:51:27,969 INFO collecting @0xTykoo market=other-market since_id=2023991850617671938
+2026-02-18 15:51:28,305 INFO collecting @hhhx402 market=other-market since_id=0
+2026-02-18 15:51:28,615 INFO collecting @wuyidefi market=other-market since_id=0
+2026-02-18 15:51:28,913 INFO collector done total_posts=2 success=10 failed=0 dry_run=False
+2026-02-18 15:53:59,983 INFO collector start
+2026-02-18 15:54:00,256 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 15:54:00,610 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 15:54:00,967 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 15:54:01,326 INFO collecting @Mikocrypto11 market=other-market since_id=2024007220644417669
+2026-02-18 15:54:01,694 INFO collecting @runes_leo market=other-market since_id=2023943479617884647
+2026-02-18 15:54:02,048 INFO collecting @Kakoy97 market=other-market since_id=0
+2026-02-18 15:54:02,399 INFO collecting @the_smart_ape market=other-market since_id=2023701414984466904
+2026-02-18 15:54:02,754 INFO collecting @0xTykoo market=other-market since_id=2024005570769154064
+2026-02-18 15:54:03,104 INFO collecting @hhhx402 market=other-market since_id=0
+2026-02-18 15:54:03,459 INFO collecting @wuyidefi market=other-market since_id=0
+2026-02-18 15:54:03,806 INFO collector done total_posts=0 success=10 failed=0 dry_run=False
+2026-02-18 16:03:12,512 INFO collector start
+2026-02-18 16:03:12,514 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 16:03:12,514 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 16:03:12,514 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 16:03:12,515 INFO collector done total_posts=0 success=3 failed=0 dry_run=True
+2026-02-18 16:03:24,428 INFO collector start
+2026-02-18 16:03:24,707 INFO list sync updated config added=7 removed=0
+2026-02-18 16:03:24,708 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 16:03:25,024 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 16:03:25,342 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 16:03:25,638 INFO collecting @Mikocrypto11 market=other-market since_id=2024007220644417669
+2026-02-18 16:03:25,942 INFO collecting @runes_leo market=other-market since_id=2023943479617884647
+2026-02-18 16:03:26,428 INFO collecting @Kakoy97 market=other-market since_id=0
+2026-02-18 16:03:26,746 INFO collecting @the_smart_ape market=other-market since_id=2023701414984466904
+2026-02-18 16:03:27,075 INFO collecting @0xTykoo market=other-market since_id=2024005570769154064
+2026-02-18 16:03:27,397 INFO collecting @hhhx402 market=other-market since_id=0
+2026-02-18 16:03:27,722 INFO collecting @wuyidefi market=other-market since_id=0
+2026-02-18 16:03:28,071 INFO collector done total_posts=1 success=10 failed=0 dry_run=False
+2026-02-18 16:06:12,928 INFO collector start
+2026-02-18 16:06:13,230 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-18 16:06:13,551 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-18 16:06:13,883 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-18 16:06:14,219 INFO collecting @Mikocrypto11 market=other-market since_id=2024007220644417669
+2026-02-18 16:06:14,584 INFO collecting @runes_leo market=other-market since_id=2023943479617884647
+2026-02-18 16:06:14,894 INFO collecting @Kakoy97 market=other-market since_id=0
+2026-02-18 16:06:15,219 INFO collecting @the_smart_ape market=other-market since_id=2023701414984466904
+2026-02-18 16:06:15,528 INFO collecting @0xTykoo market=other-market since_id=2024015677552578671
+2026-02-18 16:06:15,839 INFO collecting @hhhx402 market=other-market since_id=0
+2026-02-18 16:06:16,179 INFO collecting @wuyidefi market=other-market since_id=0
+2026-02-18 16:06:16,491 INFO collector done total_posts=0 success=10 failed=0 dry_run=False

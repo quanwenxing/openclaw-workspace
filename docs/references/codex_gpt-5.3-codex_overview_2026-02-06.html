@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Codex新モデル（GPT‑5.3‑Codex）概要まとめ</title>
+  <style>
+    :root{
+      --bg:#0b0f19; --panel:#11182a; --panel2:#0f1524; --text:#e7eefc; --muted:#a9b7d6;
+      --accent:#79a7ff; --good:#53d08a; --warn:#ffcc66; --bad:#ff6b6b;
+      --border:rgba(255,255,255,.10);
+      --shadow: 0 12px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+      background: radial-gradient(1200px 800px at 10% 0%, rgba(121,167,255,.18), transparent 55%),
+                  radial-gradient(900px 650px at 100% 0%, rgba(83,208,138,.14), transparent 50%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    header{
+      padding: 42px 18px 18px;
+      max-width: 1100px; margin: 0 auto;
+    }
+    .title{
+      display:flex; gap:14px; align-items:flex-start; flex-wrap:wrap;
+    }
+    .badge{
+      font-size:12px; color:var(--muted); border:1px solid var(--border); padding:6px 10px; border-radius:999px;
+      background:rgba(255,255,255,.03);
+    }
+    h1{margin:0; font-size:clamp(26px, 3.2vw, 42px); letter-spacing:.2px}
+    .subtitle{margin:10px 0 0; color:var(--muted); max-width: 70ch}
+
+    main{max-width:1100px; margin:0 auto; padding: 10px 18px 52px;}
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px 16px 14px;
+    }
+    .card h2{margin:0 0 10px; font-size:16px; color:#d8e6ff}
+    .card p{margin: 8px 0; color: var(--text)}
+    .muted{color:var(--muted)}
+
+    .span-6{grid-column: span 6;}
+    .span-7{grid-column: span 7;}
+    .span-5{grid-column: span 5;}
+    .span-12{grid-column: span 12;}
+
+    .kpis{display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; margin-top:10px;}
+    .kpi{background: rgba(0,0,0,.18); border:1px solid var(--border); border-radius: 14px; padding: 12px;}
+    .kpi .v{font-size:18px; font-weight:650}
+    .kpi .l{font-size:12px; color:var(--muted)}
+
+    ul{margin: 10px 0 0 18px; padding:0}
+    li{margin: 6px 0; color: var(--text)}
+
+    .timeline{display:grid; gap:10px; margin-top:10px;}
+    .titem{display:flex; gap:10px; align-items:flex-start;}
+    .dot{width:10px; height:10px; border-radius:99px; background: var(--accent); margin-top:7px; flex:0 0 auto;}
+    .titem .when{font-size:12px; color:var(--muted); min-width: 9ch;}
+    .titem .what{color:var(--text)}
+
+    .pillrow{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;}
+    .pill{font-size:12px; border:1px solid var(--border); background: rgba(255,255,255,.03); color: var(--muted); padding:6px 10px; border-radius: 999px;}
+
+    .callout{border-left: 3px solid var(--good); padding-left: 12px; margin-top: 8px;}
+    .callout.warn{border-left-color: var(--warn)}
+
+    footer{max-width:1100px; margin:0 auto; padding: 0 18px 44px; color: var(--muted);}
+    .sources a{word-break: break-all}
+
+    @media (max-width: 900px){
+      .span-6,.span-7,.span-5{grid-column: span 12;}
+      .kpis{grid-template-columns:1fr;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title">
+      <span class="badge">更新: 2026-02-06</span>
+      <span class="badge">テーマ: Codex 新モデル</span>
+    </div>
+    <h1>GPT‑5.3‑Codex（Codex新モデル）: 概要と押さえるポイント</h1>
+    <p class="subtitle">
+      OpenAIが発表した新しいエージェント型コーディングモデル <b>GPT‑5.3‑Codex</b> について、何が変わったのか／何が重要かを、短時間で掴める形に整理しました。
+      （一次情報中心＋出典リンク付き）
+    </p>
+  </header>
+
+  <main>
+    <section class="grid">
+      <div class="card span-12">
+        <h2>結論（1分で）</h2>
+        <ul>
+          <li><b>GPT‑5.3‑Codex</b> は「コード生成」より一段上の、<b>長時間タスクを回せる“対話可能なコーディング・エージェント”</b>として位置づけられている。</li>
+          <li>前世代（GPT‑5.2‑Codex / GPT‑5.2）を統合する形で、<b>コーディング性能 + 推論/知識</b>を1モデルに寄せ、<b>約25%高速</b>とされる。</li>
+          <li>同時に、<b>サイバー領域のデュアルユース（防御にも攻撃にもなり得る）</b>を強く意識した運用・安全策が強調されている。</li>
+        </ul>
+      </div>
+
+      <div class="card span-7">
+        <h2>何が新しい？（機能・体験の変化）</h2>
+        <ul>
+          <li><b>長時間・複雑な実行</b>（調査／ツール利用／複数工程の実行）を回す前提のモデルとして紹介。</li>
+          <li><b>作業中に人間が割り込み・方向修正できる</b>「インタラクティブな協働」体験を推し（進捗アップデート、会話でのステアリング）。</li>
+          <li>「コードだけ」ではなく、<b>開発ライフサイクル全般（PRD、テスト、デプロイ、モニタリング、リサーチ等）</b>を支援すると説明。</li>
+        </ul>
+        <div class="pillrow" aria-label="キーワード">
+          <span class="pill">agentic coding</span>
+          <span class="pill">steering / interactive</span>
+          <span class="pill">long-running tasks</span>
+          <span class="pill">computer-use</span>
+        </div>
+      </div>
+
+      <div class="card span-5">
+        <h2>数字で押さえる（公表ベース）</h2>
+        <div class="kpis">
+          <div class="kpi">
+            <div class="v">~25% faster</div>
+            <div class="l">前世代より高速（Codexユーザー向け）</div>
+          </div>
+          <div class="kpi">
+            <div class="v">SWE‑Bench Pro など</div>
+            <div class="l">複数ベンチで新高水準と主張</div>
+          </div>
+          <div class="kpi">
+            <div class="v">High capability（Cyber）</div>
+            <div class="l">サイバー領域で「高能力」扱い（予防的）</div>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:10px">
+          ※ベンチの詳細値は、紹介ページで“新高水準”として言及（数値は本文の範囲では網羅されていません）。
+        </p>
+      </div>
+
+      <div class="card span-6">
+        <h2>利用可能な場所（Where）</h2>
+        <ul>
+          <li><b>Codex の各サーフェス</b>（アプリ/CLI/IDE拡張/Web）で利用可能（有料ChatGPTプラン向け）</li>
+          <li><b>API提供は「安全に有効化するため作業中」</b>と記載（＝すぐに使えるとは明言していない）</li>
+        </ul>
+        <div class="callout">
+          <div class="muted">実務のポイント</div>
+          <div>API前提の組み込みを考えているなら、まずは <b>Codex CLI / IDE拡張</b>でワークフロー検証 → API解禁後に移植、が安全。</div>
+        </div>
+      </div>
+
+      <div class="card span-6">
+        <h2>セキュリティ面での重要点（Why it matters）</h2>
+        <ul>
+          <li>サイバーセキュリティはデュアルユースのため、<b>防御を加速しつつ悪用を抑える</b>方針を強調。</li>
+          <li>GPT‑5.3‑Codexは Preparedness Framework 上、<b>Cybersecurity領域で High capability 扱い（予防的）</b>と説明。</li>
+          <li>アクセス制御・監視・拒否学習・レッドチーミング等の <b>多層（defense-in-depth）</b>の安全策を掲げる。</li>
+        </ul>
+        <div class="callout warn">
+          <div class="muted">実務の注意</div>
+          <div>セキュリティ/脆弱性系のユースケースは、組織ポリシーやログ/監査要件（Compliance API等）とセットで運用設計した方が事故りにくい。</div>
+        </div>
+      </div>
+
+      <div class="card span-12">
+        <h2>（参考）最近のCodex系モデルの流れ</h2>
+        <div class="timeline" role="list">
+          <div class="titem" role="listitem">
+            <span class="dot" aria-hidden="true"></span>
+            <div class="when">2025-09</div>
+            <div class="what">GPT‑5‑codex の案内（Codex環境向け最適化）</div>
+          </div>
+          <div class="titem" role="listitem">
+            <span class="dot" aria-hidden="true" style="background: var(--good)"></span>
+            <div class="when">2025-11</div>
+            <div class="what">GPT‑5.1‑Codex‑Max / GPT‑5‑Codex‑Mini の案内（長時間/コスト効率など）</div>
+          </div>
+          <div class="titem" role="listitem">
+            <span class="dot" aria-hidden="true" style="background: var(--accent)"></span>
+            <div class="when">2026-02</div>
+            <div class="what"><b>GPT‑5.3‑Codex</b> 発表（統合・高速化・エージェント性強化、サイバー安全策の強調）</div>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:10px">このタイムラインは Help Center の Model Release Notes 記載をベースに要約。</p>
+      </div>
+
+      <div class="card span-12">
+        <h2>次に確認すると良い観点（もんちゃん向け）</h2>
+        <ul>
+          <li><b>自分の用途はどれ？</b>：コード生成（短）／リファクタ（中）／リサーチ＋実装（長）／運用（デプロイ/監視）</li>
+          <li><b>作業場所</b>：ローカル（CLI/IDE）で完結？クラウド委任（サンドボックス）を使う？</li>
+          <li><b>監査・ログ</b>：企業利用なら Compliance API / RBAC など運用要件に合うか</li>
+          <li><b>安全策</b>：脆弱性診断やペンテスト支援など境界が近い領域は、アクセス設計が先</li>
+        </ul>
+      </div>
+
+      <div class="card span-12 sources">
+        <h2>出典（一次情報）</h2>
+        <ul>
+          <li>OpenAI: Introducing GPT‑5.3‑Codex — <a href="https://openai.com/index/introducing-gpt-5-3-codex/">https://openai.com/index/introducing-gpt-5-3-codex/</a></li>
+          <li>OpenAI Help Center: Model Release Notes（GPT‑5.3‑Codexの項目あり） — <a href="https://help.openai.com/en/articles/9624314-model-release-notes">https://help.openai.com/en/articles/9624314-model-release-notes</a></li>
+          <li>OpenAI: GPT‑5.3‑Codex System Card（CyberでHigh capability扱い等） — <a href="https://openai.com/index/gpt-5-3-codex-system-card/">https://openai.com/index/gpt-5-3-codex-system-card/</a></li>
+          <li>OpenAI: Strengthening cyber resilience as AI capabilities advance（多層安全策の考え方） — <a href="https://openai.com/index/strengthening-cyber-resilience/">https://openai.com/index/strengthening-cyber-resilience/</a></li>
+          <li>OpenAI Help Center: Using Codex with your ChatGPT plan（利用サーフェスや接続手順の概説） — <a href="https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan">https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="muted">作成: クロウ（OpenClaw） / 依頼: Codex新モデルの概要を視覚的に整理</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+# X収集ソース設定（初期）
+
+accounts:
+  - name: polymarket_official
+    x_handle: Polymarket
+    market: polymarket
+  - name: kalshi_official
+    x_handle: Kalshi
+    market: kalshi
+  - name: opinionlabs_official
+    x_handle: opinionlabsxyz
+    market: opinion
+
+markets:
+  - polymarket
+  - kalshi
+  - opinion
+
+keywords:
+  - polymarket
+  - kalshi
+  - prediction market
+  - opinion market
+
+schedule:
+  timezone: Asia/Tokyo
+  daily_time: "18:00"
+
+notification:
+  channel: discord
+  target: "#poly-arb"
+  mode: daily_summary
+
+discovery:
+  enabled: true
+  window_hours: 24
+  themes:
+    - monetization_idea
+    - bot_dev
+  queries:
+    - "prediction market monetization ideas last 24 hours"
+    - "polymarket kalshi bot automation strategy last 24 hours"
+    - "opinion market alpha workflow last 24 hours"
+
+lookback_hours: 24
+language_priority: [ja, en, zh]

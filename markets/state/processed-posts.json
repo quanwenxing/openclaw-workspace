@@ -1,0 +1,670 @@
+{
+  "seen": {
+    "2023993380468834509": {
+      "post_id": "2023993380468834509",
+      "source": "https://x.com/Mikocrypto11/status/2023993380468834509",
+      "hash": "ae403a3c36ed3fb1",
+      "entry_id": "WATCH-0002",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-18 14:59:44 JST"
+    },
+    "2023991850617671938": {
+      "post_id": "2023991850617671938",
+      "source": "https://x.com/0xTykoo/status/2023991850617671938",
+      "hash": "9604ae9f025f8ead",
+      "entry_id": "WATCH-0002",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-18 14:59:44 JST"
+    },
+    "2023985194966155653": {
+      "post_id": "2023985194966155653",
+      "source": "https://x.com/0xTykoo/status/2023985194966155653",
+      "hash": "947cab6086bd9162",
+      "entry_id": "WATCH-0003",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-18 14:59:44 JST"
+    },
+    "2023976171008823784": {
+      "post_id": "2023976171008823784",
+      "source": "https://x.com/0xTykoo/status/2023976171008823784",
+      "hash": "bb2c660d23c5428f",
+      "entry_id": "WATCH-0004",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-18 14:59:44 JST"
+    },
+    "2024007220644417669": {
+      "post_id": "2024007220644417669",
+      "source": "https://x.com/Mikocrypto11/status/2024007220644417669",
+      "hash": "0a101fa300f7a4ee",
+      "entry_id": "WATCH-0005",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-18 15:51:29 JST"
+    },
+    "2024005570769154064": {
+      "post_id": "2024005570769154064",
+      "source": "https://x.com/0xTykoo/status/2024005570769154064",
+      "hash": "39b8043a1e6f03fb",
+      "entry_id": "WATCH-0006",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-18 15:51:29 JST"
+    },
+    "2024327355255111962": {
+      "post_id": "2024327355255111962",
+      "source": "https://x.com/Polymarket/status/2024327355255111962",
+      "hash": "61bd8a9448d47aff",
+      "entry_id": "IDEA-0002",
+      "market": "polymarket",
+      "category": "ideas",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024281404301848730": {
+      "post_id": "2024281404301848730",
+      "source": "https://x.com/Polymarket/status/2024281404301848730",
+      "hash": "d48ad2b5c910c6fc",
+      "entry_id": "WATCH-0003",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024251363727638694": {
+      "post_id": "2024251363727638694",
+      "source": "https://x.com/Polymarket/status/2024251363727638694",
+      "hash": "49f0d7e1349434ec",
+      "entry_id": "WATCH-0004",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024244054972620924": {
+      "post_id": "2024244054972620924",
+      "source": "https://x.com/Polymarket/status/2024244054972620924",
+      "hash": "78f69d9fcaf653e1",
+      "entry_id": "WATCH-0005",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024236435847479751": {
+      "post_id": "2024236435847479751",
+      "source": "https://x.com/Polymarket/status/2024236435847479751",
+      "hash": "8e46c00e3b0f5a64",
+      "entry_id": "MISC-0002",
+      "market": "polymarket",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024232715227127925": {
+      "post_id": "2024232715227127925",
+      "source": "https://x.com/Polymarket/status/2024232715227127925",
+      "hash": "97238723d7af82e0",
+      "entry_id": "WATCH-0006",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024225742498693338": {
+      "post_id": "2024225742498693338",
+      "source": "https://x.com/Polymarket/status/2024225742498693338",
+      "hash": "29159c58596f8076",
+      "entry_id": "MISC-0003",
+      "market": "polymarket",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024217326065783058": {
+      "post_id": "2024217326065783058",
+      "source": "https://x.com/Polymarket/status/2024217326065783058",
+      "hash": "5856d8b64feef63e",
+      "entry_id": "WATCH-0007",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024191928883953791": {
+      "post_id": "2024191928883953791",
+      "source": "https://x.com/Polymarket/status/2024191928883953791",
+      "hash": "f7ab532010e01beb",
+      "entry_id": "MISC-0004",
+      "market": "polymarket",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024182100434260185": {
+      "post_id": "2024182100434260185",
+      "source": "https://x.com/Polymarket/status/2024182100434260185",
+      "hash": "998db00518248334",
+      "entry_id": "WATCH-0008",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024170461794308533": {
+      "post_id": "2024170461794308533",
+      "source": "https://x.com/Polymarket/status/2024170461794308533",
+      "hash": "906b568da5f29625",
+      "entry_id": "WATCH-0009",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024169994712490210": {
+      "post_id": "2024169994712490210",
+      "source": "https://x.com/Polymarket/status/2024169994712490210",
+      "hash": "82ac560071a0d8a2",
+      "entry_id": "MISC-0005",
+      "market": "polymarket",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024161812086731054": {
+      "post_id": "2024161812086731054",
+      "source": "https://x.com/Polymarket/status/2024161812086731054",
+      "hash": "023ebe0bd974ba29",
+      "entry_id": "WATCH-0010",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024159951258558868": {
+      "post_id": "2024159951258558868",
+      "source": "https://x.com/Polymarket/status/2024159951258558868",
+      "hash": "78fe48d83e9143b6",
+      "entry_id": "WATCH-0011",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024159948125409587": {
+      "post_id": "2024159948125409587",
+      "source": "https://x.com/Polymarket/status/2024159948125409587",
+      "hash": "98a17ddf600fc249",
+      "entry_id": "WATCH-0012",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024150332167594167": {
+      "post_id": "2024150332167594167",
+      "source": "https://x.com/Polymarket/status/2024150332167594167",
+      "hash": "e8945fb18a7ec988",
+      "entry_id": "MISC-0006",
+      "market": "polymarket",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024127790941892871": {
+      "post_id": "2024127790941892871",
+      "source": "https://x.com/Polymarket/status/2024127790941892871",
+      "hash": "2db685faf3b4ffc8",
+      "entry_id": "MISC-0007",
+      "market": "polymarket",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024111055782256838": {
+      "post_id": "2024111055782256838",
+      "source": "https://x.com/Polymarket/status/2024111055782256838",
+      "hash": "84071d7a4e4bc5af",
+      "entry_id": "WATCH-0013",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024228933600682046": {
+      "post_id": "2024228933600682046",
+      "source": "https://x.com/Kalshi/status/2024228933600682046",
+      "hash": "e3b0c44298fc1c14",
+      "entry_id": "WATCH-0002",
+      "market": "kalshi",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024227469515960580": {
+      "post_id": "2024227469515960580",
+      "source": "https://x.com/Kalshi/status/2024227469515960580",
+      "hash": "29c0dca76d108ce6",
+      "entry_id": "WATCH-0003",
+      "market": "kalshi",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024217286609944580": {
+      "post_id": "2024217286609944580",
+      "source": "https://x.com/Kalshi/status/2024217286609944580",
+      "hash": "f8bfd5ba38a5f6ed",
+      "entry_id": "MISC-0002",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024208117232250886": {
+      "post_id": "2024208117232250886",
+      "source": "https://x.com/Kalshi/status/2024208117232250886",
+      "hash": "163afaa7b6c15210",
+      "entry_id": "MISC-0003",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024204269541277724": {
+      "post_id": "2024204269541277724",
+      "source": "https://x.com/Kalshi/status/2024204269541277724",
+      "hash": "d6afaa82ea259362",
+      "entry_id": "MISC-0004",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024186043180691857": {
+      "post_id": "2024186043180691857",
+      "source": "https://x.com/Kalshi/status/2024186043180691857",
+      "hash": "7c5018fdff8cd3e6",
+      "entry_id": "MISC-0005",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024176023856726247": {
+      "post_id": "2024176023856726247",
+      "source": "https://x.com/Kalshi/status/2024176023856726247",
+      "hash": "e3b0c44298fc1c14",
+      "entry_id": "WATCH-0004",
+      "market": "kalshi",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024167139272196214": {
+      "post_id": "2024167139272196214",
+      "source": "https://x.com/Kalshi/status/2024167139272196214",
+      "hash": "6da1c1fbcaa24f20",
+      "entry_id": "MISC-0006",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024160061828854227": {
+      "post_id": "2024160061828854227",
+      "source": "https://x.com/Kalshi/status/2024160061828854227",
+      "hash": "f63fed7d021cf15a",
+      "entry_id": "MISC-0007",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024155024121602420": {
+      "post_id": "2024155024121602420",
+      "source": "https://x.com/Kalshi/status/2024155024121602420",
+      "hash": "a4ee680564f715e8",
+      "entry_id": "MISC-0008",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024148274723037544": {
+      "post_id": "2024148274723037544",
+      "source": "https://x.com/Kalshi/status/2024148274723037544",
+      "hash": "6eaf29c82b63dd31",
+      "entry_id": "WATCH-0005",
+      "market": "kalshi",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024129643071058168": {
+      "post_id": "2024129643071058168",
+      "source": "https://x.com/Kalshi/status/2024129643071058168",
+      "hash": "3298adb1b6de0bea",
+      "entry_id": "MISC-0009",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024115708238459160": {
+      "post_id": "2024115708238459160",
+      "source": "https://x.com/Kalshi/status/2024115708238459160",
+      "hash": "98d155f012c61cd5",
+      "entry_id": "MISC-0010",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024111664136638744": {
+      "post_id": "2024111664136638744",
+      "source": "https://x.com/Kalshi/status/2024111664136638744",
+      "hash": "068f1bbe27b7d368",
+      "entry_id": "MISC-0011",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024107466070405571": {
+      "post_id": "2024107466070405571",
+      "source": "https://x.com/Kalshi/status/2024107466070405571",
+      "hash": "9c192194c28bf65f",
+      "entry_id": "MISC-0012",
+      "market": "kalshi",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024362669181219277": {
+      "post_id": "2024362669181219277",
+      "source": "https://x.com/opinionlabsxyz/status/2024362669181219277",
+      "hash": "c8aea13a98ad46fc",
+      "entry_id": "WATCH-0002",
+      "market": "opinion",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024126758606270587": {
+      "post_id": "2024126758606270587",
+      "source": "https://x.com/Mikocrypto11/status/2024126758606270587",
+      "hash": "83c9c00ae77f65fa",
+      "entry_id": "WATCH-0014",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024114175258382723": {
+      "post_id": "2024114175258382723",
+      "source": "https://x.com/Mikocrypto11/status/2024114175258382723",
+      "hash": "54de96669caa9c24",
+      "entry_id": "WATCH-0007",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024104109901586857": {
+      "post_id": "2024104109901586857",
+      "source": "https://x.com/Mikocrypto11/status/2024104109901586857",
+      "hash": "e82045f6588048dc",
+      "entry_id": "WATCH-0015",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024089009794777150": {
+      "post_id": "2024089009794777150",
+      "source": "https://x.com/Mikocrypto11/status/2024089009794777150",
+      "hash": "8eb1600b7da482f3",
+      "entry_id": "WATCH-0016",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024074413289972222": {
+      "post_id": "2024074413289972222",
+      "source": "https://x.com/Mikocrypto11/status/2024074413289972222",
+      "hash": "67b8ee0ae0dd4319",
+      "entry_id": "WATCH-0008",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024056797460398489": {
+      "post_id": "2024056797460398489",
+      "source": "https://x.com/Mikocrypto11/status/2024056797460398489",
+      "hash": "f9a454ad868c59de",
+      "entry_id": "WATCH-0009",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024042704502390975": {
+      "post_id": "2024042704502390975",
+      "source": "https://x.com/Mikocrypto11/status/2024042704502390975",
+      "hash": "beff68521a2d8eff",
+      "entry_id": "WATCH-0017",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024023298011517405": {
+      "post_id": "2024023298011517405",
+      "source": "https://x.com/Mikocrypto11/status/2024023298011517405",
+      "hash": "87c9b97d92e803a8",
+      "entry_id": "WATCH-0018",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024022320260534723": {
+      "post_id": "2024022320260534723",
+      "source": "https://x.com/Mikocrypto11/status/2024022320260534723",
+      "hash": "b0d992e6ff73103e",
+      "entry_id": "WATCH-0019",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024406161617727709": {
+      "post_id": "2024406161617727709",
+      "source": "https://x.com/runes_leo/status/2024406161617727709",
+      "hash": "e3b0c44298fc1c14",
+      "entry_id": "WATCH-0010",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024406157897371981": {
+      "post_id": "2024406157897371981",
+      "source": "https://x.com/runes_leo/status/2024406157897371981",
+      "hash": "01189ac5afe80a09",
+      "entry_id": "WATCH-0020",
+      "market": "polymarket",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024390616894079061": {
+      "post_id": "2024390616894079061",
+      "source": "https://x.com/runes_leo/status/2024390616894079061",
+      "hash": "ac1182fe20c1a6f0",
+      "entry_id": "WATCH-0011",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024359795894161706": {
+      "post_id": "2024359795894161706",
+      "source": "https://x.com/runes_leo/status/2024359795894161706",
+      "hash": "d110b50093e57677",
+      "entry_id": "WATCH-0012",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024323003606253993": {
+      "post_id": "2024323003606253993",
+      "source": "https://x.com/runes_leo/status/2024323003606253993",
+      "hash": "4946256b039925bc",
+      "entry_id": "WATCH-0013",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024319691704197359": {
+      "post_id": "2024319691704197359",
+      "source": "https://x.com/runes_leo/status/2024319691704197359",
+      "hash": "e100468333363c40",
+      "entry_id": "WATCH-0014",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024305840963084459": {
+      "post_id": "2024305840963084459",
+      "source": "https://x.com/runes_leo/status/2024305840963084459",
+      "hash": "454b30bcae7c3336",
+      "entry_id": "WATCH-0015",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024179018954932388": {
+      "post_id": "2024179018954932388",
+      "source": "https://x.com/runes_leo/status/2024179018954932388",
+      "hash": "0871c8c0e1ae6858",
+      "entry_id": "WATCH-0016",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024161857138020813": {
+      "post_id": "2024161857138020813",
+      "source": "https://x.com/runes_leo/status/2024161857138020813",
+      "hash": "1293b94fe8f1474a",
+      "entry_id": "WATCH-0017",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024084073325404478": {
+      "post_id": "2024084073325404478",
+      "source": "https://x.com/runes_leo/status/2024084073325404478",
+      "hash": "12729d5ca805c355",
+      "entry_id": "WATCH-0018",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024382321064055186": {
+      "post_id": "2024382321064055186",
+      "source": "https://x.com/the_smart_ape/status/2024382321064055186",
+      "hash": "446df5859badfb3b",
+      "entry_id": "WATCH-0019",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024069490372231208": {
+      "post_id": "2024069490372231208",
+      "source": "https://x.com/the_smart_ape/status/2024069490372231208",
+      "hash": "e3b0c44298fc1c14",
+      "entry_id": "WATCH-0020",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024389116327317719": {
+      "post_id": "2024389116327317719",
+      "source": "https://x.com/0xTykoo/status/2024389116327317719",
+      "hash": "9345765e9129361c",
+      "entry_id": "MISC-0006",
+      "market": "other-market",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024349025118670922": {
+      "post_id": "2024349025118670922",
+      "source": "https://x.com/0xTykoo/status/2024349025118670922",
+      "hash": "4f9154a056889e4a",
+      "entry_id": "WATCH-0021",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024089036194021838": {
+      "post_id": "2024089036194021838",
+      "source": "https://x.com/0xTykoo/status/2024089036194021838",
+      "hash": "3f234ae1c2cc300f",
+      "entry_id": "MISC-0007",
+      "market": "other-market",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024356263015174657": {
+      "post_id": "2024356263015174657",
+      "source": "https://x.com/supernovajunn/status/2024356263015174657",
+      "hash": "c6b0b1cc95d9fab1",
+      "entry_id": "TOOL-0002",
+      "market": "other-market",
+      "category": "dev-tools",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024337298670993629": {
+      "post_id": "2024337298670993629",
+      "source": "https://x.com/supernovajunn/status/2024337298670993629",
+      "hash": "716bfd2317214c63",
+      "entry_id": "WATCH-0022",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024337065337565401": {
+      "post_id": "2024337065337565401",
+      "source": "https://x.com/supernovajunn/status/2024337065337565401",
+      "hash": "1dbef07d33085682",
+      "entry_id": "WATCH-0023",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024290984037855671": {
+      "post_id": "2024290984037855671",
+      "source": "https://x.com/supernovajunn/status/2024290984037855671",
+      "hash": "6cf8a3ff0cb3758c",
+      "entry_id": "TOOL-0003",
+      "market": "other-market",
+      "category": "dev-tools",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024288839708397733": {
+      "post_id": "2024288839708397733",
+      "source": "https://x.com/supernovajunn/status/2024288839708397733",
+      "hash": "32a81594982565f6",
+      "entry_id": "WATCH-0024",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024280140327637390": {
+      "post_id": "2024280140327637390",
+      "source": "https://x.com/supernovajunn/status/2024280140327637390",
+      "hash": "7666e5b1e108e4b8",
+      "entry_id": "WATCH-0025",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024274211527938555": {
+      "post_id": "2024274211527938555",
+      "source": "https://x.com/supernovajunn/status/2024274211527938555",
+      "hash": "eda374cbad85c8cc",
+      "entry_id": "WATCH-0026",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024180515704885570": {
+      "post_id": "2024180515704885570",
+      "source": "https://x.com/supernovajunn/status/2024180515704885570",
+      "hash": "a1926a11b084f9d7",
+      "entry_id": "WATCH-0027",
+      "market": "other-market",
+      "category": "watchlist",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024175267133198353": {
+      "post_id": "2024175267133198353",
+      "source": "https://x.com/supernovajunn/status/2024175267133198353",
+      "hash": "d166b3033267a8da",
+      "entry_id": "TOOL-0004",
+      "market": "other-market",
+      "category": "dev-tools",
+      "at": "2026-02-19 18:00:09 JST"
+    },
+    "2024174964115702131": {
+      "post_id": "2024174964115702131",
+      "source": "https://x.com/supernovajunn/status/2024174964115702131",
+      "hash": "a2341284314b976a",
+      "entry_id": "MISC-0008",
+      "market": "other-market",
+      "category": "other",
+      "at": "2026-02-19 18:00:09 JST"
+    }
+  }
+}

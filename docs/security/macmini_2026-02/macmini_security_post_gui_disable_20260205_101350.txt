@@ -1,0 +1,8 @@
+# Post-GUI disable check
+Thu Feb  5 10:13:50 JST 2026
+
+## Listeners (5900, 3283, 22)
+
+## netstat (grep 5900|3283|22)
+
+## ARD/ScreenSharing processes

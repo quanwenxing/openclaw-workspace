@@ -1,0 +1,60 @@
+{
+  "updated_at": "2026-02-19T18:00:04.402767+09:00",
+  "accounts": [
+    {
+      "handle": "Polymarket",
+      "market": "polymarket",
+      "source": "static"
+    },
+    {
+      "handle": "Kalshi",
+      "market": "kalshi",
+      "source": "static"
+    },
+    {
+      "handle": "opinionlabsxyz",
+      "market": "opinion",
+      "source": "static"
+    },
+    {
+      "handle": "Mikocrypto11",
+      "market": "other-market",
+      "source": "list_sync"
+    },
+    {
+      "handle": "runes_leo",
+      "market": "other-market",
+      "source": "list_sync"
+    },
+    {
+      "handle": "Kakoy97",
+      "market": "other-market",
+      "source": "list_sync"
+    },
+    {
+      "handle": "the_smart_ape",
+      "market": "other-market",
+      "source": "list_sync"
+    },
+    {
+      "handle": "0xTykoo",
+      "market": "other-market",
+      "source": "list_sync"
+    },
+    {
+      "handle": "hhhx402",
+      "market": "other-market",
+      "source": "list_sync"
+    },
+    {
+      "handle": "wuyidefi",
+      "market": "other-market",
+      "source": "list_sync"
+    },
+    {
+      "handle": "supernovajunn",
+      "market": "other-market",
+      "source": "list_sync"
+    }
+  ]
+}

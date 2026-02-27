@@ -1,0 +1,41 @@
+【RSS更新サマリー】朝 2026-02-23 08:02 JST
+対象: 2026-02-22 前日分
+
+■ derekthompson.org
+・The Orality Theory of Everything — The decline of reading and the rise of social media are again transforming what it feels like to be a thinking person.
+出典: https://www.theatlantic.com/ideas/2026/02/social-media-literacy-crisis/686076/?utm_source=feed
+
+■ idiallo.com
+・Nvidia was only invited to invest — Nvidia was only invited to invest. That is one reversal of commitment. Remember that graph that has been circling around…
+出典: https://idiallo.com/byte-size/nvidia-was-only-invited-to-invest?src=feed
+
+■ johndcook.com
+・10,000,000th Fibonacci number — I’ve written a couple times about Fibonacci numbers and certificates. Here the certificate is auxiliary data that makes …
+出典: https://www.johndcook.com/blog/2026/02/21/f10000000/
+・Computing big, certified Fibonacci numbers — I’ve written before about computing big Fibonacci numbers, and about creating a certificate to verify a Fibonacci number…
+出典: https://www.johndcook.com/blog/2026/02/21/big-certified-fibonacci/
+
+■ nesbitt.io
+・Forge-Specific Repository Folders — Magic folders in git forges: what .github/, .gitlab/, .gitea/, .forgejo/ and .bitbucket/ do.
+出典: https://nesbitt.io/2026/02/22/forge-specific-repository-folders.html
+
+■ shkspr.mobi
+・How close are we to a vision for 2010? — Twenty five years ago today, the EU's IST advisory group published a paper about the future of "Ambient Intelligence". W…
+出典: https://shkspr.mobi/blog/2026/02/how-close-are-we-to-a-vision-for-2010/
+
+■ susam.net
+・Nerd Quiz #4 — Nerd Quiz #4 is the fourth instalment of Nerd Quiz, a single page HTML application that challenges you to measure your i…
+出典: https://susam.net/code/news/nq/4.0.0.html
+
+■ worksonmymachine.substack.com
+・The Great Zipper of Capitalism — On Pizzas, CSVs, and Building for Markets That Don't Exist Yet
+出典: https://worksonmymachine.ai/p/the-great-zipper-of-capitalism
+
+更新ソース数: 7 / 92
+採用記事数: 8
+重複除外: 0
+取得失敗ソース: 4
+ - rachelbythebay.com: 
+ - dfarq.homeip.net: not well-formed (invalid token): line 1, column 0
+ - mjg59.dreamwidth.org: The read operation timed out
+ - tedunangst.com: 

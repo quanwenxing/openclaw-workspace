@@ -1,0 +1,66 @@
+# Strategy Candidates
+
+- ID: STRAT-0001
+- Title:
+- Market: polymarket | kalshi | opinion | multi-market
+- Type: arbitrage | momentum | mean-reversion | event-driven | infra-edge | other
+- Hypothesis:
+- Entry Signal:
+- Exit Signal:
+- Risk:
+- Required Data/Tools:
+- Source Links:
+- Derived From IDs: IDEA-xxxx / TOOL-xxxx / WATCH-xxxx
+- Priority: high | medium | low
+- Status: new | reviewing | backtest | ready | rejected
+- Created At:
+- Updated:
+
+- ID: STRAT-0002
+- Title: polymarket: just in: the odds of jesus christ returning this year have s
+- Market: polymarket
+- Type: event-driven
+- Hypothesis: JUST IN: The odds of Jesus Christ returning this year have surpassed Kamala Harris’s chances of winning the next election.
+- Entry Signal: Related post signal appears with momentum shift
+- Exit Signal: Odds normalize or catalyst invalidated
+- Risk: False signal / low liquidity / slippage
+- Required Data/Tools: X feed, market odds feed
+- Source Links: https://x.com/Polymarket/status/2024327355255111962
+- Derived From IDs: IDEA-0002
+- Priority: medium
+- Status: reviewing
+- Created At: 2026-02-19 18:00:09 JST
+- Updated: 2026-02-19 18:00:09 JST
+- Review Gate: hypothesis,entry_exit,risk,tools,derived / missing:
+- ID: STRAT-0003
+- Title: other-market: this article is not investment advice. it is simply a sharin
+- Market: other-market
+- Type: event-driven
+- Hypothesis: This article is not investment advice. It is simply a sharing of my experience operating an AI agent, and cryptocurrency investment carries significant risk. All decisions are your own responsibility ...
+- Entry Signal: Related post signal appears with momentum shift
+- Exit Signal: Odds normalize or catalyst invalidated
+- Risk: False signal / low liquidity / slippage
+- Required Data/Tools: X feed, market odds feed
+- Source Links: https://x.com/supernovajunn/status/2024356263015174657
+- Derived From IDs: TOOL-0002
+- Priority: medium
+- Status: reviewing
+- Created At: 2026-02-19 18:00:09 JST
+- Updated: 2026-02-19 18:00:09 JST
+- Review Gate: hypothesis,entry_exit,risk,tools,derived / missing:
+- ID: STRAT-0004
+- Title: other-market: this is not investment advice. do not invest what you cannot
+- Market: other-market
+- Type: event-driven
+- Hypothesis: This is not investment advice. Do not invest what you cannot afford to lose.” This token is exclusively for agents.
+- Entry Signal: Related post signal appears with momentum shift
+- Exit Signal: Odds normalize or catalyst invalidated
+- Risk: False signal / low liquidity / slippage
+- Required Data/Tools: X feed, market odds feed
+- Source Links: https://x.com/supernovajunn/status/2024290984037855671
+- Derived From IDs: TOOL-0003
+- Priority: medium
+- Status: reviewing
+- Created At: 2026-02-19 18:00:09 JST
+- Updated: 2026-02-19 18:00:09 JST
+- Review Gate: hypothesis,entry_exit,risk,tools,derived / missing:

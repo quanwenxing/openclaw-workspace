@@ -1,0 +1,14 @@
+2026-02-19 18:00:04,403 INFO collector start
+2026-02-19 18:00:04,735 INFO list sync updated config added=1 removed=0
+2026-02-19 18:00:04,736 INFO collecting @Polymarket market=polymarket since_id=2023900308603048232
+2026-02-19 18:00:05,257 INFO collecting @Kalshi market=kalshi since_id=2023936554930966991
+2026-02-19 18:00:05,793 INFO collecting @opinionlabsxyz market=opinion since_id=0
+2026-02-19 18:00:06,131 INFO collecting @Mikocrypto11 market=other-market since_id=2024007220644417669
+2026-02-19 18:00:06,593 INFO collecting @runes_leo market=other-market since_id=2023943479617884647
+2026-02-19 18:00:07,091 INFO collecting @Kakoy97 market=other-market since_id=0
+2026-02-19 18:00:07,455 INFO collecting @the_smart_ape market=other-market since_id=2023701414984466904
+2026-02-19 18:00:07,826 INFO collecting @0xTykoo market=other-market since_id=2024015677552578671
+2026-02-19 18:00:08,194 INFO collecting @hhhx402 market=other-market since_id=0
+2026-02-19 18:00:08,555 INFO collecting @wuyidefi market=other-market since_id=0
+2026-02-19 18:00:08,882 INFO collecting @supernovajunn market=other-market since_id=0
+2026-02-19 18:00:09,299 INFO collector done total_posts=68 success=11 failed=0 dry_run=False

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介 | もんちゃん</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+      background: #f5f5f0;
+      color: #2c2c2c;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      max-width: 560px;
+      width: 100%;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .tagline {
+      color: #888;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #aaa;
+      margin-bottom: 0.75rem;
+      margin-top: 1.75rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #444;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background: #f0eeff;
+      color: #6e5bd5;
+      border-radius: 999px;
+      padding: 0.3rem 0.85rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+
+    .links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: #6e5bd5;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: opacity 0.15s;
+    }
+
+    .link:hover { opacity: 0.7; }
+
+    hr {
+      border: none;
+      border-top: 1px solid #f0f0f0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">🐾</div>
+
+    <h1>もんちゃん</h1>
+    <p class="tagline">技術・AI・トレード を追いかけてる人</p>
+
+    <div class="section-title">About</div>
+    <p>
+      テクノロジーと金融の交差点に興味があります。<br>
+      AI・仮想通貨・自動取引・予測市場などを日々調査・研究中。
+    </p>
+
+    <div class="section-title">Interests</div>
+    <div class="tags">
+      <span class="tag">AI / LLM</span>
+      <span class="tag">仮想通貨・Web3</span>
+      <span class="tag">自動取引</span>
+      <span class="tag">予測市場</span>
+      <span class="tag">技術トレンド</span>
+    </div>
+
+    <div class="section-title">Location</div>
+    <p>🇯🇵 Japan (JST)</p>
+
+    <div class="section-title">Links</div>
+    <div class="links">
+      <a class="link" href="#">🐦 Twitter / X</a>
+      <a class="link" href="#">💻 GitHub</a>
+      <a class="link" href="#">📝 Blog</a>
+    </div>
+
+    <hr>
+  </div>
+</body>
+</html>

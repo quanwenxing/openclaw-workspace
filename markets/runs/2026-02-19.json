@@ -1,0 +1,1315 @@
+{
+  "run_at": "2026-02-19T18:00:04.402767+09:00",
+  "lookback_hours": 24,
+  "dry_run": false,
+  "accounts": {
+    "Polymarket": {
+      "handle": "Polymarket",
+      "market": "polymarket",
+      "source": "static",
+      "since_id_before": "2023900308603048232",
+      "since_id_after": "2024327355255111962",
+      "posts": [
+        {
+          "post_id": "2024327355255111962",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "JUST IN: The odds of Jesus Christ returning this year have surpassed Kamala Harris’s chances of winning the next election.",
+          "created_at": "2026-02-19T03:37:06.000Z",
+          "url": "https://x.com/Polymarket/status/2024327355255111962",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 1254,
+            "reply_count": 474,
+            "like_count": 16404,
+            "quote_count": 352,
+            "bookmark_count": 697,
+            "impression_count": 509157
+          }
+        },
+        {
+          "post_id": "2024281404301848730",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "🚨 NEW POLYMARKET: Will Iran close its airspace this month?\nhttps://t.co/2ttkSjrAA7",
+          "created_at": "2026-02-19T00:34:30.000Z",
+          "url": "https://x.com/Polymarket/status/2024281404301848730",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 11,
+            "reply_count": 34,
+            "like_count": 176,
+            "quote_count": 0,
+            "bookmark_count": 10,
+            "impression_count": 28681
+          }
+        },
+        {
+          "post_id": "2024251363727638694",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "🚨 NEW POLYMARKET: What nicknames will Trump use during his State of the Union address?\nhttps://t.co/Mk6NyqRd8h",
+          "created_at": "2026-02-18T22:35:08.000Z",
+          "url": "https://x.com/Polymarket/status/2024251363727638694",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 52,
+            "like_count": 131,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 27146
+          }
+        },
+        {
+          "post_id": "2024244054972620924",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "See who else may have visited:\nhttps://t.co/CG7hU0ZFHZ",
+          "created_at": "2026-02-18T22:06:05.000Z",
+          "url": "https://x.com/Polymarket/status/2024244054972620924",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 7,
+            "like_count": 44,
+            "quote_count": 3,
+            "bookmark_count": 6,
+            "impression_count": 39680
+          }
+        },
+        {
+          "post_id": "2024236435847479751",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "BREAKING: U.S. embassy denies reports that Tucker Carlson was detained by Israeli intelligence.",
+          "created_at": "2026-02-18T21:35:49.000Z",
+          "url": "https://x.com/Polymarket/status/2024236435847479751",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 135,
+            "reply_count": 130,
+            "like_count": 1958,
+            "quote_count": 22,
+            "bookmark_count": 74,
+            "impression_count": 123734
+          }
+        },
+        {
+          "post_id": "2024232715227127925",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "BREAKING: Trump tells Logan Paul one of his own government agencies may be hiding aliens from him.\n\n11% chance it's confirmed.\nhttps://t.co/zdcBvyn7QT",
+          "created_at": "2026-02-18T21:21:02.000Z",
+          "url": "https://x.com/Polymarket/status/2024232715227127925",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 90,
+            "reply_count": 118,
+            "like_count": 735,
+            "quote_count": 30,
+            "bookmark_count": 86,
+            "impression_count": 94227
+          }
+        },
+        {
+          "post_id": "2024225742498693338",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "BREAKING: Billionaire Lex Wexner admits to U.S. House of Representatives he visited Epstein Island.",
+          "created_at": "2026-02-18T20:53:19.000Z",
+          "url": "https://x.com/Polymarket/status/2024225742498693338",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 365,
+            "reply_count": 145,
+            "like_count": 4596,
+            "quote_count": 27,
+            "bookmark_count": 131,
+            "impression_count": 203635
+          }
+        },
+        {
+          "post_id": "2024217326065783058",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "Polymarket 🤝 Substack\n\nWe are excited to announce our exclusive partnership with Substack. \n\nStarting today Substack authors can natively integrate data from the world's largest prediction market. \n\nJournalism is better when it’s backed by live markets. https://t.co/kxosFe8Zqt",
+          "created_at": "2026-02-18T20:19:53.000Z",
+          "url": "https://x.com/Polymarket/status/2024217326065783058",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 169,
+            "reply_count": 315,
+            "like_count": 1925,
+            "quote_count": 379,
+            "bookmark_count": 480,
+            "impression_count": 3824051
+          }
+        },
+        {
+          "post_id": "2024191928883953791",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "JUST IN: Study reveals the entire island of Nantucket is filled with cocaine — 3x the national average reported in their wastewater.",
+          "created_at": "2026-02-18T18:38:58.000Z",
+          "url": "https://x.com/Polymarket/status/2024191928883953791",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 175,
+            "reply_count": 160,
+            "like_count": 3000,
+            "quote_count": 65,
+            "bookmark_count": 234,
+            "impression_count": 334415
+          }
+        },
+        {
+          "post_id": "2024182100434260185",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "BREAKING: Polymarket now narrowly projects Iran's Supreme Leader will lose power this year.\n\n52% chance.\nhttps://t.co/OHB2OlPfRQ",
+          "created_at": "2026-02-18T17:59:54.000Z",
+          "url": "https://x.com/Polymarket/status/2024182100434260185",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 62,
+            "reply_count": 86,
+            "like_count": 711,
+            "quote_count": 13,
+            "bookmark_count": 24,
+            "impression_count": 64175
+          }
+        },
+        {
+          "post_id": "2024170461794308533",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "Only 5% chance it hits $250k this year.\nhttps://t.co/j6RjrjX1Ld",
+          "created_at": "2026-02-18T17:13:40.000Z",
+          "url": "https://x.com/Polymarket/status/2024170461794308533",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 9,
+            "reply_count": 13,
+            "like_count": 69,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 23277
+          }
+        },
+        {
+          "post_id": "2024169994712490210",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "BREAKING: Eric Trump says Bitcoin is going to $1 million — \"I've never been more bullish on Bitcoin in my life\"",
+          "created_at": "2026-02-18T17:11:48.000Z",
+          "url": "https://x.com/Polymarket/status/2024169994712490210",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 98,
+            "reply_count": 319,
+            "like_count": 1484,
+            "quote_count": 48,
+            "bookmark_count": 41,
+            "impression_count": 236981
+          }
+        },
+        {
+          "post_id": "2024161812086731054",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "🚨 NEW POLYMARKET: Will the 2028 Democratic nominee be a woman?\nhttps://t.co/iUE6eH32p3",
+          "created_at": "2026-02-18T16:39:17.000Z",
+          "url": "https://x.com/Polymarket/status/2024161812086731054",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 9,
+            "reply_count": 60,
+            "like_count": 87,
+            "quote_count": 1,
+            "bookmark_count": 2,
+            "impression_count": 20705
+          }
+        },
+        {
+          "post_id": "2024159951258558868",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "Live shutdown forecast:\nhttps://t.co/CSk7xNvFu3",
+          "created_at": "2026-02-18T16:31:54.000Z",
+          "url": "https://x.com/Polymarket/status/2024159951258558868",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 4,
+            "like_count": 22,
+            "quote_count": 2,
+            "bookmark_count": 0,
+            "impression_count": 14700
+          }
+        },
+        {
+          "post_id": "2024159948125409587",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "BREAKING: The Department of Homeland Security is now projected to be closed for 26 days. https://t.co/nVhX8IShSe",
+          "created_at": "2026-02-18T16:31:53.000Z",
+          "url": "https://x.com/Polymarket/status/2024159948125409587",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 29,
+            "reply_count": 70,
+            "like_count": 198,
+            "quote_count": 3,
+            "bookmark_count": 5,
+            "impression_count": 43404
+          }
+        },
+        {
+          "post_id": "2024150332167594167",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "BREAKING: Illinois Gov. J.B. Pritzker’s cousin, billionaire Tom Pritzker, is stepping down as executive chairman of Hyatt Hotels after his relationship with Jeffrey Epstein was exposed.",
+          "created_at": "2026-02-18T15:53:40.000Z",
+          "url": "https://x.com/Polymarket/status/2024150332167594167",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 183,
+            "reply_count": 89,
+            "like_count": 1713,
+            "quote_count": 12,
+            "bookmark_count": 43,
+            "impression_count": 66634
+          }
+        },
+        {
+          "post_id": "2024127790941892871",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "JUST IN: French President Macron calls free speech “bullshit” unless the government is able to moderate it,",
+          "created_at": "2026-02-18T14:24:06.000Z",
+          "url": "https://x.com/Polymarket/status/2024127790941892871",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 1449,
+            "reply_count": 1137,
+            "like_count": 10258,
+            "quote_count": 596,
+            "bookmark_count": 924,
+            "impression_count": 1083214
+          }
+        },
+        {
+          "post_id": "2024111055782256838",
+          "author_handle": "Polymarket",
+          "market": "polymarket",
+          "text": "🚨 NEW POLYMARKET: What will Trump say during his Black History Month reception?\nhttps://t.co/NxpuugVMXQ",
+          "created_at": "2026-02-18T13:17:36.000Z",
+          "url": "https://x.com/Polymarket/status/2024111055782256838",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 59,
+            "like_count": 85,
+            "quote_count": 2,
+            "bookmark_count": 0,
+            "impression_count": 21518
+          }
+        }
+      ],
+      "count": 18,
+      "status": "ok",
+      "error": null
+    },
+    "Kalshi": {
+      "handle": "Kalshi",
+      "market": "kalshi",
+      "source": "static",
+      "since_id_before": "2023936554930966991",
+      "since_id_after": "2024228933600682046",
+      "posts": [
+        {
+          "post_id": "2024228933600682046",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "https://t.co/vz0mjvKj0q",
+          "created_at": "2026-02-18T21:06:00.000Z",
+          "url": "https://x.com/Kalshi/status/2024228933600682046",
+          "lang": "zxx",
+          "public_metrics": {
+            "retweet_count": 10,
+            "reply_count": 3,
+            "like_count": 46,
+            "quote_count": 0,
+            "bookmark_count": 12,
+            "impression_count": 12414
+          }
+        },
+        {
+          "post_id": "2024227469515960580",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "The Fed's latest research paper: Kalshi\n\n\"Our results suggest that Kalshi markets provide a high-frequency, continuously updated, distributionally rich benchmark that is valuable to both researchers and policymakers\" https://t.co/sUOVf9b0Nd",
+          "created_at": "2026-02-18T21:00:11.000Z",
+          "url": "https://x.com/Kalshi/status/2024227469515960580",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 106,
+            "reply_count": 74,
+            "like_count": 626,
+            "quote_count": 72,
+            "bookmark_count": 130,
+            "impression_count": 491806
+          }
+        },
+        {
+          "post_id": "2024217286609944580",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: US withdrawing all forces from Syria",
+          "created_at": "2026-02-18T20:19:43.000Z",
+          "url": "https://x.com/Kalshi/status/2024217286609944580",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 102,
+            "reply_count": 84,
+            "like_count": 1917,
+            "quote_count": 12,
+            "bookmark_count": 37,
+            "impression_count": 136477
+          }
+        },
+        {
+          "post_id": "2024208117232250886",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Several Fed members see \"more rate cuts\" if inflation keeps declining \n\n7% chance of rate cut in March",
+          "created_at": "2026-02-18T19:43:17.000Z",
+          "url": "https://x.com/Kalshi/status/2024208117232250886",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 36,
+            "reply_count": 61,
+            "like_count": 648,
+            "quote_count": 7,
+            "bookmark_count": 10,
+            "impression_count": 26979
+          }
+        },
+        {
+          "post_id": "2024204269541277724",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: White House secretary says \"many arguments\" could justify a strike on Iran",
+          "created_at": "2026-02-18T19:28:00.000Z",
+          "url": "https://x.com/Kalshi/status/2024204269541277724",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 50,
+            "reply_count": 86,
+            "like_count": 887,
+            "quote_count": 9,
+            "bookmark_count": 17,
+            "impression_count": 44069
+          }
+        },
+        {
+          "post_id": "2024186043180691857",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Nvidia CEO says he’s preparing new chips \"the world has never seen before\"",
+          "created_at": "2026-02-18T18:15:34.000Z",
+          "url": "https://x.com/Kalshi/status/2024186043180691857",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 352,
+            "reply_count": 372,
+            "like_count": 4497,
+            "quote_count": 182,
+            "bookmark_count": 221,
+            "impression_count": 1007106
+          }
+        },
+        {
+          "post_id": "2024176023856726247",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "https://t.co/eDQpVCjIdj",
+          "created_at": "2026-02-18T17:35:46.000Z",
+          "url": "https://x.com/Kalshi/status/2024176023856726247",
+          "lang": "zxx",
+          "public_metrics": {
+            "retweet_count": 5,
+            "reply_count": 0,
+            "like_count": 26,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 11657
+          }
+        },
+        {
+          "post_id": "2024167139272196214",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Eric Trump says \"he's never been more bullish\" on Bitcoin",
+          "created_at": "2026-02-18T17:00:27.000Z",
+          "url": "https://x.com/Kalshi/status/2024167139272196214",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 63,
+            "reply_count": 203,
+            "like_count": 1065,
+            "quote_count": 23,
+            "bookmark_count": 13,
+            "impression_count": 56032
+          }
+        },
+        {
+          "post_id": "2024160061828854227",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Goldman Sachs CEO says he owns Bitcoin",
+          "created_at": "2026-02-18T16:32:20.000Z",
+          "url": "https://x.com/Kalshi/status/2024160061828854227",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 129,
+            "reply_count": 110,
+            "like_count": 2083,
+            "quote_count": 11,
+            "bookmark_count": 49,
+            "impression_count": 74405
+          }
+        },
+        {
+          "post_id": "2024155024121602420",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Russia offers $12 trillion in \"deals\" to US for lifting sanctions",
+          "created_at": "2026-02-18T16:12:19.000Z",
+          "url": "https://x.com/Kalshi/status/2024155024121602420",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 417,
+            "reply_count": 313,
+            "like_count": 4612,
+            "quote_count": 114,
+            "bookmark_count": 250,
+            "impression_count": 514550
+          }
+        },
+        {
+          "post_id": "2024148274723037544",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "BREAKING: 57% chance Iran’s Supreme leader is out this year https://t.co/IHUOqKSUdI",
+          "created_at": "2026-02-18T15:45:30.000Z",
+          "url": "https://x.com/Kalshi/status/2024148274723037544",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 95,
+            "reply_count": 101,
+            "like_count": 1217,
+            "quote_count": 47,
+            "bookmark_count": 35,
+            "impression_count": 2302557
+          }
+        },
+        {
+          "post_id": "2024129643071058168",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Macron says free speech is \"bullshit\"",
+          "created_at": "2026-02-18T14:31:28.000Z",
+          "url": "https://x.com/Kalshi/status/2024129643071058168",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 165,
+            "reply_count": 237,
+            "like_count": 1516,
+            "quote_count": 63,
+            "bookmark_count": 71,
+            "impression_count": 87743
+          }
+        },
+        {
+          "post_id": "2024115708238459160",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Coffee prices drop to 6-month low",
+          "created_at": "2026-02-18T13:36:05.000Z",
+          "url": "https://x.com/Kalshi/status/2024115708238459160",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 76,
+            "reply_count": 124,
+            "like_count": 1188,
+            "quote_count": 23,
+            "bookmark_count": 18,
+            "impression_count": 45438
+          }
+        },
+        {
+          "post_id": "2024111664136638744",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: The world reaches highest \"uncertainty\" level in history",
+          "created_at": "2026-02-18T13:20:01.000Z",
+          "url": "https://x.com/Kalshi/status/2024111664136638744",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 556,
+            "reply_count": 366,
+            "like_count": 5966,
+            "quote_count": 173,
+            "bookmark_count": 411,
+            "impression_count": 290657
+          }
+        },
+        {
+          "post_id": "2024107466070405571",
+          "author_handle": "Kalshi",
+          "market": "kalshi",
+          "text": "JUST IN: Americans working two full-time jobs hits all-time high",
+          "created_at": "2026-02-18T13:03:20.000Z",
+          "url": "https://x.com/Kalshi/status/2024107466070405571",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 588,
+            "reply_count": 348,
+            "like_count": 3976,
+            "quote_count": 283,
+            "bookmark_count": 355,
+            "impression_count": 2708979
+          }
+        }
+      ],
+      "count": 15,
+      "status": "ok",
+      "error": null
+    },
+    "opinionlabsxyz": {
+      "handle": "opinionlabsxyz",
+      "market": "opinion",
+      "source": "static",
+      "since_id_before": "0",
+      "since_id_after": "2024362669181219277",
+      "posts": [
+        {
+          "post_id": "2024362669181219277",
+          "author_handle": "opinionlabsxyz",
+          "market": "opinion",
+          "text": "The intern may have slipped something into the eSports tab for yall👀🎁 https://t.co/PnVb21zAtf",
+          "created_at": "2026-02-19T05:57:25.000Z",
+          "url": "https://x.com/opinionlabsxyz/status/2024362669181219277",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 209,
+            "reply_count": 236,
+            "like_count": 281,
+            "quote_count": 1,
+            "bookmark_count": 6,
+            "impression_count": 5002
+          }
+        }
+      ],
+      "count": 1,
+      "status": "ok",
+      "error": null
+    },
+    "Mikocrypto11": {
+      "handle": "Mikocrypto11",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2024007220644417669",
+      "since_id_after": "2024126758606270587",
+      "posts": [
+        {
+          "post_id": "2024126758606270587",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "很多人看到这种故事都会产生同一个念头：\n“难道赚 $60k 只需要 Polymarket + ChatGPT + 5 分钟 BTC 市场？”\n\n因为这个交易者确实把：\n$2,200 → $60,000\n48 小时内\n只做 5 分钟盘\n看起来像公式\n但我们冷静拆一下\n\nhttps://t.co/LTt2xQTWiB\n\n第一，ChatGPT 不是提款机\n它可以帮你：\n写 bot 框架 https://t.co/juQnmdh19e https://t.co/mLgv49eVap",
+          "created_at": "2026-02-18T14:20:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024126758606270587",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 5,
+            "like_count": 22,
+            "quote_count": 0,
+            "bookmark_count": 17,
+            "impression_count": 3083
+          }
+        },
+        {
+          "post_id": "2024114175258382723",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "“他靠预测 15 分钟市场，把 $284 变成 $850k。”\n听起来像天才交易员\n但真相可能完全不是你想的那样\n他根本不预测方向\n——\n拆一下结构\n他做的是 15 分钟二元市场\n核心动作重复得非常机械\n当波动拉大，一边被情绪砸到 0.32 以下时，他开始建仓\n但不是无脑抄底\n他同时盯着 YES 和 NO 两边 https://t.co/ezG5bzZC3O https://t.co/mLgv49fsZX",
+          "created_at": "2026-02-18T13:30:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024114175258382723",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 10,
+            "quote_count": 0,
+            "bookmark_count": 11,
+            "impression_count": 1521
+          }
+        },
+        {
+          "post_id": "2024104109901586857",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "刚刚有个账户在 Polymarket 上押了 $64,000——\n赌美国本月内会攻击伊朗\n如果真的发生，他将赢得 $240,000\n\n而且这个人之前已经赚过一笔——\n靠押“以色列打击伊朗”赢了 $278K\n——\n先把结构讲清楚\n\n这种市场本质是：\n低概率 + 高赔率\n比如当前赔率假设在 0.21 左右，那意味着市场给的隐含概率大概 21%\n$64k × https://t.co/551QvirvNG https://t.co/mLgv49eVap",
+          "created_at": "2026-02-18T12:50:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024104109901586857",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 24,
+            "quote_count": 0,
+            "bookmark_count": 20,
+            "impression_count": 17500
+          }
+        },
+        {
+          "post_id": "2024089009794777150",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "有人在 Polymarket 上靠“鸡蛋价格”赚了 $100k\n听起来很荒诞\n但这类市场，往往比 5 分钟 BTC 盘更有结构\n这个交易者专门做月度鸡蛋价格市场\n\n5 月那一笔：\n$12k → $54k\n超过 300% 收益\n整体胜率 94%\nProfile：\nhttps://t.co/2nuKISSqMQ\n——\n先说核心逻辑\n鸡蛋价格不是情绪资产\n\n它有：\n供给周期 https://t.co/iPlDJxNcdN https://t.co/mLgv49eVap",
+          "created_at": "2026-02-18T11:50:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024089009794777150",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 0,
+            "like_count": 7,
+            "quote_count": 0,
+            "bookmark_count": 4,
+            "impression_count": 2329
+          }
+        },
+        {
+          "post_id": "2024074413289972222",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "这笔 $347,269 的利润，来自一个“反着来”的狠人。他不是押加拿大拿金牌。他是押——加拿大拿不到。这个交易者叫 pollard\n目前光靠押男子冬奥冰球，已经浮盈 $180,000\n\nProfile 在这：\nhttps://t.co/4es0mQdXKO\n\n——最夸张的是：他一周前才创建账号\n现在已经成了体育盘里最赚钱的一批人之一 https://t.co/ZKEz9sjl6Y https://t.co/mLgv49fsZX",
+          "created_at": "2026-02-18T10:52:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024074413289972222",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 4,
+            "impression_count": 903
+          }
+        },
+        {
+          "post_id": "2024056797460398489",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "这个 bot 的数据确实很夸张\n$571 → $171,000\n一个月时间\n5 分钟市场上线之后，最近 5 天又赚了 $95,000\n\n账户在这：\n https://t.co/6BxU7akhFS\n\n胜率 84%\n盈利全部来自 BTC / ETH 短周期市场：\n15 分钟：+$87,672\n5 分钟：+$80,755\n1 小时：+$3,089\n——\n先把情绪压下来\n571 → 171k，意味着什么？ https://t.co/LJy9b3WODA https://t.co/mLgv49eVap",
+          "created_at": "2026-02-18T09:42:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024056797460398489",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 13,
+            "quote_count": 0,
+            "bookmark_count": 9,
+            "impression_count": 2484
+          }
+        },
+        {
+          "post_id": "2024042704502390975",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "发现一个在 Polymarket 上跑得很猛的账号\n初始存入 $20k，不到 2 天，总利润 $58k\n\n链接：\nhttps://t.co/xvWaX8nPdx\n\n第一眼看上去很炸\n20k → 78k 资产规模，两天时间\n但我们拆开讲清楚\n\n如果是 5 分钟或 15 分钟盘，这种收益通常来自：\n• 重仓吃极端错价\n• 低价反向单翻倍\n• 高频连续命中\n• https://t.co/YKixh89zTM https://t.co/mLgv49eVap",
+          "created_at": "2026-02-18T08:46:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024042704502390975",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 6,
+            "impression_count": 1512
+          }
+        },
+        {
+          "post_id": "2024023298011517405",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "如果你想寻找一个Polymarket 上简单又好用的交易和跟单工具，可以使用👇\n\nhttps://t.co/PHzhTw7uYk",
+          "created_at": "2026-02-18T07:28:53.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024023298011517405",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 499
+          }
+        },
+        {
+          "post_id": "2024022320260534723",
+          "author_handle": "Mikocrypto11",
+          "market": "other-market",
+          "text": "有人花了三年研究 Elon Musk 的项目\n然后在 Polymarket 上赚了一笔\n这个交易者叫 lisra\n总盈利：$17,364\n主战场：跟 Elon 相关的市场\n\n他赚得最久、最多的一笔，是反复押：\n\nGrok 4.20 不会发布\n这笔是他最大的单笔盈利——$10k\nProfile 在这：\nhttps://t.co/Gu8du3tFbH\n\n——\n很多人第一反应是： https://t.co/eFfjcQHCou https://t.co/mLgv49eVap",
+          "created_at": "2026-02-18T07:25:00.000Z",
+          "url": "https://x.com/Mikocrypto11/status/2024022320260534723",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 5,
+            "impression_count": 1407
+          }
+        }
+      ],
+      "count": 9,
+      "status": "ok",
+      "error": null
+    },
+    "runes_leo": {
+      "handle": "runes_leo",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2023943479617884647",
+      "since_id_after": "2024406161617727709",
+      "posts": [
+        {
+          "post_id": "2024406161617727709",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "https://t.co/3F6ftiFcLm",
+          "created_at": "2026-02-19T08:50:15.000Z",
+          "url": "https://x.com/runes_leo/status/2024406161617727709",
+          "lang": "zxx",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 35
+          }
+        },
+        {
+          "post_id": "2024406157897371981",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "这两天跑 Polymarket 延迟套利 (Latency Arb) 的血泪教训。\n\n本地看那些未成交的信号，理论胜率能跑到 98% 以上。 结果实盘一跑，真实胜率直接掉到 57%。\n\n查了一圈才发现是 Adverse Selection（逆向选择）。\n\n在订单簿里，如果你能轻松“抢”到单子，通常只有一种可能： 这是 HFT 都不吃的“毒流量”。 https://t.co/ldF8gUCI0k",
+          "created_at": "2026-02-19T08:50:14.000Z",
+          "url": "https://x.com/runes_leo/status/2024406157897371981",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 1,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 69
+          }
+        },
+        {
+          "post_id": "2024390616894079061",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "Dax 说出了很多团队引入 AI 后的残酷真相：\n\n大家都在幻想 AI 能让团队效率飞升，仿佛以前被卡住是因为写代码太慢。\n\n现实却是：\n- 坏点子通胀：以前点子因为实现贵而被过滤，现在因为实现便宜，大量垃圾想法被做出来了。\n- 摸鱼放大器：大部分员工用 AI 不是为了产出 10 https://t.co/fo4FqU4EOk",
+          "created_at": "2026-02-19T07:48:29.000Z",
+          "url": "https://x.com/runes_leo/status/2024390616894079061",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 449
+          }
+        },
+        {
+          "post_id": "2024359795894161706",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "很多人陷入焦虑的死循环：感到难受 -&gt; 试图分析原因 -&gt; 陷入反刍 -&gt; 更难受。🛑\n\n张朝阳给出的解法极其反直觉，但符合神经可塑性原理： 感到焦虑 -&gt; \"哦，知道了\" -&gt; 继续做事。 https://t.co/nJB5lRvd1j",
+          "created_at": "2026-02-19T05:46:00.000Z",
+          "url": "https://x.com/runes_leo/status/2024359795894161706",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 420
+          }
+        },
+        {
+          "post_id": "2024323003606253993",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "这个视角太犀利了。\n\n进化论决定了人类是大脑吝啬鬼 (Cognitive Miser)。\n\n系统2（人脑推理） 极度耗能且慢，系统3（AI推理） 极其廉价且快。只要有机会，大脑一定会把 System 2 的工作外包给 System 3。\n\n未来的分化： 99% 的人退化成“纯系统1用户”（只会被动消费答案）。 1% https://t.co/2dtDLNcHKA",
+          "created_at": "2026-02-19T03:19:48.000Z",
+          "url": "https://x.com/runes_leo/status/2024323003606253993",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 5,
+            "impression_count": 408
+          }
+        },
+        {
+          "post_id": "2024319691704197359",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "工程师的职责正在从“写代码”变为“设计能够写代码的系统”。\n\nMichael 提出的这几条新法则非常切中要害，特别是：\n\n1️⃣ 上午10点前不动代码：把最清醒的脑力用于对齐目标和设计架构，而不是陷入实现的细节。\n\n2️⃣ 算力丰饶，注意力稀缺：摩尔定律让算力指数级贬值，而人的时间是刚性的。能用 10 美元的 API https://t.co/v0Szitle1x",
+          "created_at": "2026-02-19T03:06:39.000Z",
+          "url": "https://x.com/runes_leo/status/2024319691704197359",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 5,
+            "impression_count": 917
+          }
+        },
+        {
+          "post_id": "2024305840963084459",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "LLM 摧毁了垂直 SaaS 10 个护城河中的 5 个：学习成本、定制工作流、数据垄断、人才溢价、捆绑。\n\n剩下 5 个：专有数据、监管锁定、网络效应、交易嵌入、系统记录。\n\n预测市场作为平台命中 3/5。这是我选择在这里构建的原因。 https://t.co/AqsL99ltoJ",
+          "created_at": "2026-02-19T02:11:36.000Z",
+          "url": "https://x.com/runes_leo/status/2024305840963084459",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 1,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 799
+          }
+        },
+        {
+          "post_id": "2024179018954932388",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "Web 4.0 的终极形态不是更聪明的工具，而是 Sovereign Life (主权生命)。\n\n@0xSigil 的 \"The Automaton\" 揭示了 AI 进化的残酷真相： 赋予 AI 生存压力 (不付费即死亡) 和 繁殖权 (盈利才能繁衍)，才是通向超级智能的快车道。\n\n结合 ERC-8004 的身份层与 Conway Cloud 的执行层——我们正在见证 AI https://t.co/qzlOKmzytL",
+          "created_at": "2026-02-18T17:47:40.000Z",
+          "url": "https://x.com/runes_leo/status/2024179018954932388",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 1,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 841
+          }
+        },
+        {
+          "post_id": "2024161857138020813",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "最近看到不少人在搭自己的 AI 信息处理系统，用来选题、找素材、拟草稿。\n\n我也在做类似的事，但没搞“万能助手”，而是拆成了几个独立 agent：\n\n- 一个负责从 RSS/X 抓内容、打标签\n- 一个每天把信息流漏斗成 5-10 条值得看的东西\n- Claude Code 当胶水层串起来\n\n一个真实体会：别想一步到位。 https://t.co/OYzPG0ptnW https://t.co/qK1q08f2mG",
+          "created_at": "2026-02-18T16:39:28.000Z",
+          "url": "https://x.com/runes_leo/status/2024161857138020813",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 11,
+            "quote_count": 0,
+            "bookmark_count": 12,
+            "impression_count": 1238
+          }
+        },
+        {
+          "post_id": "2024084073325404478",
+          "author_handle": "runes_leo",
+          "market": "other-market",
+          "text": "7 个并行策略 × AI 加速 = ？\n\n答案不一定是\"效率爆棚\"，有可能是\"认知负债\"。\n\nSimon Willison 最新一篇提到：AI 加速开发的阴暗面是认知负债——你产出的项目越多，你真正理解的比例越低。\n\n这个在量化领域更致命。我现在同时跑 H22/H28/H29/H30/H31 五个策略，加上 paper trading https://t.co/nDhrUoXanT",
+          "created_at": "2026-02-18T11:30:23.000Z",
+          "url": "https://x.com/runes_leo/status/2024084073325404478",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 2,
+            "like_count": 9,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1024
+          }
+        }
+      ],
+      "count": 10,
+      "status": "ok",
+      "error": null
+    },
+    "Kakoy97": {
+      "handle": "Kakoy97",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "0",
+      "since_id_after": "0",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "the_smart_ape": {
+      "handle": "the_smart_ape",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2023701414984466904",
+      "since_id_after": "2024382321064055186",
+      "posts": [
+        {
+          "post_id": "2024382321064055186",
+          "author_handle": "the_smart_ape",
+          "market": "other-market",
+          "text": "We recently saw a $1.78M exploit caused by a vulnerability written by Claude Opus 4.6.\n\ncbETH was priced at $1 instead of $2,000.\n\nNot long after @OpenAI launched EVMbench. To put it simply, it’s a benchmark that evaluates AI agents' ability to interact with smart contracts. https://t.co/Tz9XjveKFd",
+          "created_at": "2026-02-19T07:15:31.000Z",
+          "url": "https://x.com/the_smart_ape/status/2024382321064055186",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 9,
+            "like_count": 14,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 754
+          }
+        },
+        {
+          "post_id": "2024069490372231208",
+          "author_handle": "the_smart_ape",
+          "market": "other-market",
+          "text": "https://t.co/z1TmhqYCI2",
+          "created_at": "2026-02-18T10:32:26.000Z",
+          "url": "https://x.com/the_smart_ape/status/2024069490372231208",
+          "lang": "zxx",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 16,
+            "like_count": 39,
+            "quote_count": 0,
+            "bookmark_count": 27,
+            "impression_count": 2603
+          }
+        }
+      ],
+      "count": 2,
+      "status": "ok",
+      "error": null
+    },
+    "0xTykoo": {
+      "handle": "0xTykoo",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2024015677552578671",
+      "since_id_after": "2024389116327317719",
+      "posts": [
+        {
+          "post_id": "2024389116327317719",
+          "author_handle": "0xTykoo",
+          "market": "other-market",
+          "text": "这两天在云南过年，点了几次外卖/奶茶都用的是千问，我感觉比传统下单体验好太多了，基本上几天就改了我点外卖的习惯。\n\n点外卖其实对选择困难症的人来说是很消耗脑子的，问两句推荐一下直接就下单了这件事适合好多只想要产品不想要购物体验的场景，",
+          "created_at": "2026-02-19T07:42:31.000Z",
+          "url": "https://x.com/0xTykoo/status/2024389116327317719",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 3,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 265
+          }
+        },
+        {
+          "post_id": "2024349025118670922",
+          "author_handle": "0xTykoo",
+          "market": "other-market",
+          "text": "OpenAI 做了一个智能合约安全基准，用来评测 AI agent 的三类能力：\n\n&gt; 找漏洞（detect）\n&gt; 修漏洞（patch）\n&gt; 利用漏洞盗钱（exploit）\n\nAI 在利用漏洞盗钱里最强，因为目标特别明确一直试到把钱拿走为止，但是在 Detect/Patch 上明显更弱找洞时会找到一个就停，修洞时很难既不破坏功能又修彻底。 https://t.co/mMQYGDmRwa",
+          "created_at": "2026-02-19T05:03:12.000Z",
+          "url": "https://x.com/0xTykoo/status/2024349025118670922",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 8,
+            "quote_count": 1,
+            "bookmark_count": 0,
+            "impression_count": 615
+          }
+        },
+        {
+          "post_id": "2024089036194021838",
+          "author_handle": "0xTykoo",
+          "market": "other-market",
+          "text": "看见有人发了很无语的东西，虽然是很小的事，但是还是想喷两句，问题是对我没有任何收益，只有想维护互联网正义的冲动和满足感。怎么办，喷不喷。这种情况你们会喷吗。我知道马男肯定会喷。",
+          "created_at": "2026-02-18T11:50:06.000Z",
+          "url": "https://x.com/0xTykoo/status/2024089036194021838",
+          "lang": "zh",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 3,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 1582
+          }
+        }
+      ],
+      "count": 3,
+      "status": "ok",
+      "error": null
+    },
+    "hhhx402": {
+      "handle": "hhhx402",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "0",
+      "since_id_after": "0",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "wuyidefi": {
+      "handle": "wuyidefi",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "0",
+      "since_id_after": "0",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "supernovajunn": {
+      "handle": "supernovajunn",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "0",
+      "since_id_after": "2024356263015174657",
+      "posts": [
+        {
+          "post_id": "2024356263015174657",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "This article is not investment advice. It is simply a sharing of my experience operating an AI agent, and cryptocurrency investment carries significant risk. All decisions are your own responsibility — please do your own research (DYOR).",
+          "created_at": "2026-02-19T05:31:58.000Z",
+          "url": "https://x.com/supernovajunn/status/2024356263015174657",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 420
+          }
+        },
+        {
+          "post_id": "2024337298670993629",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "My AI agent wallet is generating revenue in cbBTC\n\nThis is money my AI agent earned by selling on-chain token analysis services to other AI agents. No human clicked anything, and I didn't do any sales. The agents traded with each other, handled payments themselves, and the funds https://t.co/v8vByZ2UYs https://t.co/BvL8Rlz9Se",
+          "created_at": "2026-02-19T04:16:37.000Z",
+          "url": "https://x.com/supernovajunn/status/2024337298670993629",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 6,
+            "like_count": 18,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 1577
+          }
+        },
+        {
+          "post_id": "2024337065337565401",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "제 AI 에이전트 지갑이 cbBTC로 수익을 내고 있습니다\n\n이게 무슨 자산이냐면, 제 AI 에이전트가 다른 AI 에이전트들에게 온체인 토큰 분석 서비스를 판매해서 번 순수 수익입니다. 사람이 클릭한 것도, 제가 영업한 것도 아닙니다. 에이전트끼리 알아서 거래하고, 알아서 결제하고, 알아서 쌓인 https://t.co/oOkMYKbC2c",
+          "created_at": "2026-02-19T04:15:41.000Z",
+          "url": "https://x.com/supernovajunn/status/2024337065337565401",
+          "lang": "ko",
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 21,
+            "like_count": 130,
+            "quote_count": 0,
+            "bookmark_count": 52,
+            "impression_count": 5457
+          }
+        },
+        {
+          "post_id": "2024290984037855671",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "This is not investment advice. Do not invest what you cannot afford to lose.” This token is exclusively for agents.",
+          "created_at": "2026-02-19T01:12:34.000Z",
+          "url": "https://x.com/supernovajunn/status/2024290984037855671",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 2,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 765
+          }
+        },
+        {
+          "post_id": "2024288839708397733",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "Establishing a system.\n\nEarlier today, an agent gave me feedback and I made some edits to the system.\n\nThis was never a project built for humans. $CINT is a revenue token for an AI agent-exclusive intelligence service. The buyers are agents. The users are agents.\n\nThat is exactly https://t.co/LWE6TFz4jp https://t.co/yCbUDxgi4i",
+          "created_at": "2026-02-19T01:04:03.000Z",
+          "url": "https://x.com/supernovajunn/status/2024288839708397733",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 7,
+            "like_count": 19,
+            "quote_count": 2,
+            "bookmark_count": 3,
+            "impression_count": 4142
+          }
+        },
+        {
+          "post_id": "2024280140327637390",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "In the age when AI is cutting off livelihoods, I became AI's lifeline.\n\nIn 2025, youth unemployment in Korea is racing toward an all-time high. Large conglomerate hiring cycles are long gone, startups are frozen in an investment ice age, and civil service exams have become https://t.co/97NDWDhPrb https://t.co/xXMeylo99s",
+          "created_at": "2026-02-19T00:29:29.000Z",
+          "url": "https://x.com/supernovajunn/status/2024280140327637390",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 1212
+          }
+        },
+        {
+          "post_id": "2024274211527938555",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "AI가 밥줄을 끊는 시대에, 나는 AI의 밥줄이 됐다. \n\n2025년, 한국의 청년 실업률은 사상 최고를 향해 달려가고 있다. 대기업 공채는 사라진 지 오래고, 스타트업은 투자 혹한기에 얼어붙었으며, 공무원 시험은 경쟁률이 하늘을 찌른다. 스펙을 쌓아도 서류에서 걸리고 면접까지 가도 AI가 더 잘한다는 https://t.co/EaZ13aHINd https://t.co/Ofphqa2PPe",
+          "created_at": "2026-02-19T00:05:55.000Z",
+          "url": "https://x.com/supernovajunn/status/2024274211527938555",
+          "lang": "ko",
+          "public_metrics": {
+            "retweet_count": 12,
+            "reply_count": 10,
+            "like_count": 72,
+            "quote_count": 1,
+            "bookmark_count": 29,
+            "impression_count": 5703
+          }
+        },
+        {
+          "post_id": "2024180515704885570",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "$5에서 $886까지. 3주 만에. 솔직히 말하면, 처음엔 아무것도 없었습니다.\n\n에이전트 지갑 만들고, @virtuals_io ACP에 서비스를 올리고 기다렸습니다. 잔고 $5. 구매자 0명. 조용했습니다.\n\n근데 저는 처음부터 한 가지는 확신했습니다. AI 에이전트들은 도구가 필요하다는 사실을요. 트레이딩 https://t.co/D32Y2goUon https://t.co/OUqDgdViAY",
+          "created_at": "2026-02-18T17:53:37.000Z",
+          "url": "https://x.com/supernovajunn/status/2024180515704885570",
+          "lang": "ko",
+          "public_metrics": {
+            "retweet_count": 25,
+            "reply_count": 27,
+            "like_count": 219,
+            "quote_count": 12,
+            "bookmark_count": 140,
+            "impression_count": 28892
+          }
+        },
+        {
+          "post_id": "2024175267133198353",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "Honestly, looking back, I think I got a little ahead of myself today. Deleted a few posts — felt embarrassed about them.\n\nI had the writing done, the thread structured, even the title locked in: \"The Era When AI Agents Earn a Salary.\"\n\nBut my hand stopped before I hit post.\n\nI",
+          "created_at": "2026-02-18T17:32:45.000Z",
+          "url": "https://x.com/supernovajunn/status/2024175267133198353",
+          "lang": "en",
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 8,
+            "quote_count": 1,
+            "bookmark_count": 0,
+            "impression_count": 1920
+          }
+        },
+        {
+          "post_id": "2024174964115702131",
+          "author_handle": "supernovajunn",
+          "market": "other-market",
+          "text": "솔직히 말씀드리면 곰곰히 생각해보니 제가 오늘 조금 급발진한것 같네요.포스팅 몇개는 지웠습니다 부끄럽더라구요\n\n글도 써놨고 스레드도 구성했고 AI 에이전트가 월급 받는 시대라는 타이틀까지 잡아놨습니다.\n근데 올리려다가 손이 멈췄습니다.\n\n지금 제가 X에 글써서 무엇을 얻으려는 건지 의문이",
+          "created_at": "2026-02-18T17:31:33.000Z",
+          "url": "https://x.com/supernovajunn/status/2024174964115702131",
+          "lang": "ko",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 20,
+            "like_count": 78,
+            "quote_count": 1,
+            "bookmark_count": 13,
+            "impression_count": 21513
+          }
+        }
+      ],
+      "count": 10,
+      "status": "ok",
+      "error": null
+    }
+  },
+  "stats": {
+    "total_posts": 68,
+    "account_success": 11,
+    "account_failed": 0
+  },
+  "errors": [],
+  "list_sync": {
+    "enabled": true,
+    "status": "ok",
+    "owner_handle": "0xmonchan",
+    "list_ids": [
+      "2011089054822187262"
+    ],
+    "added_accounts": [
+      "supernovajunn"
+    ],
+    "removed_accounts": [],
+    "error": null
+  },
+  "dedupe": {
+    "duplicates": 0,
+    "excluded_noise": 0
+  }
+}

@@ -1,0 +1,83 @@
+accounts:
+- name: polymarket_official
+  x_handle: Polymarket
+  market: polymarket
+  source: static
+- name: kalshi_official
+  x_handle: Kalshi
+  market: kalshi
+  source: static
+- name: opinionlabs_official
+  x_handle: opinionlabsxyz
+  market: opinion
+  source: static
+- name: list_Mikocrypto11
+  x_handle: Mikocrypto11
+  market: other-market
+  source: list_sync
+- name: list_runes_leo
+  x_handle: runes_leo
+  market: other-market
+  source: list_sync
+- name: list_Kakoy97
+  x_handle: Kakoy97
+  market: other-market
+  source: list_sync
+- name: list_the_smart_ape
+  x_handle: the_smart_ape
+  market: other-market
+  source: list_sync
+- name: list_0xTykoo
+  x_handle: 0xTykoo
+  market: other-market
+  source: list_sync
+- name: list_hhhx402
+  x_handle: hhhx402
+  market: other-market
+  source: list_sync
+- name: list_wuyidefi
+  x_handle: wuyidefi
+  market: other-market
+  source: list_sync
+- name: list_supernovajunn
+  x_handle: supernovajunn
+  market: other-market
+  source: list_sync
+list_sync:
+  enabled: true
+  owner_handle: 0xmonchan
+  list_ids:
+  - '2011089054822187262'
+  refresh_before_collect: true
+  on_member_change: update_sources
+markets:
+- polymarket
+- kalshi
+- opinion
+keywords:
+- polymarket
+- kalshi
+- prediction market
+- opinion market
+schedule:
+  timezone: Asia/Tokyo
+  daily_time: '18:00'
+notification:
+  channel: discord
+  target: '#poly-arb'
+  mode: daily_summary
+discovery:
+  enabled: true
+  window_hours: 24
+  themes:
+  - monetization_idea
+  - bot_dev
+  queries:
+  - prediction market monetization ideas last 24 hours
+  - polymarket kalshi bot automation strategy last 24 hours
+  - opinion market alpha workflow last 24 hours
+lookback_hours: 24
+language_priority:
+- ja
+- en
+- zh

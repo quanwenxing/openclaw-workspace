@@ -1,0 +1,138 @@
+{
+  "run_at": "2026-02-18T16:06:12.928410+09:00",
+  "lookback_hours": 24,
+  "dry_run": false,
+  "accounts": {
+    "Polymarket": {
+      "handle": "Polymarket",
+      "market": "polymarket",
+      "source": "static",
+      "since_id_before": "2023900308603048232",
+      "since_id_after": "2023900308603048232",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "Kalshi": {
+      "handle": "Kalshi",
+      "market": "kalshi",
+      "source": "static",
+      "since_id_before": "2023936554930966991",
+      "since_id_after": "2023936554930966991",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "opinionlabsxyz": {
+      "handle": "opinionlabsxyz",
+      "market": "opinion",
+      "source": "static",
+      "since_id_before": "0",
+      "since_id_after": "0",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "Mikocrypto11": {
+      "handle": "Mikocrypto11",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2024007220644417669",
+      "since_id_after": "2024007220644417669",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "runes_leo": {
+      "handle": "runes_leo",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2023943479617884647",
+      "since_id_after": "2023943479617884647",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "Kakoy97": {
+      "handle": "Kakoy97",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "0",
+      "since_id_after": "0",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "the_smart_ape": {
+      "handle": "the_smart_ape",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2023701414984466904",
+      "since_id_after": "2023701414984466904",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "0xTykoo": {
+      "handle": "0xTykoo",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "2024015677552578671",
+      "since_id_after": "2024015677552578671",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "hhhx402": {
+      "handle": "hhhx402",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "0",
+      "since_id_after": "0",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    },
+    "wuyidefi": {
+      "handle": "wuyidefi",
+      "market": "other-market",
+      "source": "list_sync",
+      "since_id_before": "0",
+      "since_id_after": "0",
+      "posts": [],
+      "count": 0,
+      "status": "ok",
+      "error": null
+    }
+  },
+  "stats": {
+    "total_posts": 0,
+    "account_success": 10,
+    "account_failed": 0
+  },
+  "errors": [],
+  "list_sync": {
+    "enabled": true,
+    "status": "ok",
+    "owner_handle": "0xmonchan",
+    "list_ids": [
+      "2011089054822187262"
+    ],
+    "added_accounts": [],
+    "removed_accounts": [],
+    "error": null
+  },
+  "dedupe": {
+    "duplicates": 0,
+    "excluded_noise": 0
+  }
+}

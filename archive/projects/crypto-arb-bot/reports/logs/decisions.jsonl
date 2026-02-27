@@ -1,0 +1,8 @@
+{"ts": "2026-02-07T16:10:24.079242+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480624079, "buy_exchange_ts": 1770480617990, "sell_exchange_ts": 1770480623036}
+{"ts": "2026-02-07T16:10:26.945869+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480626945, "buy_exchange_ts": 1770480626083, "sell_exchange_ts": 1770480625844}
+{"ts": "2026-02-07T16:10:30.049913+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480630049, "buy_exchange_ts": 1770480629015, "sell_exchange_ts": 1770480628252}
+{"ts": "2026-02-07T16:10:59.745511+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480659745, "buy_exchange_ts": 1770480652694, "sell_exchange_ts": 1770480659169}
+{"ts": "2026-02-07T16:11:02.757106+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480662757, "buy_exchange_ts": 1770480661820, "sell_exchange_ts": 1770480661171}
+{"ts": "2026-02-07T16:11:05.481422+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480665481, "buy_exchange_ts": 1770480664832, "sell_exchange_ts": 1770480665046}
+{"ts": "2026-02-07T16:11:23.271733+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480683271, "buy_exchange_ts": 1770480677484, "sell_exchange_ts": 1770480683048}
+{"ts": "2026-02-07T16:11:26.144953+00:00", "event": "decision", "exec": false, "reason": "max-inventory-skew", "net": 0.0, "decision_ts": 1770480686144, "buy_exchange_ts": 1770480685345, "sell_exchange_ts": 1770480684836}

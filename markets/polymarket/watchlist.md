@@ -1,0 +1,262 @@
+# Watchlist
+
+フォーマット:
+- ID: WATCH-0001
+- Name/Address:
+- Type: address | person | org
+- Chain/Platform:
+- Why Track:
+- Signals:
+- Source:
+- Source Type: manual_discord | auto_x_grok
+- Tags:
+- First Seen At:
+- Event Time:
+- Updated:
+
+- ID: WATCH-0002
+- Name/Address: 4 天前，这个 polymarket 账户里只有 $10 现在，余额超过 $56,000 听着很疯 但我们冷静一下 首先，$10 → $56,0
+- Type: person
+- Chain/Platform: x
+- Why Track: 4 天前，这个 Polymarket 账户里只有 $10 现在，余额超过 $56,000 听着很疯 但我们冷静一下 首先，$10 → $56,000，意味着什么？  要么是： 极端小概率高赔率命中，比如 0.01–0.05 的仓位被打满；  要么是： 连续高倍滚仓，每一轮都重仓压对；  要么是： 用极小本金做“all-in 式”翻倍玩法 https://t.co/N7V7y183RU https:...
+- Signals: 4 天前，这个 Polymarket 账户里只有 $10 现在，余额超过 $56,000 听着很疯 但我们冷静一下 首先，$10 → $56,000，意味着什么？  要么是： 极端小概率高赔率命中，比如 0.01–0.05 的仓位被打满；  要么是： 连续高倍滚仓，每一轮都重仓压对；  要么是： 用极小本金做“all-in 式”翻倍玩法 https://t.co/N7V7y183RU https:...
+- Source: https://x.com/Mikocrypto11/status/2023993380468834509
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-18 14:59:44 JST
+- Event Time: 2026-02-18T05:30:00.000Z
+- Updated: 2026-02-18 14:59:44 JST
+
+- ID: WATCH-0003
+- Name/Address: 🚨 new polymarket: will iran close its airspace this month?
+- Type: person
+- Chain/Platform: x
+- Why Track: 🚨 NEW POLYMARKET: Will Iran close its airspace this month? https://t.co/2ttkSjrAA7
+- Signals: 🚨 NEW POLYMARKET: Will Iran close its airspace this month? https://t.co/2ttkSjrAA7
+- Source: https://x.com/Polymarket/status/2024281404301848730
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T00:34:30.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0004
+- Name/Address: 🚨 new polymarket: what nicknames will trump use during his state of the 
+- Type: person
+- Chain/Platform: x
+- Why Track: 🚨 NEW POLYMARKET: What nicknames will Trump use during his State of the Union address? https://t.co/Mk6NyqRd8h
+- Signals: 🚨 NEW POLYMARKET: What nicknames will Trump use during his State of the Union address? https://t.co/Mk6NyqRd8h
+- Source: https://x.com/Polymarket/status/2024251363727638694
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T22:35:08.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0005
+- Name/Address: see who else may have visited:
+- Type: person
+- Chain/Platform: x
+- Why Track: See who else may have visited: https://t.co/CG7hU0ZFHZ
+- Signals: See who else may have visited: https://t.co/CG7hU0ZFHZ
+- Source: https://x.com/Polymarket/status/2024244054972620924
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T22:06:05.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0006
+- Name/Address: breaking: trump tells logan paul one of his own government agencies may 
+- Type: person
+- Chain/Platform: x
+- Why Track: BREAKING: Trump tells Logan Paul one of his own government agencies may be hiding aliens from him.  11% chance it's confirmed. https://t.co/zdcBvyn7QT
+- Signals: BREAKING: Trump tells Logan Paul one of his own government agencies may be hiding aliens from him.  11% chance it's confirmed. https://t.co/zdcBvyn7QT
+- Source: https://x.com/Polymarket/status/2024232715227127925
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T21:21:02.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0007
+- Name/Address: polymarket 🤝 substack we are excited to announce our exclusive partnersh
+- Type: person
+- Chain/Platform: x
+- Why Track: Polymarket 🤝 Substack  We are excited to announce our exclusive partnership with Substack.   Starting today Substack authors can natively integrate data from the world's largest prediction market.   J...
+- Signals: Polymarket 🤝 Substack  We are excited to announce our exclusive partnership with Substack.   Starting today Substack authors can natively integrate data from the world's largest prediction market.   J...
+- Source: https://x.com/Polymarket/status/2024217326065783058
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T20:19:53.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0008
+- Name/Address: breaking: polymarket now narrowly projects iran's supreme leader will lo
+- Type: person
+- Chain/Platform: x
+- Why Track: BREAKING: Polymarket now narrowly projects Iran's Supreme Leader will lose power this year.  52% chance. https://t.co/OHB2OlPfRQ
+- Signals: BREAKING: Polymarket now narrowly projects Iran's Supreme Leader will lose power this year.  52% chance. https://t.co/OHB2OlPfRQ
+- Source: https://x.com/Polymarket/status/2024182100434260185
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T17:59:54.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0009
+- Name/Address: only 5% chance it hits $250k this year.
+- Type: person
+- Chain/Platform: x
+- Why Track: Only 5% chance it hits $250k this year. https://t.co/j6RjrjX1Ld
+- Signals: Only 5% chance it hits $250k this year. https://t.co/j6RjrjX1Ld
+- Source: https://x.com/Polymarket/status/2024170461794308533
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T17:13:40.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0010
+- Name/Address: 🚨 new polymarket: will the 2028 democratic nominee be a woman?
+- Type: person
+- Chain/Platform: x
+- Why Track: 🚨 NEW POLYMARKET: Will the 2028 Democratic nominee be a woman? https://t.co/iUE6eH32p3
+- Signals: 🚨 NEW POLYMARKET: Will the 2028 Democratic nominee be a woman? https://t.co/iUE6eH32p3
+- Source: https://x.com/Polymarket/status/2024161812086731054
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T16:39:17.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0011
+- Name/Address: live shutdown forecast:
+- Type: person
+- Chain/Platform: x
+- Why Track: Live shutdown forecast: https://t.co/CSk7xNvFu3
+- Signals: Live shutdown forecast: https://t.co/CSk7xNvFu3
+- Source: https://x.com/Polymarket/status/2024159951258558868
+- Source Type: auto_x_grok
+- Tags: low-priority
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T16:31:54.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0012
+- Name/Address: breaking: the department of homeland security is now projected to be clo
+- Type: person
+- Chain/Platform: x
+- Why Track: BREAKING: The Department of Homeland Security is now projected to be closed for 26 days. https://t.co/nVhX8IShSe
+- Signals: BREAKING: The Department of Homeland Security is now projected to be closed for 26 days. https://t.co/nVhX8IShSe
+- Source: https://x.com/Polymarket/status/2024159948125409587
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T16:31:53.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0013
+- Name/Address: 🚨 new polymarket: what will trump say during his black history month rec
+- Type: person
+- Chain/Platform: x
+- Why Track: 🚨 NEW POLYMARKET: What will Trump say during his Black History Month reception? https://t.co/NxpuugVMXQ
+- Signals: 🚨 NEW POLYMARKET: What will Trump say during his Black History Month reception? https://t.co/NxpuugVMXQ
+- Source: https://x.com/Polymarket/status/2024111055782256838
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T13:17:36.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0014
+- Name/Address: 很多人看到这种故事都会产生同一个念头： “难道赚 $60k 只需要 polymarket + chatgpt + 5 分钟 btc 市场？” 因
+- Type: person
+- Chain/Platform: x
+- Why Track: 很多人看到这种故事都会产生同一个念头： “难道赚 $60k 只需要 Polymarket + ChatGPT + 5 分钟 BTC 市场？”  因为这个交易者确实把： $2,200 → $60,000 48 小时内 只做 5 分钟盘 看起来像公式 但我们冷静拆一下  https://t.co/LTt2xQTWiB  第一，ChatGPT 不是提款机 它可以帮你： 写 bot 框架 https://...
+- Signals: 很多人看到这种故事都会产生同一个念头： “难道赚 $60k 只需要 Polymarket + ChatGPT + 5 分钟 BTC 市场？”  因为这个交易者确实把： $2,200 → $60,000 48 小时内 只做 5 分钟盘 看起来像公式 但我们冷静拆一下  https://t.co/LTt2xQTWiB  第一，ChatGPT 不是提款机 它可以帮你： 写 bot 框架 https://...
+- Source: https://x.com/Mikocrypto11/status/2024126758606270587
+- Source Type: auto_x_grok
+- Tags: bot, polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T14:20:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0015
+- Name/Address: 刚刚有个账户在 polymarket 上押了 $64,000—— 赌美国本月内会攻击伊朗 如果真的发生，他将赢得 $240,000 而且这个人之
+- Type: person
+- Chain/Platform: x
+- Why Track: 刚刚有个账户在 Polymarket 上押了 $64,000—— 赌美国本月内会攻击伊朗 如果真的发生，他将赢得 $240,000  而且这个人之前已经赚过一笔—— 靠押“以色列打击伊朗”赢了 $278K —— 先把结构讲清楚  这种市场本质是： 低概率 + 高赔率 比如当前赔率假设在 0.21 左右，那意味着市场给的隐含概率大概 21% $64k × https://t.co/551QvirvN...
+- Signals: 刚刚有个账户在 Polymarket 上押了 $64,000—— 赌美国本月内会攻击伊朗 如果真的发生，他将赢得 $240,000  而且这个人之前已经赚过一笔—— 靠押“以色列打击伊朗”赢了 $278K —— 先把结构讲清楚  这种市场本质是： 低概率 + 高赔率 比如当前赔率假设在 0.21 左右，那意味着市场给的隐含概率大概 21% $64k × https://t.co/551QvirvN...
+- Source: https://x.com/Mikocrypto11/status/2024104109901586857
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T12:50:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0016
+- Name/Address: 有人在 polymarket 上靠“鸡蛋价格”赚了 $100k 听起来很荒诞 但这类市场，往往比 5 分钟 btc 盘更有结构 这个交易者专门做
+- Type: person
+- Chain/Platform: x
+- Why Track: 有人在 Polymarket 上靠“鸡蛋价格”赚了 $100k 听起来很荒诞 但这类市场，往往比 5 分钟 BTC 盘更有结构 这个交易者专门做月度鸡蛋价格市场  5 月那一笔： $12k → $54k 超过 300% 收益 整体胜率 94% Profile： https://t.co/2nuKISSqMQ —— 先说核心逻辑 鸡蛋价格不是情绪资产  它有： 供给周期 https://t.co/i...
+- Signals: 有人在 Polymarket 上靠“鸡蛋价格”赚了 $100k 听起来很荒诞 但这类市场，往往比 5 分钟 BTC 盘更有结构 这个交易者专门做月度鸡蛋价格市场  5 月那一笔： $12k → $54k 超过 300% 收益 整体胜率 94% Profile： https://t.co/2nuKISSqMQ —— 先说核心逻辑 鸡蛋价格不是情绪资产  它有： 供给周期 https://t.co/i...
+- Source: https://x.com/Mikocrypto11/status/2024089009794777150
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T11:50:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0017
+- Name/Address: 发现一个在 polymarket 上跑得很猛的账号 初始存入 $20k，不到 2 天，总利润 $58k 链接： 第一眼看上去很炸 20k → 7
+- Type: person
+- Chain/Platform: x
+- Why Track: 发现一个在 Polymarket 上跑得很猛的账号 初始存入 $20k，不到 2 天，总利润 $58k  链接： https://t.co/xvWaX8nPdx  第一眼看上去很炸 20k → 78k 资产规模，两天时间 但我们拆开讲清楚  如果是 5 分钟或 15 分钟盘，这种收益通常来自： • 重仓吃极端错价 • 低价反向单翻倍 • 高频连续命中 • https://t.co/YKixh89z...
+- Signals: 发现一个在 Polymarket 上跑得很猛的账号 初始存入 $20k，不到 2 天，总利润 $58k  链接： https://t.co/xvWaX8nPdx  第一眼看上去很炸 20k → 78k 资产规模，两天时间 但我们拆开讲清楚  如果是 5 分钟或 15 分钟盘，这种收益通常来自： • 重仓吃极端错价 • 低价反向单翻倍 • 高频连续命中 • https://t.co/YKixh89z...
+- Source: https://x.com/Mikocrypto11/status/2024042704502390975
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T08:46:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0018
+- Name/Address: 如果你想寻找一个polymarket 上简单又好用的交易和跟单工具，可以使用👇
+- Type: person
+- Chain/Platform: x
+- Why Track: 如果你想寻找一个Polymarket 上简单又好用的交易和跟单工具，可以使用👇  https://t.co/PHzhTw7uYk
+- Signals: 如果你想寻找一个Polymarket 上简单又好用的交易和跟单工具，可以使用👇  https://t.co/PHzhTw7uYk
+- Source: https://x.com/Mikocrypto11/status/2024023298011517405
+- Source Type: auto_x_grok
+- Tags: low-priority, polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T07:28:53.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0019
+- Name/Address: 有人花了三年研究 elon musk 的项目 然后在 polymarket 上赚了一笔 这个交易者叫 lisra 总盈利：$17,364 主战场
+- Type: person
+- Chain/Platform: x
+- Why Track: 有人花了三年研究 Elon Musk 的项目 然后在 Polymarket 上赚了一笔 这个交易者叫 lisra 总盈利：$17,364 主战场：跟 Elon 相关的市场  他赚得最久、最多的一笔，是反复押：  Grok 4.20 不会发布 这笔是他最大的单笔盈利——$10k Profile 在这： https://t.co/Gu8du3tFbH  —— 很多人第一反应是： https://t.c...
+- Signals: 有人花了三年研究 Elon Musk 的项目 然后在 Polymarket 上赚了一笔 这个交易者叫 lisra 总盈利：$17,364 主战场：跟 Elon 相关的市场  他赚得最久、最多的一笔，是反复押：  Grok 4.20 不会发布 这笔是他最大的单笔盈利——$10k Profile 在这： https://t.co/Gu8du3tFbH  —— 很多人第一反应是： https://t.c...
+- Source: https://x.com/Mikocrypto11/status/2024022320260534723
+- Source Type: auto_x_grok
+- Tags: polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T07:25:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0020
+- Name/Address: 这两天跑 polymarket 延迟套利 (latency arb) 的血泪教训。 本地看那些未成交的信号，理论胜率能跑到 98% 以上。 结果
+- Type: person
+- Chain/Platform: x
+- Why Track: 这两天跑 Polymarket 延迟套利 (Latency Arb) 的血泪教训。  本地看那些未成交的信号，理论胜率能跑到 98% 以上。 结果实盘一跑，真实胜率直接掉到 57%。  查了一圈才发现是 Adverse Selection（逆向选择）。  在订单簿里，如果你能轻松“抢”到单子，通常只有一种可能： 这是 HFT 都不吃的“毒流量”。 https://t.co/ldF8gUCI0k
+- Signals: 这两天跑 Polymarket 延迟套利 (Latency Arb) 的血泪教训。  本地看那些未成交的信号，理论胜率能跑到 98% 以上。 结果实盘一跑，真实胜率直接掉到 57%。  查了一圈才发现是 Adverse Selection（逆向选择）。  在订单簿里，如果你能轻松“抢”到单子，通常只有一种可能： 这是 HFT 都不吃的“毒流量”。 https://t.co/ldF8gUCI0k
+- Source: https://x.com/runes_leo/status/2024406157897371981
+- Source Type: auto_x_grok
+- Tags: arb, polymarket
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T08:50:14.000Z
+- Updated: 2026-02-19 18:00:09 JST

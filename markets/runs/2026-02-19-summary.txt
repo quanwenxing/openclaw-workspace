@@ -1,0 +1,30 @@
+[Daily Market Intel] 2026-02-19 (JST 18:00実行)
+Summary-1: 取得投稿 68件 / 新規登録 68件
+Summary-2: ソース内訳 manual_discord=0 / auto_x_grok=68
+Summary-3: 重要TOP1 [watchlist] 这两天跑 polymarket 延迟套利 (latency arb) 的血泪教训。 本地看那些未成交的信号，理论胜率能跑到 98% 以上。 结果
+
+取得投稿数: 68
+新規登録: 68（manual_discord: 0 / auto_x_grok: 68）
+重複除外: 0
+失敗件数: 0
+
+市場別追加件数:
+- polymarket: 25
+- kalshi: 15
+- opinion: 1
+- multi-market: 0
+- other-market: 27
+
+カテゴリ別追加件数:
+- ideas: 1
+- watchlist: 44
+- dev-tools: 3
+- other: 20
+
+重要トピック TOP3:
+1) [watchlist] 这两天跑 polymarket 延迟套利 (latency arb) 的血泪教训。 本地看那些未成交的信号，理论胜率能跑到 98% 以上。 结果 / https://x.com/runes_leo/status/2024406157897371981
+
+戦略候補（strategy-candidates）:
+- STRAT-0002 polymarket: just in: the odds of jesus christ returning this year have s（根拠ID: IDEA-0002）
+- STRAT-0003 other-market: this article is not investment advice. it is simply a sharin（根拠ID: TOOL-0002）
+- STRAT-0004 other-market: this is not investment advice. do not invest what you cannot（根拠ID: TOOL-0003）

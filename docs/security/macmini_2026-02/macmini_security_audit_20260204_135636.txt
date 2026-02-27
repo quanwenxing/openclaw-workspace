@@ -1,0 +1,85 @@
+# Mac mini security snapshot
+Wed Feb  4 13:56:36 JST 2026
+
+## OS / hardware
+ProductName:		macOS
+ProductVersion:		26.2
+BuildVersion:		25C56
+Darwin usernamenoMini 25.2.0 Darwin Kernel Version 25.2.0: Tue Nov 18 21:08:48 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T8132 arm64
+
+## Users / login
+uid=501(username) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),701(com.apple.sharepoint.group.1),33(_appstore),98(_lpadmin),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae)
+username
+_mbsetupuser username
+username   ttys005  100.120.10.60          Wed Feb  4 13:49 - 13:50  (00:01)
+username   ttys005                         Wed Feb  4 00:54 - 00:54  (00:00)
+username   ttys006                         Wed Feb  4 00:33 - 00:33  (00:00)
+username   ttys005                         Wed Feb  4 00:33 - 00:33  (00:00)
+username   ttys004                         Wed Feb  4 00:12   still logged in
+username   ttys000                         Tue Feb  3 22:17 - 22:17  (00:00)
+username   ttys000                         Tue Feb  3 20:25 - 20:25  (00:00)
+username   ttys000                         Tue Feb  3 19:47 - 19:47  (00:00)
+username   ttys002  100.120.10.60          Tue Feb  3 19:26 - 19:27  (00:00)
+username   ttys002  100.120.10.60          Tue Feb  3 19:25 - 19:26  (00:01)
+username   ttys001                         Tue Feb  3 19:21 - 19:21  (00:00)
+username   ttys000                         Tue Feb  3 19:17 - 19:17  (00:00)
+username   ttys002  100.120.10.60          Tue Feb  3 19:15 - 19:15  (00:00)
+username   ttys001                         Tue Feb  3 19:13 - 19:13  (00:00)
+username   ttys001                         Tue Feb  3 19:11 - 19:11  (00:00)
+username   ttys001                         Tue Feb  3 19:11 - 19:11  (00:00)
+username   ttys000                         Tue Feb  3 19:03 - 19:03  (00:00)
+username   ttys001                         Tue Feb  3 19:01 - 19:01  (00:00)
+username   ttys000                         Tue Feb  3 18:54 - 18:54  (00:00)
+username   ttys002                         Tue Feb  3 18:51 - 18:51  (00:00)
+
+## FileVault
+FileVault is On.
+
+## SIP (System Integrity Protection)
+System Integrity Protection status: enabled.
+
+## Gatekeeper / app execution policy
+zsh:25: command not found: spctl
+
+## Firewall (Application Firewall)
+Firewall is disabled. (State = 0)
+Firewall stealth mode is off
+Firewall has block all state set to disabled.
+
+## Sharing / remote access (may require admin for some fields)
+zsh:33: command not found: systemsetup
+zsh:34: command not found: systemsetup
+zsh:35: command not found: systemsetup
+zsh:36: command not found: systemsetup
+zsh:37: command not found: systemsetup
+zsh:38: command not found: systemsetup
+
+## launchd: login items / agents (directories only)
+- /Library/LaunchAgents
+total 0
+drwxr-xr-x   2 root  wheel    64 Nov 22 22:49 .
+drwxr-xr-x  66 root  wheel  2112 Feb  3 18:40 ..
+- /Library/LaunchDaemons
+total 0
+drwxr-xr-x   2 root  wheel    64 Jan  8 05:45 .
+drwxr-xr-x  66 root  wheel  2112 Feb  3 18:40 ..
+- ~/Library/LaunchAgents
+total 32
+drwx------@  6 username  staff   192 Feb  2 22:26 .
+drwx------@ 83 username  staff  2656 Feb  4 00:32 ..
+-rw-r--r--   1 username  staff  1620 Feb  2 22:26 ai.openclaw.gateway.plist
+-rw-r--r--@  1 username  staff   875 Feb  2 21:58 com.google.GoogleUpdater.wake.plist
+-rw-r--r--@  1 username  staff   181 Feb  2 21:58 com.google.keystone.agent.plist
+-rw-r--r--@  1 username  staff   181 Feb  2 21:58 com.google.keystone.xpcservice.plist
+
+## Listening ports (user-visible)
+zsh:46: command not found: lsof
+
+## Network interfaces
+
+## DNS / resolver
+
+## Wi-Fi
+zsh:55: no such file or directory: /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport
+
+## Recent security-relevant logs (last 1 day, filtered)

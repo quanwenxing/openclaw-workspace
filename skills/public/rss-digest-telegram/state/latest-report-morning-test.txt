@@ -1,0 +1,41 @@
+【RSS更新サマリー】朝 2026-02-13 00:49 JST
+対象: 2026-02-12 前日分
+
+■ daringfireball.net
+・Apple Creator Studio Usage Restrictions — Andrew Cunningham, writing for Ars Technica at the end of January: Apple also outlines a number of usage restrictions fo…
+出典: https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/
+
+■ devblogs.microsoft.com/oldnewthing
+・How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode? — You can prevent the item from becoming hot-tracked. The post How do I suppress the hover effects when I put a Win32 comm…
+出典: https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057
+
+■ idiallo.com
+・Markdown.exe — I've been spending time looking through "skills" for LLMs, and I feel like I'm the only one panicking. Nobody else seems…
+出典: https://idiallo.com/byte-size/markdown-exe?src=feed
+
+■ krebsonsecurity.com
+・Kimwolf Botnet Swamps Anonymity Network I2P — For the past week, the massive "Internet of Things" (IoT) botnet known as Kimwolf has been disrupting the The Invisible …
+出典: https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/
+
+■ pluralistic.net
+・Pluralistic: Doctors' union may yet save the NHS from Palantir (12 Feb 2026) — Today's links Doctors' union may yet save the NHS from Palantir: There is power in the union. Hey look at this: Delights…
+出典: https://pluralistic.net/2026/02/12/palantir-is-ice/
+
+■ shkspr.mobi
+・Book Review: On the Calculation of Volume - Solvej Balle ★★★★★ — I had the most intense time reading this book. Do you ever see the date of a famous event and notice that it is also the…
+出典: https://shkspr.mobi/blog/2026/02/book-review-on-the-calculation-of-volume-solvej-balle/
+
+■ simonwillison.net
+・Quoting Andrew Deck for Niemen Lab — An AI-generated report, delivered directly to the email inboxes of journalists, was an essential tool in the Times’ cove…
+出典: https://simonwillison.net/2026/Feb/11/manosphere-report/#atom-everything
+・Skills in OpenAI API — Skills in OpenAI API OpenAI's adoption of Skills continues to gain ground. You can now use Skills directly in the OpenAI…
+出典: https://simonwillison.net/2026/Feb/11/skills-in-openai-api/#atom-everything
+
+■ xeiaso.net
+・The Discourse has been Automated — An AI agent submitted a PR to matplotlib, got rejected, and then wrote a callout blogpost attacking the maintainer. I ha…
+出典: https://xeiaso.net/notes/2026/the-discourse-has-been-automated/
+
+更新ソース数: 8 / 20
+採用記事数: 9
+重複除外: 0
+取得失敗ソース: 2

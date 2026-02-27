@@ -1,0 +1,84 @@
+# sources.yaml
+# 監視・要約の対象ソース一覧（もんちゃんが随時メンテできるようにする）
+# - 原則：ソースごとに「取得方法」「頻度」「出典URL」「注意点」を明記
+# - 追加/変更はこのファイルを更新して反映
+
+sources:
+  - id: nikkei
+    name: 日本経済新聞（NIKKEI）
+    kind: website
+    urls:
+      - https://www.nikkei.com/
+      - https://www.nikkei.com/news/category/
+      - https://www.nikkei.com/markets/
+    access:
+      auth_required: false   # 有料本文まで要約する場合は true にして別途手段を指定
+      method: web_fetch      # web_fetch | browser | rss | api
+    schedule:
+      cadence: daily
+      default_count: 8
+    output:
+      language: ja
+      style: bullets
+    notes:
+      - "未ログインだと取得できるのは見出し/冒頭中心。"
+
+  - id: nikkin
+    name: ニッキンONLINE
+    kind: website
+    urls:
+      - https://www.nikkinonline.com/
+    access:
+      auth_required: true
+      method: browser        # cookie維持で本文取得を狙う（切れたらフォールバック）
+    schedule:
+      cadence: daily
+      default_count: 8
+    output:
+      language: ja
+      style: bullets
+    notes:
+      - "有料会員ログイン前提。ログイン切れ時は見出しのみで送る。"
+
+  - id: hackernews
+    name: Hacker News
+    kind: rss
+    urls:
+      - https://news.ycombinator.com/rss
+    access:
+      auth_required: false
+      method: rss
+    schedule:
+      cadence: daily
+      default_count: 10
+    output:
+      language: ja
+      style: bullets
+    notes:
+      - "英語ソース。タイトルは原文＋日本語要点で出すのが良さそう。"
+
+  # - id: huggingface_daily_papers
+  #   name: Hugging Face Daily Papers
+  #   kind: website
+  #   urls:
+  #     - https://huggingface.co/papers
+  #   access:
+  #     auth_required: false
+  #     method: web_fetch
+  #   schedule:
+  #     cadence: daily
+  #     default_count: 8
+  #   output:
+  #     language: ja
+  #     style: bullets
+  #   notes:
+  #     - "停止中（もんちゃんの指示）"
+
+# 追加の候補はここに追記していく
+# 例（RSS）:
+# - id: example_rss
+#   name: Example RSS
+#   kind: rss
+#   urls: ["https://example.com/rss.xml"]
+#   access: { auth_required: false, method: rss }
+#   schedule: { cadence: daily, default_count: 5 }

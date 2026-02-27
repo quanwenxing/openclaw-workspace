@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><title>Dashboard</title></head>
+<body>
+  <h2>MVP Dashboard</h2>
+  <p>ユーザー: {{ session.username }} ({{ session.role }}) | <a href="/logout">Logout</a></p>
+  <ul>
+    <li>顧客数: {{ counts.customers }}</li>
+    <li>契約数: {{ counts.contracts }}</li>
+    <li>案件数: {{ counts.opportunities }}</li>
+  </ul>
+
+  <h3>案件ステージ内訳</h3>
+  <ul>
+    {% for s in stage_stats %}
+      <li>{{ s['stage'] }}: {{ s['cnt'] }}</li>
+    {% endfor %}
+  </ul>
+
+  <h3>60日以内の満期契約</h3>
+  <ul>
+    {% for c in upcoming %}
+      <li>#{{ c['id'] }} {{ c['customer_name'] }} / {{ c['policy_number'] }} / {{ c['end_date'] }}</li>
+    {% else %}
+      <li>なし</li>
+    {% endfor %}
+  </ul>
+
+  <h3>API例</h3>
+  <ul>
+    <li>GET /customers</li>
+    <li>POST /customers</li>
+    <li>GET /contracts</li>
+    <li>GET /opportunities</li>
+    <li>GET /reminders</li>
+    <li>GET /audit-logs (manager以上)</li>
+  </ul>
+</body>
+</html>

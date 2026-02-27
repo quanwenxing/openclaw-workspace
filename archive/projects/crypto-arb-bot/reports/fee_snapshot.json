@@ -1,0 +1,35 @@
+[
+  {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "trading_fee_error": "binance requires \"apiKey\" credential",
+    "market_fallback_fees": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "btc_networks": {},
+    "btc_withdraw_fee": null
+  },
+  {
+    "exchange": "kraken",
+    "symbol": "BTC/USDT",
+    "trading_fee_error": "kraken requires \"apiKey\" credential",
+    "market_fallback_fees": {
+      "maker": 0.0025,
+      "taker": 0.004
+    },
+    "btc_networks": {},
+    "btc_withdraw_fee": null
+  },
+  {
+    "exchange": "coinbase",
+    "symbol": "BTC/USDT",
+    "trading_fee_error": "coinbase requires \"apiKey\" credential",
+    "market_fallback_fees": {
+      "maker": 0.006,
+      "taker": 0.012
+    },
+    "btc_networks": {},
+    "btc_withdraw_fee": null
+  }
+]

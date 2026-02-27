@@ -1,0 +1,10 @@
+# SSH config snapshot
+Wed Feb  4 13:57:04 JST 2026
+
+## /etc/ssh/sshd_config (non-comment lines)
+Include /etc/ssh/sshd_config.d/*
+AuthorizedKeysFile	.ssh/authorized_keys
+Subsystem	sftp	/usr/libexec/sftp-server
+
+## Effective sshd settings (if available)
+sshd -T not available without privileges or sshd not present

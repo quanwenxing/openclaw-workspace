@@ -1,0 +1,27 @@
+[Daily Market Intel] 2026-02-18 (JST 18:00実行)
+Summary-1: 取得投稿 0件 / 新規登録 0件
+Summary-2: ソース内訳 manual_discord=0 / auto_x_grok=0
+Summary-3: 重要TOP1 なし
+
+取得投稿数: 0
+新規登録: 0（manual_discord: 0 / auto_x_grok: 0）
+重複除外: 0
+失敗件数: 0
+
+市場別追加件数:
+- polymarket: 0
+- kalshi: 0
+- opinion: 0
+- multi-market: 0
+- other-market: 0
+
+カテゴリ別追加件数:
+- ideas: 0
+- watchlist: 0
+- dev-tools: 0
+- other: 0
+
+重要トピック TOP3:
+
+戦略候補（strategy-candidates）:
+- なし

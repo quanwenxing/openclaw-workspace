@@ -1,0 +1,52 @@
+# Addendum (command path fixes)
+Wed Feb  4 13:56:50 JST 2026
+
+## Command paths
+spctl: (not in PATH)
+systemsetup: (not in PATH)
+lsof: (not in PATH)
+netstat: (not in PATH)
+pfctl: (not in PATH)
+socketfilterfw: (not in PATH)
+
+## Gatekeeper
+assessments enabled
+
+## Sharing / remote access
+You need administrator access to run this tool... exiting!
+You need administrator access to run this tool... exiting!
+You need administrator access to run this tool... exiting!
+
+## Listening ports
+COMMAND    PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ARDAgent 18342 username   10u  IPv6 0xa768a5e7873cf48e      0t0  TCP *:3283 (LISTEN)
+node     49961 username   15u  IPv4 0xac2e3e304076f192      0t0  TCP 127.0.0.1:18789 (LISTEN)
+node     49961 username   16u  IPv6 0x5bcb342a6bcacee7      0t0  TCP [::1]:18789 (LISTEN)
+node     49961 username   26u  IPv4 0x3a21cea570fd9dbe      0t0  TCP 127.0.0.1:18792 (LISTEN)
+
+## netstat listeners
+tcp4       0      0  127.0.0.1.18792        *.*                    LISTEN                 0            0  131072  131072             node:49961  00100 00000106 00000000000862b9 00000001 00000800      1      0 000000
+tcp6       0      0  ::1.18789              *.*                    LISTEN                 0            0  131072  131072             node:49961  00100 00000106 000000000008629f 00000001 00000800      1      0 000000
+tcp4       0      0  127.0.0.1.18789        *.*                    LISTEN                 0            0  131072  131072             node:49961  00100 00000106 000000000008629e 00000001 00000800      1      0 000000
+tcp6       0      0  *.55284                *.*                    LISTEN                 0            0  131072  131072 io.tailscale.ipn:21393  00180 00000006 000000000006d42a 00000000 00000800      1      0 000000
+tcp4       0      0  *.64291                *.*                    LISTEN                 0            0  131072  131072 io.tailscale.ipn:21393  00180 00000006 000000000006d429 00000000 00000800      1      0 000000
+tcp6       0      0  fd7a:115c:a1e0::.5252  *.*                    LISTEN                 0            0  131072  131072 io.tailscale.ipn:21393  00180 00000006 000000000006c001 00000000 00000800      1      0 000000
+tcp4       0      0  100.88.148.45.5252     *.*                    LISTEN                 0            0  131072  131072 io.tailscale.ipn:21393  00180 00000006 000000000006c000 00000000 00000800      1      0 000000
+tcp4       0      0  127.0.0.1.55734        *.*                    LISTEN                 0            0  131072  131072 io.tailscale.ipn:21393  00180 00000006 000000000006b341 00000000 00000800      1      0 000000
+tcp46      0      0  *.3283                 *.*                    LISTEN                 0            0  131072  131072         ARDAgent:18342  00000 00000202 0000000000066eec 00000040 00000800      2      0 000000
+tcp4       0      0  *.88                   *.*                    LISTEN                 0            0  131072  131072              kdc:18343  00180 00000006 0000000000066ee7 00000001 00000800      1      0 000000
+tcp6       0      0  *.88                   *.*                    LISTEN                 0            0  131072  131072              kdc:18343  00180 00000006 0000000000066ee5 00000001 00000800      1      0 000000
+tcp4       0      0  *.5900                 *.*                    LISTEN                 0            0  131072  131072          launchd:1      00180 00000006 0000000000066edb 00000000 00000800      1      0 000000
+tcp6       0      0  *.5900                 *.*                    LISTEN                 0            0  131072  131072          launchd:1      00180 00000006 0000000000066eda 00000000 00000800      1      0 000000
+tcp4       0      0  *.22                   *.*                    LISTEN                 0            0  131072  131072          launchd:1      00180 00000006 0000000000066e5d 00000000 00000800      1      0 000000
+tcp6       0      0  *.22                   *.*                    LISTEN                 0            0  131072  131072          launchd:1      00180 00000006 0000000000066e5c 00000000 00000800      1      0 000000
+tcp46      0      0  *.58719                *.*                    LISTEN                 0            0  131072  131072        symptomsd:189    00100 00000006 0000000000000975 00000000 00080800      1      0 000000
+
+## PF (packet filter)
+pfctl: /dev/pf: Permission denied
+
+## Tailscale presence
+Warning: client version "1.94.1-td885b3477" != tailscaled server version "1.94.1-t62c6f1cd7-g09fea6572"
+100.102.0.7    usernamemac-mini  quanwenxing@  macOS  -                          
+100.120.10.60  iphone-13         quanwenxing@  iOS    idle, tx 95140 rx 50764    
+100.79.247.77  mba               quanwenxing@  macOS  offline, last seen 2h ago  

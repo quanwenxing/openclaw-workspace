@@ -1,0 +1,67 @@
+{
+  "history": [
+    {
+      "date": "2026-02-18",
+      "daily": {
+        "date": "2026-02-18",
+        "total_posts": 0,
+        "processed_posts": 0,
+        "new_entries": 0,
+        "duplicates": 0,
+        "excluded_noise": 0,
+        "account_success": 10,
+        "account_failed": 0
+      },
+      "kpi": {
+        "precision_top3": 0.0,
+        "noise_rate": 0.0,
+        "duplicate_escape_rate": 0.0,
+        "strategy_conversion_rate": 0.0,
+        "coverage": 1.0
+      },
+      "updated_at": "2026-02-18T16:12:53.685364+09:00"
+    },
+    {
+      "date": "2026-02-19",
+      "daily": {
+        "date": "2026-02-19",
+        "total_posts": 68,
+        "processed_posts": 68,
+        "new_entries": 68,
+        "duplicates": 0,
+        "excluded_noise": 0,
+        "account_success": 11,
+        "account_failed": 0
+      },
+      "kpi": {
+        "precision_top3": 1.0,
+        "noise_rate": 0.0,
+        "duplicate_escape_rate": 0.0,
+        "strategy_conversion_rate": 0.0,
+        "coverage": 1.0
+      },
+      "updated_at": "2026-02-19T18:00:09.484954+09:00"
+    },
+    {
+      "date": "2026-02-22",
+      "daily": {
+        "date": "2026-02-22",
+        "total_posts": 0,
+        "processed_posts": 0,
+        "new_entries": 0,
+        "duplicates": 0,
+        "excluded_noise": 0,
+        "account_success": 0,
+        "account_failed": 0
+      },
+      "kpi": {
+        "precision_top3": 0.0,
+        "noise_rate": 0.0,
+        "duplicate_escape_rate": 0.0,
+        "strategy_conversion_rate": 0.0,
+        "coverage": 0.0
+      },
+      "updated_at": "2026-02-22T19:00:12.054988+09:00"
+    }
+  ]
+}

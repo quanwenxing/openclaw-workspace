@@ -1,0 +1,13 @@
+# SSHD include dir
+Wed Feb  4 13:57:10 JST 2026
+
+total 8
+drwxr-xr-x   3 root  wheel   96 Nov 22 23:33 .
+drwxr-xr-x  15 root  wheel  480 Feb  3 19:15 ..
+-rw-r--r--   1 root  wheel  122 Nov 22 22:49 100-macos.conf
+
+## /etc/ssh/sshd_config.d/100-macos.conf
+UsePAM yes
+AcceptEnv LANG LC_*
+Include /etc/ssh/crypto.conf
+

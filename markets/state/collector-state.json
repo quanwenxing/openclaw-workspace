@@ -1,0 +1,39 @@
+{
+  "last_run_at": "2026-02-19T18:00:04.402767+09:00",
+  "last_success": true,
+  "accounts": {
+    "Polymarket": {
+      "since_id": "2024327355255111962"
+    },
+    "Kalshi": {
+      "since_id": "2024228933600682046"
+    },
+    "opinionlabsxyz": {
+      "since_id": "2024362669181219277"
+    },
+    "Mikocrypto11": {
+      "since_id": "2024126758606270587"
+    },
+    "runes_leo": {
+      "since_id": "2024406161617727709"
+    },
+    "the_smart_ape": {
+      "since_id": "2024382321064055186"
+    },
+    "hhhx402": {
+      "since_id": "0"
+    },
+    "wuyidefi": {
+      "since_id": "0"
+    },
+    "Kakoy97": {
+      "since_id": "0"
+    },
+    "0xTykoo": {
+      "since_id": "2024389116327317719"
+    },
+    "supernovajunn": {
+      "since_id": "2024356263015174657"
+    }
+  }
+}

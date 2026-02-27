@@ -1,0 +1,10 @@
+{
+  "id": "YYYYMMDD-HHMM_task-slug",
+  "title": "作業タイトル",
+  "status": "todo",
+  "requested_by": "もんちゃん",
+  "created_at": "YYYY-MM-DDTHH:MM:SS+09:00",
+  "updated_at": "YYYY-MM-DDTHH:MM:SS+09:00",
+  "tags": [],
+  "summary": "2〜4行で要約"
+}

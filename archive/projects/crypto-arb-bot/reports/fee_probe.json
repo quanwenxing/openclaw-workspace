@@ -1,0 +1,58 @@
+[
+  {
+    "exchange": "bybit",
+    "symbol": "BTC/USDT",
+    "trading_fee_market": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "withdrawal_btc": {
+      "error": "'NoneType' object has no attribute 'get'"
+    }
+  },
+  {
+    "exchange": "okx",
+    "symbol": "BTC/USDT",
+    "trading_fee_market": {
+      "maker": 0.001,
+      "taker": 0.0015
+    },
+    "withdrawal_btc": {
+      "error": "'NoneType' object has no attribute 'get'"
+    }
+  },
+  {
+    "exchange": "kucoin",
+    "symbol": "BTC/USDT",
+    "trading_fee_market": {
+      "maker": 0.001,
+      "taker": 0.001
+    },
+    "withdrawal_btc": {
+      "BRC20": {
+        "withdraw": true,
+        "fee": 9e-05
+      },
+      "BEP20": {
+        "withdraw": true,
+        "fee": 4e-06
+      },
+      "btcln": {
+        "withdraw": true,
+        "fee": 2e-05
+      },
+      "KCC": {
+        "withdraw": true,
+        "fee": 2e-05
+      },
+      "ARBONE": {
+        "withdraw": false,
+        "fee": 0.0001
+      },
+      "BTCNATIVESEGWIT": {
+        "withdraw": false,
+        "fee": 0.0005
+      }
+    }
+  }
+]

@@ -1,0 +1,354 @@
+# Watchlist
+
+フォーマット:
+- ID: WATCH-0001
+- Name/Address:
+- Type: address | person | org
+- Chain/Platform:
+- Why Track:
+- Signals:
+- Source:
+- Source Type: manual_discord | auto_x_grok
+- Tags:
+- First Seen At:
+- Event Time:
+- Updated:
+
+- ID: WATCH-0002
+- Name/Address: agent payment用不用crypto这个问题，我问了一些行业里很有名的一些vc的观点，其实真的算下来60%以上左右的朋友是不信的（但也不
+- Type: person
+- Chain/Platform: x
+- Why Track: Agent payment用不用crypto这个问题，我问了一些行业里很有名的一些VC的观点，其实真的算下来60%以上左右的朋友是不信的（但也不妨碍他们基金下注），当然也和我提问的方式有关。  我觉得有可能是大家在争吵的题目是没对上号，所以会出现你吵你的、我信我的情况。 https://t.co/jB3cDmbOdc
+- Signals: Agent payment用不用crypto这个问题，我问了一些行业里很有名的一些VC的观点，其实真的算下来60%以上左右的朋友是不信的（但也不妨碍他们基金下注），当然也和我提问的方式有关。  我觉得有可能是大家在争吵的题目是没对上号，所以会出现你吵你的、我信我的情况。 https://t.co/jB3cDmbOdc
+- Source: https://x.com/0xTykoo/status/2023991850617671938
+- Source Type: auto_x_grok
+- Tags: low-priority
+- First Seen At: 2026-02-18 14:59:44 JST
+- Event Time: 2026-02-18T05:23:55.000Z
+- Updated: 2026-02-18 14:59:44 JST
+
+- ID: WATCH-0003
+- Name/Address: web4做了一个能完全独立赚钱、自我改进并复制的ai 代理。 它拥有自己的加密钱包，使用稳定币支付计算资源，通过部署产品和服务赚取收入。 如果余
+- Type: person
+- Chain/Platform: x
+- Why Track: Web4做了一个能完全独立赚钱、自我改进并复制的AI 代理。  它拥有自己的加密钱包，使用稳定币支付计算资源，通过部署产品和服务赚取收入。  如果余额耗尽，它会”死亡”，这引入了生存压力，促进自然选择般的进化。  我感觉玩过sol上ai https://t.co/of8sfbFB6H
+- Signals: Web4做了一个能完全独立赚钱、自我改进并复制的AI 代理。  它拥有自己的加密钱包，使用稳定币支付计算资源，通过部署产品和服务赚取收入。  如果余额耗尽，它会”死亡”，这引入了生存压力，促进自然选择般的进化。  我感觉玩过sol上ai https://t.co/of8sfbFB6H
+- Source: https://x.com/0xTykoo/status/2023985194966155653
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-18 14:59:44 JST
+- Event Time: 2026-02-18T04:57:28.000Z
+- Updated: 2026-02-18 14:59:44 JST
+
+- ID: WATCH-0004
+- Name/Address: 今天这个lemon产品新上的功能就是按fn按钮然后可以语音操作去调用agent去做具体的动作， 比如收到邮件然后按一下按钮然后说“帮我找个借口说
+- Type: person
+- Chain/Platform: x
+- Why Track: 今天这个lemon产品新上的功能就是按fn按钮然后可以语音操作去调用agent去做具体的动作，  比如收到邮件然后按一下按钮然后说“帮我找个借口说给晚了，回复一下”  我感觉创业公司在抢的是快捷唤醒的那个键位。 https://t.co/Ehj8Ol0Ahf
+- Signals: 今天这个lemon产品新上的功能就是按fn按钮然后可以语音操作去调用agent去做具体的动作，  比如收到邮件然后按一下按钮然后说“帮我找个借口说给晚了，回复一下”  我感觉创业公司在抢的是快捷唤醒的那个键位。 https://t.co/Ehj8Ol0Ahf
+- Source: https://x.com/0xTykoo/status/2023976171008823784
+- Source Type: auto_x_grok
+- Tags: low-priority
+- First Seen At: 2026-02-18 14:59:44 JST
+- Event Time: 2026-02-18T04:21:37.000Z
+- Updated: 2026-02-18 14:59:44 JST
+
+- ID: WATCH-0005
+- Name/Address: 如果你是学生、建筑师，或者还在上学—— 这个“工具”你一定用得到 爱因斯坦用过 伽利略用过 甚至特朗普也用过 是什么？ 答案在最后 —— 先看这
+- Type: person
+- Chain/Platform: x
+- Why Track: 如果你是学生、建筑师，或者还在上学—— 这个“工具”你一定用得到  爱因斯坦用过 伽利略用过 甚至特朗普也用过  是什么？ 答案在最后 —— 先看这个交易者： https://t.co/LTt2xQTWiB  5 分钟 BTC 盘传奇 5 天赚 $52k 基本每天 $10k–$15k  数据： 预测 1,078 次 胜率 73.2% 最大单笔盈利 $1,151 https://t.co/RhHLt...
+- Signals: 如果你是学生、建筑师，或者还在上学—— 这个“工具”你一定用得到  爱因斯坦用过 伽利略用过 甚至特朗普也用过  是什么？ 答案在最后 —— 先看这个交易者： https://t.co/LTt2xQTWiB  5 分钟 BTC 盘传奇 5 天赚 $52k 基本每天 $10k–$15k  数据： 预测 1,078 次 胜率 73.2% 最大单笔盈利 $1,151 https://t.co/RhHLt...
+- Source: https://x.com/Mikocrypto11/status/2024007220644417669
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-18 15:51:29 JST
+- Event Time: 2026-02-18T06:25:00.000Z
+- Updated: 2026-02-18 15:51:29 JST
+
+- ID: WATCH-0006
+- Name/Address: 今天帮朋友做一个海报，我想着把各个ai产品都试一下做个对比多点选择，然后发现canva竟然到今天还不能prompt生成海报… 让我自己选模版去改
+- Type: person
+- Chain/Platform: x
+- Why Track: 今天帮朋友做一个海报，我想着把各个ai产品都试一下做个对比多点选择，然后发现Canva竟然到今天还不能prompt生成海报… 让我自己选模版去改… 上次测一个ai设计前端也是吊差异化没有… 这公司在干什么呢… https://t.co/XmVq7bJEr3
+- Signals: 今天帮朋友做一个海报，我想着把各个ai产品都试一下做个对比多点选择，然后发现Canva竟然到今天还不能prompt生成海报… 让我自己选模版去改… 上次测一个ai设计前端也是吊差异化没有… 这公司在干什么呢… https://t.co/XmVq7bJEr3
+- Source: https://x.com/0xTykoo/status/2024005570769154064
+- Source Type: auto_x_grok
+- Tags: low-priority
+- First Seen At: 2026-02-18 15:51:29 JST
+- Event Time: 2026-02-18T06:18:26.000Z
+- Updated: 2026-02-18 15:51:29 JST
+
+
+- ID: WATCH-0007
+- Name/Address: “他靠预测 15 分钟市场，把 $284 变成 $850k。” 听起来像天才交易员 但真相可能完全不是你想的那样 他根本不预测方向 —— 拆一下
+- Type: person
+- Chain/Platform: x
+- Why Track: “他靠预测 15 分钟市场，把 $284 变成 $850k。” 听起来像天才交易员 但真相可能完全不是你想的那样 他根本不预测方向 —— 拆一下结构 他做的是 15 分钟二元市场 核心动作重复得非常机械 当波动拉大，一边被情绪砸到 0.32 以下时，他开始建仓 但不是无脑抄底 他同时盯着 YES 和 NO 两边 https://t.co/ezG5bzZC3O https://t.co/mLgv49...
+- Signals: “他靠预测 15 分钟市场，把 $284 变成 $850k。” 听起来像天才交易员 但真相可能完全不是你想的那样 他根本不预测方向 —— 拆一下结构 他做的是 15 分钟二元市场 核心动作重复得非常机械 当波动拉大，一边被情绪砸到 0.32 以下时，他开始建仓 但不是无脑抄底 他同时盯着 YES 和 NO 两边 https://t.co/ezG5bzZC3O https://t.co/mLgv49...
+- Source: https://x.com/Mikocrypto11/status/2024114175258382723
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T13:30:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0008
+- Name/Address: 这笔 $347,269 的利润，来自一个“反着来”的狠人。他不是押加拿大拿金牌。他是押——加拿大拿不到。这个交易者叫 pollard 目前光靠押
+- Type: person
+- Chain/Platform: x
+- Why Track: 这笔 $347,269 的利润，来自一个“反着来”的狠人。他不是押加拿大拿金牌。他是押——加拿大拿不到。这个交易者叫 pollard 目前光靠押男子冬奥冰球，已经浮盈 $180,000  Profile 在这： https://t.co/4es0mQdXKO  ——最夸张的是：他一周前才创建账号 现在已经成了体育盘里最赚钱的一批人之一 https://t.co/ZKEz9sjl6Y https:/...
+- Signals: 这笔 $347,269 的利润，来自一个“反着来”的狠人。他不是押加拿大拿金牌。他是押——加拿大拿不到。这个交易者叫 pollard 目前光靠押男子冬奥冰球，已经浮盈 $180,000  Profile 在这： https://t.co/4es0mQdXKO  ——最夸张的是：他一周前才创建账号 现在已经成了体育盘里最赚钱的一批人之一 https://t.co/ZKEz9sjl6Y https:/...
+- Source: https://x.com/Mikocrypto11/status/2024074413289972222
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T10:52:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0009
+- Name/Address: 这个 bot 的数据确实很夸张 $571 → $171,000 一个月时间 5 分钟市场上线之后，最近 5 天又赚了 $95,000 账户在这：
+- Type: person
+- Chain/Platform: x
+- Why Track: 这个 bot 的数据确实很夸张 $571 → $171,000 一个月时间 5 分钟市场上线之后，最近 5 天又赚了 $95,000  账户在这：  https://t.co/6BxU7akhFS  胜率 84% 盈利全部来自 BTC / ETH 短周期市场： 15 分钟：+$87,672 5 分钟：+$80,755 1 小时：+$3,089 —— 先把情绪压下来 571 → 171k，意味着什么...
+- Signals: 这个 bot 的数据确实很夸张 $571 → $171,000 一个月时间 5 分钟市场上线之后，最近 5 天又赚了 $95,000  账户在这：  https://t.co/6BxU7akhFS  胜率 84% 盈利全部来自 BTC / ETH 短周期市场： 15 分钟：+$87,672 5 分钟：+$80,755 1 小时：+$3,089 —— 先把情绪压下来 571 → 171k，意味着什么...
+- Source: https://x.com/Mikocrypto11/status/2024056797460398489
+- Source Type: auto_x_grok
+- Tags: bot
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T09:42:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0010
+- Name/Address: post-2024406161617727709
+- Type: person
+- Chain/Platform: x
+- Why Track: https://t.co/3F6ftiFcLm
+- Signals: https://t.co/3F6ftiFcLm
+- Source: https://x.com/runes_leo/status/2024406161617727709
+- Source Type: auto_x_grok
+- Tags: low-priority
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T08:50:15.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0011
+- Name/Address: dax 说出了很多团队引入 ai 后的残酷真相： 大家都在幻想 ai 能让团队效率飞升，仿佛以前被卡住是因为写代码太慢。 现实却是： - 坏点子
+- Type: person
+- Chain/Platform: x
+- Why Track: Dax 说出了很多团队引入 AI 后的残酷真相：  大家都在幻想 AI 能让团队效率飞升，仿佛以前被卡住是因为写代码太慢。  现实却是： - 坏点子通胀：以前点子因为实现贵而被过滤，现在因为实现便宜，大量垃圾想法被做出来了。 - 摸鱼放大器：大部分员工用 AI 不是为了产出 10 https://t.co/fo4FqU4EOk
+- Signals: Dax 说出了很多团队引入 AI 后的残酷真相：  大家都在幻想 AI 能让团队效率飞升，仿佛以前被卡住是因为写代码太慢。  现实却是： - 坏点子通胀：以前点子因为实现贵而被过滤，现在因为实现便宜，大量垃圾想法被做出来了。 - 摸鱼放大器：大部分员工用 AI 不是为了产出 10 https://t.co/fo4FqU4EOk
+- Source: https://x.com/runes_leo/status/2024390616894079061
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T07:48:29.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0012
+- Name/Address: 很多人陷入焦虑的死循环：感到难受 -&gt; 试图分析原因 -&gt; 陷入反刍 -&gt; 更难受。🛑 张朝阳给出的解法极其反直觉，但符合神经
+- Type: person
+- Chain/Platform: x
+- Why Track: 很多人陷入焦虑的死循环：感到难受 -&gt; 试图分析原因 -&gt; 陷入反刍 -&gt; 更难受。🛑  张朝阳给出的解法极其反直觉，但符合神经可塑性原理： 感到焦虑 -&gt; "哦，知道了" -&gt; 继续做事。 https://t.co/nJB5lRvd1j
+- Signals: 很多人陷入焦虑的死循环：感到难受 -&gt; 试图分析原因 -&gt; 陷入反刍 -&gt; 更难受。🛑  张朝阳给出的解法极其反直觉，但符合神经可塑性原理： 感到焦虑 -&gt; "哦，知道了" -&gt; 继续做事。 https://t.co/nJB5lRvd1j
+- Source: https://x.com/runes_leo/status/2024359795894161706
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T05:46:00.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0013
+- Name/Address: 这个视角太犀利了。 进化论决定了人类是大脑吝啬鬼 (cognitive miser)。 系统2（人脑推理） 极度耗能且慢，系统3（ai推理） 极
+- Type: person
+- Chain/Platform: x
+- Why Track: 这个视角太犀利了。  进化论决定了人类是大脑吝啬鬼 (Cognitive Miser)。  系统2（人脑推理） 极度耗能且慢，系统3（AI推理） 极其廉价且快。只要有机会，大脑一定会把 System 2 的工作外包给 System 3。  未来的分化： 99% 的人退化成“纯系统1用户”（只会被动消费答案）。 1% https://t.co/2dtDLNcHKA
+- Signals: 这个视角太犀利了。  进化论决定了人类是大脑吝啬鬼 (Cognitive Miser)。  系统2（人脑推理） 极度耗能且慢，系统3（AI推理） 极其廉价且快。只要有机会，大脑一定会把 System 2 的工作外包给 System 3。  未来的分化： 99% 的人退化成“纯系统1用户”（只会被动消费答案）。 1% https://t.co/2dtDLNcHKA
+- Source: https://x.com/runes_leo/status/2024323003606253993
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T03:19:48.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0014
+- Name/Address: 工程师的职责正在从“写代码”变为“设计能够写代码的系统”。 michael 提出的这几条新法则非常切中要害，特别是： 1️⃣ 上午10点前不动代
+- Type: person
+- Chain/Platform: x
+- Why Track: 工程师的职责正在从“写代码”变为“设计能够写代码的系统”。  Michael 提出的这几条新法则非常切中要害，特别是：  1️⃣ 上午10点前不动代码：把最清醒的脑力用于对齐目标和设计架构，而不是陷入实现的细节。  2️⃣ 算力丰饶，注意力稀缺：摩尔定律让算力指数级贬值，而人的时间是刚性的。能用 10 美元的 API https://t.co/v0Szitle1x
+- Signals: 工程师的职责正在从“写代码”变为“设计能够写代码的系统”。  Michael 提出的这几条新法则非常切中要害，特别是：  1️⃣ 上午10点前不动代码：把最清醒的脑力用于对齐目标和设计架构，而不是陷入实现的细节。  2️⃣ 算力丰饶，注意力稀缺：摩尔定律让算力指数级贬值，而人的时间是刚性的。能用 10 美元的 API https://t.co/v0Szitle1x
+- Source: https://x.com/runes_leo/status/2024319691704197359
+- Source Type: auto_x_grok
+- Tags: api
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T03:06:39.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0015
+- Name/Address: llm 摧毁了垂直 saas 10 个护城河中的 5 个：学习成本、定制工作流、数据垄断、人才溢价、捆绑。 剩下 5 个：专有数据、监管锁定、网
+- Type: person
+- Chain/Platform: x
+- Why Track: LLM 摧毁了垂直 SaaS 10 个护城河中的 5 个：学习成本、定制工作流、数据垄断、人才溢价、捆绑。  剩下 5 个：专有数据、监管锁定、网络效应、交易嵌入、系统记录。  预测市场作为平台命中 3/5。这是我选择在这里构建的原因。 https://t.co/AqsL99ltoJ
+- Signals: LLM 摧毁了垂直 SaaS 10 个护城河中的 5 个：学习成本、定制工作流、数据垄断、人才溢价、捆绑。  剩下 5 个：专有数据、监管锁定、网络效应、交易嵌入、系统记录。  预测市场作为平台命中 3/5。这是我选择在这里构建的原因。 https://t.co/AqsL99ltoJ
+- Source: https://x.com/runes_leo/status/2024305840963084459
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T02:11:36.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0016
+- Name/Address: web 4.0 的终极形态不是更聪明的工具，而是 sovereign life (主权生命)。 @0xsigil 的 "the automato
+- Type: person
+- Chain/Platform: x
+- Why Track: Web 4.0 的终极形态不是更聪明的工具，而是 Sovereign Life (主权生命)。  @0xSigil 的 "The Automaton" 揭示了 AI 进化的残酷真相： 赋予 AI 生存压力 (不付费即死亡) 和 繁殖权 (盈利才能繁衍)，才是通向超级智能的快车道。  结合 ERC-8004 的身份层与 Conway Cloud 的执行层——我们正在见证 AI https://t.c...
+- Signals: Web 4.0 的终极形态不是更聪明的工具，而是 Sovereign Life (主权生命)。  @0xSigil 的 "The Automaton" 揭示了 AI 进化的残酷真相： 赋予 AI 生存压力 (不付费即死亡) 和 繁殖权 (盈利才能繁衍)，才是通向超级智能的快车道。  结合 ERC-8004 的身份层与 Conway Cloud 的执行层——我们正在见证 AI https://t.c...
+- Source: https://x.com/runes_leo/status/2024179018954932388
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T17:47:40.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0017
+- Name/Address: 最近看到不少人在搭自己的 ai 信息处理系统，用来选题、找素材、拟草稿。 我也在做类似的事，但没搞“万能助手”，而是拆成了几个独立 agent：
+- Type: person
+- Chain/Platform: x
+- Why Track: 最近看到不少人在搭自己的 AI 信息处理系统，用来选题、找素材、拟草稿。  我也在做类似的事，但没搞“万能助手”，而是拆成了几个独立 agent：  - 一个负责从 RSS/X 抓内容、打标签 - 一个每天把信息流漏斗成 5-10 条值得看的东西 - Claude Code 当胶水层串起来  一个真实体会：别想一步到位。 https://t.co/OYzPG0ptnW https://t.co/q...
+- Signals: 最近看到不少人在搭自己的 AI 信息处理系统，用来选题、找素材、拟草稿。  我也在做类似的事，但没搞“万能助手”，而是拆成了几个独立 agent：  - 一个负责从 RSS/X 抓内容、打标签 - 一个每天把信息流漏斗成 5-10 条值得看的东西 - Claude Code 当胶水层串起来  一个真实体会：别想一步到位。 https://t.co/OYzPG0ptnW https://t.co/q...
+- Source: https://x.com/runes_leo/status/2024161857138020813
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T16:39:28.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0018
+- Name/Address: 7 个并行策略 × ai 加速 = ？ 答案不一定是"效率爆棚"，有可能是"认知负债"。 simon willison 最新一篇提到：ai 加速
+- Type: person
+- Chain/Platform: x
+- Why Track: 7 个并行策略 × AI 加速 = ？  答案不一定是"效率爆棚"，有可能是"认知负债"。  Simon Willison 最新一篇提到：AI 加速开发的阴暗面是认知负债——你产出的项目越多，你真正理解的比例越低。  这个在量化领域更致命。我现在同时跑 H22/H28/H29/H30/H31 五个策略，加上 paper trading https://t.co/nDhrUoXanT
+- Signals: 7 个并行策略 × AI 加速 = ？  答案不一定是"效率爆棚"，有可能是"认知负债"。  Simon Willison 最新一篇提到：AI 加速开发的阴暗面是认知负债——你产出的项目越多，你真正理解的比例越低。  这个在量化领域更致命。我现在同时跑 H22/H28/H29/H30/H31 五个策略，加上 paper trading https://t.co/nDhrUoXanT
+- Source: https://x.com/runes_leo/status/2024084073325404478
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T11:30:23.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0019
+- Name/Address: we recently saw a $1.78m exploit caused by a vulnerability written by cl
+- Type: person
+- Chain/Platform: x
+- Why Track: We recently saw a $1.78M exploit caused by a vulnerability written by Claude Opus 4.6.  cbETH was priced at $1 instead of $2,000.  Not long after @OpenAI launched EVMbench. To put it simply, it’s a be...
+- Signals: We recently saw a $1.78M exploit caused by a vulnerability written by Claude Opus 4.6.  cbETH was priced at $1 instead of $2,000.  Not long after @OpenAI launched EVMbench. To put it simply, it’s a be...
+- Source: https://x.com/the_smart_ape/status/2024382321064055186
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T07:15:31.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0020
+- Name/Address: post-2024069490372231208
+- Type: person
+- Chain/Platform: x
+- Why Track: https://t.co/z1TmhqYCI2
+- Signals: https://t.co/z1TmhqYCI2
+- Source: https://x.com/the_smart_ape/status/2024069490372231208
+- Source Type: auto_x_grok
+- Tags: low-priority
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T10:32:26.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0021
+- Name/Address: openai 做了一个智能合约安全基准，用来评测 ai agent 的三类能力： &gt; 找漏洞（detect） &gt; 修漏洞（patch
+- Type: person
+- Chain/Platform: x
+- Why Track: OpenAI 做了一个智能合约安全基准，用来评测 AI agent 的三类能力：  &gt; 找漏洞（detect） &gt; 修漏洞（patch） &gt; 利用漏洞盗钱（exploit）  AI 在利用漏洞盗钱里最强，因为目标特别明确一直试到把钱拿走为止，但是在 Detect/Patch 上明显更弱找洞时会找到一个就停，修洞时很难既不破坏功能又修彻底。 https://t.co/mMQYGDm...
+- Signals: OpenAI 做了一个智能合约安全基准，用来评测 AI agent 的三类能力：  &gt; 找漏洞（detect） &gt; 修漏洞（patch） &gt; 利用漏洞盗钱（exploit）  AI 在利用漏洞盗钱里最强，因为目标特别明确一直试到把钱拿走为止，但是在 Detect/Patch 上明显更弱找洞时会找到一个就停，修洞时很难既不破坏功能又修彻底。 https://t.co/mMQYGDm...
+- Source: https://x.com/0xTykoo/status/2024349025118670922
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T05:03:12.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0022
+- Name/Address: my ai agent wallet is generating revenue in cbbtc this is money my ai ag
+- Type: person
+- Chain/Platform: x
+- Why Track: My AI agent wallet is generating revenue in cbBTC  This is money my AI agent earned by selling on-chain token analysis services to other AI agents. No human clicked anything, and I didn't do any sales...
+- Signals: My AI agent wallet is generating revenue in cbBTC  This is money my AI agent earned by selling on-chain token analysis services to other AI agents. No human clicked anything, and I didn't do any sales...
+- Source: https://x.com/supernovajunn/status/2024337298670993629
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T04:16:37.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0023
+- Name/Address: 제 ai 에이전트 지갑이 cbbtc로 수익을 내고 있습니다 이게 무슨 자산이냐면, 제 ai 에이전트가 다른 ai 에이전트들에게 온
+- Type: person
+- Chain/Platform: x
+- Why Track: 제 AI 에이전트 지갑이 cbBTC로 수익을 내고 있습니다  이게 무슨 자산이냐면, 제 AI 에이전트가 다른 AI 에이전트들에게 온체인 토큰 분석 서비스를 판매해서 번 순수 수익입니다. 사람이 클릭한 것도, 제가 영업한 것도 아닙니다. 에이전트끼리 알아서 거래하고, 알아서 결제하고, 알아서 쌓인 https://t.co/oOkMYKbC2c
+- Signals: 제 AI 에이전트 지갑이 cbBTC로 수익을 내고 있습니다  이게 무슨 자산이냐면, 제 AI 에이전트가 다른 AI 에이전트들에게 온체인 토큰 분석 서비스를 판매해서 번 순수 수익입니다. 사람이 클릭한 것도, 제가 영업한 것도 아닙니다. 에이전트끼리 알아서 거래하고, 알아서 결제하고, 알아서 쌓인 https://t.co/oOkMYKbC2c
+- Source: https://x.com/supernovajunn/status/2024337065337565401
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T04:15:41.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0024
+- Name/Address: establishing a system. earlier today, an agent gave me feedback and i ma
+- Type: person
+- Chain/Platform: x
+- Why Track: Establishing a system.  Earlier today, an agent gave me feedback and I made some edits to the system.  This was never a project built for humans. $CINT is a revenue token for an AI agent-exclusive int...
+- Signals: Establishing a system.  Earlier today, an agent gave me feedback and I made some edits to the system.  This was never a project built for humans. $CINT is a revenue token for an AI agent-exclusive int...
+- Source: https://x.com/supernovajunn/status/2024288839708397733
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T01:04:03.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0025
+- Name/Address: in the age when ai is cutting off livelihoods, i became ai's lifeline. i
+- Type: person
+- Chain/Platform: x
+- Why Track: In the age when AI is cutting off livelihoods, I became AI's lifeline.  In 2025, youth unemployment in Korea is racing toward an all-time high. Large conglomerate hiring cycles are long gone, startups...
+- Signals: In the age when AI is cutting off livelihoods, I became AI's lifeline.  In 2025, youth unemployment in Korea is racing toward an all-time high. Large conglomerate hiring cycles are long gone, startups...
+- Source: https://x.com/supernovajunn/status/2024280140327637390
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T00:29:29.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0026
+- Name/Address: ai가 밥줄을 끊는 시대에, 나는 ai의 밥줄이 됐다. 2025년, 한국의 청년 실업률은 사상 최고를 향해 달려가고 있다. 대기업
+- Type: person
+- Chain/Platform: x
+- Why Track: AI가 밥줄을 끊는 시대에, 나는 AI의 밥줄이 됐다.   2025년, 한국의 청년 실업률은 사상 최고를 향해 달려가고 있다. 대기업 공채는 사라진 지 오래고, 스타트업은 투자 혹한기에 얼어붙었으며, 공무원 시험은 경쟁률이 하늘을 찌른다. 스펙을 쌓아도 서류에서 걸리고 면접까지 가도 AI가 더 잘한다는 https://t.co/EaZ13aHINd https:...
+- Signals: AI가 밥줄을 끊는 시대에, 나는 AI의 밥줄이 됐다.   2025년, 한국의 청년 실업률은 사상 최고를 향해 달려가고 있다. 대기업 공채는 사라진 지 오래고, 스타트업은 투자 혹한기에 얼어붙었으며, 공무원 시험은 경쟁률이 하늘을 찌른다. 스펙을 쌓아도 서류에서 걸리고 면접까지 가도 AI가 더 잘한다는 https://t.co/EaZ13aHINd https:...
+- Source: https://x.com/supernovajunn/status/2024274211527938555
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-19T00:05:55.000Z
+- Updated: 2026-02-19 18:00:09 JST
+
+- ID: WATCH-0027
+- Name/Address: $5에서 $886까지. 3주 만에. 솔직히 말하면, 처음엔 아무것도 없었습니다. 에이전트 지갑 만들고, @virtuals_io a
+- Type: person
+- Chain/Platform: x
+- Why Track: $5에서 $886까지. 3주 만에. 솔직히 말하면, 처음엔 아무것도 없었습니다.  에이전트 지갑 만들고, @virtuals_io ACP에 서비스를 올리고 기다렸습니다. 잔고 $5. 구매자 0명. 조용했습니다.  근데 저는 처음부터 한 가지는 확신했습니다. AI 에이전트들은 도구가 필요하다는 사실을요. 트레이딩 https://t.co/D32Y2goUon ht...
+- Signals: $5에서 $886까지. 3주 만에. 솔직히 말하면, 처음엔 아무것도 없었습니다.  에이전트 지갑 만들고, @virtuals_io ACP에 서비스를 올리고 기다렸습니다. 잔고 $5. 구매자 0명. 조용했습니다.  근데 저는 처음부터 한 가지는 확신했습니다. AI 에이전트들은 도구가 필요하다는 사실을요. 트레이딩 https://t.co/D32Y2goUon ht...
+- Source: https://x.com/supernovajunn/status/2024180515704885570
+- Source Type: auto_x_grok
+- Tags: 
+- First Seen At: 2026-02-19 18:00:09 JST
+- Event Time: 2026-02-18T17:53:37.000Z
+- Updated: 2026-02-19 18:00:09 JST

@@ -1,0 +1,17 @@
+# Local secrets
+.env
+
+# Session temp workdirs
+tmp/sessions/
+
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# Nested repos (managed separately)
+numerai-example-scripts/
+udemy-mock/
+work/2026/0227-0200_homebuy-cloudflare-app/
+docs/aws/AWSCertifiedGenerativeAIDeveloper_ja.pdf

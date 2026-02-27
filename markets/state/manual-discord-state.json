@@ -1,0 +1,27 @@
+{
+  "seen_message_ids": [
+    "1473571891926274133"
+  ],
+  "entries": {
+    "1473590620873297923": {
+      "entry_id": "MISC-0002",
+      "path": "/Users/username/.openclaw/workspace/markets/other-market/other.md",
+      "content_hash": "39b2bb4aa51cbace",
+      "created_at": "2026-02-18 19:30:34 JST",
+      "updated_at": "2026-02-20 04:45:23 JST",
+      "market": "other-market",
+      "category": "other",
+      "source": "discord://1473508792929882142/1473590620873297923"
+    },
+    "1473590427897827388": {
+      "entry_id": "MISC-0005",
+      "path": "/Users/username/.openclaw/workspace/markets/other-market/other.md",
+      "content_hash": "f9d6f275fe27f14a",
+      "created_at": "2026-02-19 07:00:33 JST",
+      "updated_at": "2026-02-19 07:00:33 JST",
+      "market": "other-market",
+      "category": "other",
+      "source": "discord://1473508792929882142/1473590427897827388"
+    }
+  }
+}
