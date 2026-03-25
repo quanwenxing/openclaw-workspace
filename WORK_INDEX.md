@@ -1,3 +1,4 @@
+- [x] 2026-03-25 22:16: [anthropic-harness-article](./work/2026/0325-2216_anthropic-harness-article/README.md) - Anthropic ハーネス設計記事の翻訳HTML作成・公開
 - [x] 2026-03-18 16:54: [mamba3-ja-site](./work/2026/0318-1654_mamba3-ja-site/README.md) - Mamba-3 Part 1 / Part 2 の日本語訳HTMLを作成し、新規GitHub repoとGitHub Pages公開まで実施予定
 - [x] 2026-03-18 07:25: [aws-auth-guide-site](./work/2026/0318-0725_aws-auth-guide-site/README.md) - AWS認証・認可の基礎〜実務ガイドHTMLを作成し、GitHub repo作成とGitHub Pages公開まで実施
 - [x] 2026-03-15 11:08: [udemy-mock-quality-fix](./work/2026/0315-1108_udemy-mock-quality-fix/README.md) - Udemy模擬試験アプリの翻訳自然化、AWS固有名詞の英語維持、誤答解説の詳細化、GitHub push、Vercelデプロイ
