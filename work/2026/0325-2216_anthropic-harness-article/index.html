@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>長期実行エージェントのためのハーネス設計 - Anthropic 翻訳</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f9fafb; color: #1f2937; }
+        .prose h1 { font-size: 2.25rem; font-weight: 800; color: #111827; }
+        .prose h2 { font-size: 1.5rem; font-weight: 700; color: #374151; margin-top: 2rem; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem; }
+        .prose p { margin-top: 1rem; line-height: 1.75; }
+        .prose ul { list-style-type: disc; margin-left: 1.5rem; margin-top: 1rem; }
+        .prose li { margin-bottom: 0.5rem; }
+        .card { background: white; border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); padding: 1.5rem; margin-bottom: 1.5rem; }
+        .role-badge { display: inline-block; background-color: #3b82f6; color: white; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .footer { margin-top: 4rem; padding: 2rem; text-align: center; color: #6b7280; font-size: 0.875rem; border-top: 1px solid #e5e7eb; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+    <div class="max-w-3xl mx-auto prose">
+        <header class="mb-12">
+            <p class="text-sm font-semibold text-blue-600 mb-2">Anthropic Engineering Blog</p>
+            <h1>長期実行エージェントのためのハーネス設計</h1>
+            <p class="text-gray-500 mt-2">著者: Prithvi Rajasekaran (Anthropic Labs)</p>
+        </header>
+
+        <section>
+            <p>
+                数ヶ月にわたり、私は相互に関連する2つの課題に取り組んできました。1つはClaudeに高品質なフロントエンドデザインを生成させること、もう1つは人間の介入なしに完全なアプリケーションを構築させることです。
+            </p>
+            <p>
+                ブレークスルーのために、GAN（Generative Adversarial Networks：敵対的生成ネットワーク）から着想を得て、<strong>ジェネレーター（生成者）</strong>と<strong>エバリュエーター（評価者）</strong>という複数のエージェントによる構造を設計しました。
+            </p>
+        </section>
+
+        <section>
+            <h2>なぜ単純な実装では不十分なのか</h2>
+            <div class="card">
+                <h3 class="font-bold mb-2">1. 一貫性の喪失と「コンテキスト不安」</h3>
+                <p class="text-sm">コンテキストウィンドウが埋まるにつれ、モデルは一貫性を失います。また、制限に近づくと作業を早々に切り上げようとする「コンテキスト不安」も見られます。</p>
+            </div>
+            <div class="card">
+                <h3 class="font-bold mb-2">2. 自己評価の甘さ</h3>
+                <p class="text-sm">エージェントは自分の成果物を過剰に褒める傾向があります。特にデザインのような主観的なタスクでは、評価者を分離し、懐疑的な視点でフィードバックを与えることが重要です。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>フロントエンドデザイン：主観的な品質を数値化する</h2>
+            <p>具体的な評価基準を設けることで、Claudeに明確な判断軸を与えました。</p>
+            <ul class="space-y-4">
+                <li><strong>デザイン品質:</strong> 全体として一貫した気分とアイデンティティを作っているか。</li>
+                <li><strong>独創性:</strong> AI特有のパターンにとどまらない、独自の意思決定があるか。</li>
+                <li><strong>クラフト（技能）:</strong> タイポグラフィや配色、コントラストなどの技術的正確性。</li>
+                <li><strong>機能性:</strong> ユーザーが迷うことなく目的のタスクを完了できるか。</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3エージェント・アーキテクチャ</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                <div class="card border-t-4 border-blue-500">
+                    <span class="role-badge bg-blue-500">Planner</span>
+                    <p class="text-xs">短いプロンプトから野心的な製品仕様書を作成。</p>
+                </div>
+                <div class="card border-t-4 border-green-500">
+                    <span class="role-badge bg-green-500">Generator</span>
+                    <p class="text-xs">仕様に基づきReact/FastAPI等で機能を実装。</p>
+                </div>
+                <div class="card border-t-4 border-purple-500">
+                    <span class="role-badge bg-purple-500">Evaluator</span>
+                    <p class="text-xs">実際にアプリを操作しUIやバグをテスト。</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>結論</h2>
+            <p>
+                モデルが向上しても、ハーネス（支援構造）の重要性が失われるわけではありません。AIエンジニアにとっての興味深い仕事は、常に進化するモデルに合わせて、次の新しい組み合わせを見つけ出し、可能性を広げ続けることです。
+            </p>
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 Developed with OpenClaw Workspace</p>
+            <p class="mt-2 text-xs">Original article by Anthropic: <a href="https://www.anthropic.com/engineering/harness-design-long-running-apps" class="text-blue-500 underline">Harness design for long-running application development</a></p>
+        </footer>
+    </div>
+</body>
+</html>
