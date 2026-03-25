@@ -1,0 +1,1 @@
+- 2026-03-08 13:00: HTTPS化のため TS_SERVE_CONFIG (Tailscale Serve) を導入。docker-compose.ymlとserve.jsonを更新。

@@ -1,0 +1,14 @@
+services:
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    container_name: jupyter-notebook
+    ports:
+      - "127.0.0.1:8888:8888" # ホストの127.0.0.1のみに公開（安全）
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./config:/home/jovyan/.jupyter
+    environment:
+      - JUPYTER_TOKEN=secure-jupyter-token-2026
+      - RESTARTABLE=yes
+    command: start-notebook.sh --NotebookApp.token='secure-jupyter-token-2026' --ip=0.0.0.0 --allow-root
+    restart: unless-stopped

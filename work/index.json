@@ -1,70 +1,326 @@
 {
-  "version": 1,
-  "updated_at": "2026-02-27T02:01:00+09:00",
   "items": [
     {
-      "id": "20260224-0945_workspace-operation-policy",
-      "title": "作業分離・インデックス運用の初期構築",
-      "status": "done",
+      "created_at": "2026-03-18T16:54:00+09:00",
+      "folder": "work/2026/0318-1654_mamba3-ja-site/",
+      "id": "20260318-1654_mamba3-ja-site",
       "requested_by": "もんちゃん",
+      "status": "in_progress",
+      "summary": "Goomba Lab の Mamba-3 Part 1 / Part 2 を日本語訳し、静的HTMLページとして GitHub Pages 公開する。",
+      "tags": [
+        "translation",
+        "html",
+        "github-pages",
+        "mamba",
+        "ssm"
+      ],
+      "title": "Mamba-3 ブログ日本語訳サイト作成",
+      "updated_at": "2026-03-18T16:55:00+09:00"
+    },
+    {
+      "created_at": "2026-03-18T07:25:00+09:00",
+      "folder": "work/2026/0318-0725_aws-auth-guide-site/",
+      "id": "20260318-0725_aws-auth-guide-site",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "AWS認証認可まわりを初心者向けに整理した静的HTML資料を作成し、GitHub repoとGitHub Pagesへ公開。",
+      "tags": [
+        "aws",
+        "iam",
+        "cognito",
+        "oauth",
+        "oidc",
+        "saml",
+        "github-pages",
+        "html"
+      ],
+      "title": "AWS認証・認可ガイドサイト作成",
+      "updated_at": "2026-03-18T07:32:00+09:00"
+    },
+    {
+      "created_at": "2026-03-15T11:08:00+09:00",
+      "folder": "work/2026/0315-1108_udemy-mock-quality-fix/",
+      "id": "20260315-1108_udemy-mock-quality-fix",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "udemy-mock の tests.json を中心に、AWS固有名詞の英語維持・不自然な和訳の補正・誤答解説の詳細化を実施。",
+      "tags": [
+        "udemy",
+        "aws",
+        "translation",
+        "quiz",
+        "data-quality"
+      ],
+      "title": "Udemy mock 翻訳・解説品質改善",
+      "updated_at": "2026-03-15T11:25:00+09:00"
+    },
+    {
+      "created_at": "2026-03-14T11:37:00+09:00",
+      "folder": "work/2026/0314-1137_prediction-market-strategy-validation/",
+      "id": "20260314-1137_prediction-market-strategy-validation",
+      "requested_by": "もんちゃん",
+      "status": "in_progress",
+      "summary": "予測市場トレード戦略の妥当性・問題点・シミュレーション設計を、実売買なしで継続検証する。",
+      "tags": [
+        "prediction-market",
+        "trading",
+        "research",
+        "simulation",
+        "validation",
+        "polymarket"
+      ],
+      "title": "予測市場戦略の妥当性検証",
+      "updated_at": "2026-03-14T11:37:00+09:00"
+    },
+    {
+      "created_at": "2026-03-13T09:12:00+09:00",
+      "folder": "work/2026/0313-0912_jsf-migration-catchup-plan/",
+      "id": "20260313-0912_jsf-migration-catchup-plan",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "Java 8 + JSF 1.2 から Java 21 + Jakarta Faces 4 への移行案件に向け、JSF未経験者向け7週間の学習・調査・PoC計画を作成。",
+      "tags": [
+        "java",
+        "jsf",
+        "jakarta-faces",
+        "migration",
+        "roadmap",
+        "study-plan"
+      ],
+      "title": "JSFレガシー移行の7週間キャッチアップ計画",
+      "updated_at": "2026-03-13T09:18:00+09:00"
+    },
+    {
+      "created_at": "2026-03-08T12:25:00+09:00",
+      "folder": "work/2026/0308-1225_jupyter-docker-setup/",
+      "id": "20260308-1225_jupyter-docker-setup",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "DockerとTailscaleを使用したJupyter Notebook環境の構築。Tailscale ServeによるHTTPS化とMacホストからのlocalhost接続を両立。",
+      "tags": [
+        "jupyter",
+        "docker",
+        "tailscale",
+        "security",
+        "setup"
+      ],
+      "title": "Jupyter Docker+Tailscale 環境構築",
+      "updated_at": "2026-03-08T13:20:00+09:00"
+    },
+    {
       "created_at": "2026-02-24T09:45:00+09:00",
-      "updated_at": "2026-02-24T09:46:00+09:00",
+      "folder": "work/2026/0224-0945_workspace-operation-policy/",
+      "id": "20260224-0945_workspace-operation-policy",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "workspace直下作業を避ける運用を整備。work配下の標準テンプレートと二層インデックスを初期化。",
       "tags": [
         "ops",
         "workspace",
         "index",
         "workflow"
       ],
-      "summary": "workspace直下作業を避ける運用を整備。work配下の標準テンプレートと二層インデックスを初期化。",
-      "folder": "work/2026/0224-0945_workspace-operation-policy/"
+      "title": "作業分離・インデックス運用の初期構築",
+      "updated_at": "2026-02-24T09:46:00+09:00"
     },
     {
-      "id": "20260226-2359_signal-latency-fix",
-      "title": "Signal遅延改善対応",
-      "status": "in_progress",
-      "requested_by": "もんちゃん",
       "created_at": "2026-02-26T23:59:00+09:00",
-      "updated_at": "2026-02-26T23:59:00+09:00",
+      "folder": "work/2026/0226-2359_signal-latency-fix/",
+      "id": "20260226-2359_signal-latency-fix",
+      "requested_by": "もんちゃん",
+      "status": "in_progress",
+      "summary": "Signal遅延原因の継続監視と再起動・健全化手順を実行。",
       "tags": [
         "signal",
         "latency",
         "ops",
         "openclaw"
       ],
-      "summary": "Signal遅延原因の継続監視と再起動・健全化手順を実行。",
-      "folder": "work/2026/0226-2359_signal-latency-fix/"
+      "title": "Signal遅延改善対応",
+      "updated_at": "2026-02-26T23:59:00+09:00"
     },
     {
-      "id": "20260227-0114_todoist-signal-morning-cron",
-      "title": "Todoist朝次タスク送信 cron 設定",
-      "status": "done",
-      "requested_by": "もんちゃん",
       "created_at": "2026-02-27T01:14:00+09:00",
-      "updated_at": "2026-02-27T01:15:00+09:00",
+      "folder": "work/2026/0227-0114_todoist-signal-morning-cron/",
+      "id": "20260227-0114_todoist-signal-morning-cron",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "毎朝08:00 JSTにTodoist今日タスクをSignalへ送信するcronを設定。",
       "tags": [
         "todoist",
         "signal",
         "cron",
         "morning"
       ],
-      "summary": "毎朝08:00 JSTにTodoist今日タスクをSignalへ送信するcronを設定。",
-      "folder": "work/2026/0227-0114_todoist-signal-morning-cron/"
+      "title": "Todoist朝次タスク送信 cron 設定",
+      "updated_at": "2026-02-27T01:15:00+09:00"
     },
     {
-      "id": "20260227-0200_homebuy-cloudflare-app",
-      "title": "住宅購入調査アプリ（Cloudflare）初期セットアップ",
-      "status": "in_progress",
-      "requested_by": "もんちゃん",
       "created_at": "2026-02-27T02:00:00+09:00",
-      "updated_at": "2026-02-27T02:00:00+09:00",
+      "folder": "work/2026/0227-0200_homebuy-cloudflare-app/",
+      "id": "20260227-0200_homebuy-cloudflare-app",
+      "requested_by": "もんちゃん",
+      "status": "in_progress",
+      "summary": "Cloudflare前提の実装開始に向け、GitHub private repo作成と作業ディレクトリ初期化を実施。",
       "tags": [
         "cloudflare",
         "github",
         "homebuy",
         "setup"
       ],
-      "summary": "Cloudflare前提の実装開始に向け、GitHub private repo作成と作業ディレクトリ初期化を実施。",
-      "folder": "work/2026/0227-0200_homebuy-cloudflare-app/"
+      "title": "住宅購入調査アプリ（Cloudflare）初期セットアップ",
+      "updated_at": "2026-02-27T02:00:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T19:23:00+09:00",
+      "folder": "work/2026/0301-1923_investment-idea-note-uki-001/",
+      "id": "20260301-1923_investment-idea-note-uki-001",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "note記事を一次分析し、投資ネタを構造化してinbox登録。暫定スコアと次検証アクションを定義。",
+      "tags": [
+        "investment",
+        "idea-capture",
+        "note",
+        "ai-agent",
+        "short-alpha"
+      ],
+      "title": "投資ネタ蓄積 #001（note: UKI記事）",
+      "updated_at": "2026-03-01T19:26:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T19:25:00+09:00",
+      "folder": "work/2026/0301-1925_investment-idea-jpx-jlens-002/",
+      "id": "20260301-1925_investment-idea-jpx-jlens-002",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "JPXのJ-LENSβリリースを分析し、開示検索高速化ネタをinbox登録。暫定スコアと検証計画を定義。",
+      "tags": [
+        "investment",
+        "idea-capture",
+        "jpx",
+        "tdnet",
+        "jlens"
+      ],
+      "title": "投資ネタ蓄積 #002（JPX: J-LENSβ）",
+      "updated_at": "2026-03-01T19:27:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T19:27:00+09:00",
+      "folder": "work/2026/0301-1927_investment-idea-crypto-agent-theme-003/",
+      "id": "20260301-1927_investment-idea-crypto-agent-theme-003",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "ユーザー仮説をネタ化してinbox登録。テーマ投機の初期スコアと検証分解（ユニバース・シグナル・イベント検証）を定義。",
+      "tags": [
+        "investment",
+        "idea-capture",
+        "crypto",
+        "agent",
+        "speculation"
+      ],
+      "title": "投資ネタ蓄積 #003（Crypto×Agentテーマ）",
+      "updated_at": "2026-03-01T19:29:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T19:31:00+09:00",
+      "folder": "work/2026/0301-1931_investment-idea-system-v1/",
+      "id": "20260301-1931_investment-idea-system-v1",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "ネタ蓄積の保存形式・評価軸・棚卸し手順を仕様化。investment_ideas/reviews の2ファイル運用を確立。",
+      "tags": [
+        "investment",
+        "system-design",
+        "idea-capture",
+        "workflow"
+      ],
+      "title": "投資ネタ蓄積の仕組み構築 v1",
+      "updated_at": "2026-03-01T19:33:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T19:39:00+09:00",
+      "folder": "work/2026/0301-1939_investment-idea-capture-skill/",
+      "id": "20260301-1939_investment-idea-capture-skill",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "新規セッションでも使える investment-idea-capture スキルを作成し、investment_ideas/reviews への蓄積手順を標準化。",
+      "tags": [
+        "skill",
+        "investment",
+        "idea-capture",
+        "memory"
+      ],
+      "title": "投資ネタ蓄積スキル作成（常用化）",
+      "updated_at": "2026-03-01T19:41:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T20:01:00+09:00",
+      "folder": "work/2026/0301-2001_investment-idea-anomaly-opportunity-004/",
+      "id": "20260301-2001_investment-idea-anomaly-opportunity-004",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "アノマリー分析によるトレード機会探索の仮説を蓄積。暫定スコア72でinbox登録。",
+      "tags": [
+        "investment",
+        "idea-capture",
+        "anomaly",
+        "trading"
+      ],
+      "title": "投資ネタ蓄積 #004（アノマリー機会探索）",
+      "updated_at": "2026-03-01T20:02:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T20:05:00+09:00",
+      "folder": "work/2026/0301-2005_investment-idea-multiagent-alpha-factory-005/",
+      "id": "20260301-2005_investment-idea-multiagent-alpha-factory-005",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "マルチエージェント協調/競争でアルゴを量産する仮説を蓄積。暫定スコア61でinbox登録。",
+      "tags": [
+        "investment",
+        "idea-capture",
+        "multi-agent",
+        "algo"
+      ],
+      "title": "投資ネタ蓄積 #005（マルチエージェント量産）",
+      "updated_at": "2026-03-01T20:06:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T23:32:00+09:00",
+      "folder": "work/2026/0301-2332_super-engineer-team-operating-system/",
+      "id": "20260301-2332_super-engineer-team-operating-system",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "自律原則（Autonomy Core）、スキル化方針、Chrome MCP優先のテスト標準、レポートテンプレを初期定義。",
+      "tags": [
+        "team",
+        "multi-agent",
+        "skill",
+        "testing",
+        "ops"
+      ],
+      "title": "スーパーエンジニアチーム運用OS 初期設計",
+      "updated_at": "2026-03-01T23:34:00+09:00"
+    },
+    {
+      "created_at": "2026-03-01T23:52:00+09:00",
+      "folder": "work/2026/0301-2352_prediction-market-profitability-scan/",
+      "id": "20260301-2352_prediction-market-profitability-scan",
+      "requested_by": "もんちゃん",
+      "status": "done",
+      "summary": "話題性（SNSシグナル）と実出来高/手数料/レート制約を取得し、自動収益化可能性を一次評価。",
+      "tags": [
+        "prediction-market",
+        "trading",
+        "research",
+        "polymarket",
+        "kalshi"
+      ],
+      "title": "予測市場の収益機会スキャン",
+      "updated_at": "2026-03-01T23:56:00+09:00"
     }
-  ]
+  ],
+  "updated_at": "2026-03-18T07:32:00+09:00",
+  "version": 1
 }

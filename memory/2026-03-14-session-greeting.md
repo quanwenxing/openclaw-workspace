@@ -1,0 +1,12 @@
+# Session: 2026-03-14 04:45:59 UTC
+
+- **Session Key**: agent:main:main
+- **Session ID**: 0974ff1d-68e9-4d5b-9f24-d6060690cd93
+- **Source**: signal
+
+## Conversation Summary
+
+user: A new session was started via /new or /reset. Execute your Session Startup sequence now - read the required files before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and mood. Keep it to 1-3 sentences and ask what they want to do. If the runtime model differs from default_model in the system prompt, mention the default model. Do not mention internal steps, files, tools, or reasoning.
+Current time: Saturday, March 14th, 2026 — 1:32 PM (Asia/Tokyo) / 2026-03-14 04:32 UTC
+assistant: もんちゃん、こんにちは。クロウだよ、今日も短め実務モードでいく。  
+今日は何を進める？

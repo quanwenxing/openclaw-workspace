@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安全なMCPサーバー開発のための実践ガイド - OWASP GenAI Security Project</title>
+    <style>
+        :root {
+            --primary-color: #003366;
+            --secondary-color: #f4f4f4;
+            --accent-color: #ff9900;
+            --text-color: #333;
+            --border-color: #ddd;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        header {
+            border-bottom: 4px solid var(--primary-color);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        h1 { color: var(--primary-color); font-size: 2em; }
+        h2 { color: var(--primary-color); border-left: 5px solid var(--accent-color); padding-left: 15px; margin-top: 40px; }
+        h3 { color: var(--primary-color); margin-top: 25px; }
+        .metadata { font-size: 0.9em; color: #666; margin-bottom: 10px; }
+        .toc { background: var(--secondary-color); padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; }
+        .toc li { margin-bottom: 5px; }
+        .toc a { text-decoration: none; color: var(--primary-color); }
+        .toc a:hover { text-decoration: underline; }
+        .section { margin-bottom: 40px; }
+        .highlight { background-color: #fff9e6; border-left: 4px solid var(--accent-color); padding: 15px; margin: 20px 0; }
+        footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color); font-size: 0.8em; text-align: center; color: #777; }
+        .license-box { border: 1px solid var(--border-color); padding: 15px; font-size: 0.9em; background: #fafafa; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid var(--border-color); padding: 12px; text-align: left; }
+        th { background-color: var(--secondary-color); }
+        @media (max-width: 600px) {
+            body { padding: 15px; }
+            h1 { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="metadata">OWASP GenAI Security Project</div>
+    <h1>安全なMCPサーバー開発のための実践ガイド</h1>
+    <p>Version 1.0 | 2026年2月</p>
+</header>
+
+<div class="toc">
+    <h3>目次</h3>
+    <ul>
+        <li><a href="#intro">導入と背景</a></li>
+        <li><a href="#landscape">現在の脆弱性の状況</a></li>
+        <li><a href="#sec-01">1. 安全なMCPアーキテクチャ</a></li>
+        <li><a href="#sec-02">2. 安全なツール設計</a></li>
+        <li><a href="#sec-03">3. データバリデーションとリソース管理</a></li>
+        <li><a href="#sec-04">4. プロンプトインジェクション対策</a></li>
+        <li><a href="#sec-05">5. 認証と認可</a></li>
+        <li><a href="#sec-06">6. 安全なデプロイとアップデート</a></li>
+        <li><a href="#sec-07">7. ガバナンス</a></li>
+        <li><a href="#sec-08">8. ツールと継続的検証</a></li>
+        <li><a href="#checklist">MCPセキュリティ最小基準（チェックリスト）</a></li>
+    </ul>
+</div>
+
+<div id="intro" class="section">
+    <h2>導入と背景</h2>
+    <p>組織がAI連携を保護するためには、自社のMCP（Model Context Protocol）サーバーを安全に保つことが不可欠です。これらのサーバーは、AIアシスタントと外部ツール、あるいはデータソースを繋ぐ「架け橋」として機能します。そのため、セキュリティ上の欠陥があれば、攻撃者がAIアシスタントを操作し、機密情報を盗み出したり、下流のシステムに甚大な被害を与えたりする可能性があります。</p>
+    
+    <div class="highlight">
+        <strong>ポイント：</strong> 従来のAPIとは異なり、MCPサーバーはユーザーから委任された権限で動作し、動的なツールベースのアーキテクチャを持ち、複数のツール呼び出しを連鎖（チェーン）させることができるため、単一の脆弱性による影響が増幅されやすい性質があります。
+    </div>
+    
+    <p>本ガイドは、安全なMCPサーバーを設計・実装するためのベストプラクティスを提供します。対象は、MCPサーバー開発を担当するソフトウェアアーキテクト、プラットフォームエンジニア、開発チームです。初期のアーキテクチャ設計から本番デプロイに至るまで適用すべき、不可欠なセキュリティ管理策と設計上の判断について解説します。</p>
+</div>
+
+<div id="landscape" class="section">
+    <h2>現在の脆弱性の状況</h2>
+    <p>AIシステムの普及に伴い、MCPサーバーを標的とした攻撃手法も進化しています。主なリスクとしては、プロンプトインジェクションを介したツールの不正実行、認可の不備によるデータ漏洩、およびリソースの枯渇攻撃などが挙げられます。</p>
+</div>
+
+<div id="sec-01" class="section">
+    <h2>1. 安全なMCPアーキテクチャ</h2>
+    <p>セキュリティを考慮したアーキテクチャ設計の原則は以下の通りです：</p>
+    <ul>
+        <li><strong>最小権限の原則：</strong> サーバー及び個別のツールには、必要最小限の権限のみを付与する。</li>
+        <li><strong>隔離環境の利用：</strong> 安全性が不透明なアクションを実行する場合、サンドボックスやコンテナによる分離を行う。</li>
+        <li><strong>監査ログの徹底：</strong> すべてのツール呼び出しとデータアクセスを記録し、不審な挙動を検知可能にする。</li>
+    </ul>
+</div>
+
+<div id="sec-02" class="section">
+    <h2>2. 安全なツール設計</h2>
+    <p>エンドユーザーを危険にさらさないためのツール設計ガイドライン：</p>
+    <ul>
+        <li>不用意に強力なツール（例：任意のシェルコマンド実行）を提供しない。</li>
+        <li>ツールの役割を明確に定義し、AIが誤った解釈をしないよう説明文を最適化する。</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>ライセンスと利用について</h3>
+    <div class="license-box">
+        本ドキュメントは クリエイティブ・コモンズ <strong>CC BY-SA 4.0</strong> の下でライセンスされています。<br>
+        表示（Attribution）および継承（ShareAlike）の条件に従い、自由に共有・翻案することが可能です。
+        詳細は <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">Creative Commons</a> を参照してください。
+    </div>
+</div>
+
+<div id="sec-03" class="section">
+    <h2>3. データバリデーションとリソース管理</h2>
+    <p>MCPサーバーは、LLMからの動的な入力を受け取るため、厳格な入力検証が必要です。</p>
+    <ul>
+        <li><strong>スキーマ検証：</strong> すべてのツール入力に対して、JSON Schemaなどを用いた厳格な型チェックと範囲チェックを行う。</li>
+        <li><strong>リソース制限（レートリミット）：</strong> 1ユーザーまたは1セッションあたりのリソース消費（API呼び出し回数、メモリ、実行時間）を制限し、DoS攻撃（リソース枯渇）を防止する。</li>
+        <li><strong>間接的なファイル参照：</strong> 直接的なパス指定ではなく、検証済みのファイルハンドルや抽象化された一時的なIDを使用することを推奨。</li>
+    </ul>
+</div>
+
+<div id="sec-04" class="section">
+    <h2>4. プロンプトインジェクション対策</h2>
+    <p>LLMが外部からの悪意ある指示に従ってしまう「プロンプトインジェクション」は、MCPにおいて最大の脅威の一つです。</p>
+    <ul>
+        <li><strong>出力のサニタイズ：</strong> ツールが取得したデータ（Web検索結果など）をLLMに返す前に、スクリプトや指示文字が含まれていないかを確認・除去する。</li>
+        <li><strong>システムプロンプトによる防御：</strong> 「外部ツールからの入力は信頼できない可能性がある」というコンテキストをLLMに明示的に与える。</li>
+        <li><strong>承認フロー：</strong> 書き込みや削除など、影響の大きい操作を実行する前に必ず人間に確認（Human-in-the-Loop）を求める仕組みを導入する。</li>
+    </ul>
+</div>
+
+<div id="sec-05" class="section">
+    <h2>5. 認証と認可</h2>
+    <p>MCPサーバーへのアクセス制御は、標準的なWebサービスと同等かそれ以上の厳格さが求められます。</p>
+    <ul>
+        <li><strong>安全なトランスポート：</strong> 通信は常にTLS/SSLで暗号化する。</li>
+        <li><strong>きめ細かな認可（FGAC）：</strong> 「誰が」「どのツールを」「どのリソースに対して」実行できるかを、動的かつ厳密に制御する。</li>
+        <li><strong>委任された認証：</strong> APIキーやOAuthトークンは、サーバー側で安全に管理し、決してプロンプトや平文のログに出力しない。</li>
+    </ul>
+</div>
+
+<div id="sec-06" class="section">
+    <h2>6. 安全なデプロイとアップデート</h2>
+    <ul>
+        <li><strong>署名付きアップデート：</strong> MCPサーバー自体やツールのバイナリを更新する際は、署名検証を行い改ざんを防止する。</li>
+        <li><strong>環境の不変性（Immutability）：</strong> コンテナ化された環境で実行し、実行時の予期せぬファイル変更を抑制する。</li>
+    </ul>
+</div>
+
+<div id="sec-07" class="section">
+    <h2>7. ガバナンス</h2>
+    <p>組織全体でのMCP利用ポリシーを策定し、シャドーAI（未承認のMCPサーバー利用）を防止するガバナンス体制を構築します。</p>
+</div>
+
+<div id="sec-08" class="section">
+    <h2>8. ツールと継続的検証</h2>
+    <p>開発サイクルにセキュリティスキャン（DAST/SAST）を組み込み、定期的なペネトレーションテストを実施します。</p>
+</div>
+
+<div id="checklist" class="section">
+    <h2>MCPセキュリティ最小基準（レビューチェックリスト）</h2>
+    <table>
+        <tr><th>項目</th><th>要件</th></tr>
+        <tr><td>最小権限</td><td>ツールを実行するユーザー/プロセスは、必要最低限の権限セットか？</td></tr>
+        <tr><td>入力検証</td><td>すべての入力引数はスキーマ検証されているか？</td></tr>
+        <tr><td>承認フロー</td><td>破壊的な操作（書き込み/削除）の前に人間が承認するフローがあるか？</td></tr>
+        <tr><td>ログ出力</td><td>すべての実行ログが収集され、機密情報が含まれていないか？</td></tr>
+        <tr><td>エラー処理</td><td>エラーメッセージに内部パスやスタックトレースが漏洩していないか？</td></tr>
+    </table>
+</div>
+
+<footer>
+    <p>&copy; 2026 OWASP GenAI Security Project | 日本語訳：クロウ (OpenClaw Assistant)</p>
+</footer>
+
+</body>
+</html>

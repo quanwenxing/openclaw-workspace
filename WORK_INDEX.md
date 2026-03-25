@@ -1,18 +1,7 @@
-# WORK_INDEX.md
-
-作業の人間向けインデックス（要約一覧）。
-
-## ルール
-- workspace直下では作業しない（必ず `work/YYYY/MMDD-HHMM_<task-slug>/` を作成）
-- 新規作業開始時に本ファイルへ1件追加
-- 完了時に `Status` と `Summary` を更新
-- 詳細は各作業フォルダの `RESULT.md` を参照
-
-## Entries
-
-| ID | Created (JST) | Title | Status | Tags | Folder |
-|---|---|---|---|---|---|
-| 20260224-0945_workspace-operation-policy | 2026-02-24 09:45 | 作業分離・インデックス運用の初期構築 | done | ops, workspace, index, workflow | `work/2026/0224-0945_workspace-operation-policy/` |
-| 20260226-2359_signal-latency-fix | 2026-02-26 23:59 | Signal遅延改善対応 | in_progress | signal, latency, ops, openclaw | `work/2026/0226-2359_signal-latency-fix/` |
-| 20260227-0114_todoist-signal-morning-cron | 2026-02-27 01:14 | Todoist朝次タスク送信 cron 設定 | done | todoist, signal, cron, morning | `work/2026/0227-0114_todoist-signal-morning-cron/` |
-| 20260227-0200_homebuy-cloudflare-app | 2026-02-27 02:00 | 住宅購入調査アプリ（Cloudflare）初期セットアップ | in_progress | cloudflare, github, homebuy, setup | `work/2026/0227-0200_homebuy-cloudflare-app/` |
+- [x] 2026-03-18 16:54: [mamba3-ja-site](./work/2026/0318-1654_mamba3-ja-site/README.md) - Mamba-3 Part 1 / Part 2 の日本語訳HTMLを作成し、新規GitHub repoとGitHub Pages公開まで実施予定
+- [x] 2026-03-18 07:25: [aws-auth-guide-site](./work/2026/0318-0725_aws-auth-guide-site/README.md) - AWS認証・認可の基礎〜実務ガイドHTMLを作成し、GitHub repo作成とGitHub Pages公開まで実施
+- [x] 2026-03-15 11:08: [udemy-mock-quality-fix](./work/2026/0315-1108_udemy-mock-quality-fix/README.md) - Udemy模擬試験アプリの翻訳自然化、AWS固有名詞の英語維持、誤答解説の詳細化、GitHub push、Vercelデプロイ
+- [ ] 2026-03-14 11:37: [prediction-market-strategy-validation](./work/2026/0314-1137_prediction-market-strategy-validation/README.md) - 予測市場トレード戦略の妥当性・問題点・シミュレーション設計を継続検証
+- [x] 2026-03-13 09:18: [jsf-migration-catchup-plan](./work/2026/0313-0912_jsf-migration-catchup-plan/README.md) - Java 8 / JSF 1.2 → Java 21 / Jakarta Faces 4 の7週間キャッチアップ計画
+- [x] 2026-03-08 13:20: [jupyter-docker-setup](./work/2026/0308-1225_jupyter-docker-setup/README.md) - Docker+TailscaleによるJupyter環境構築
+- [2026-03-05 08:15] work/2026/0305-0815_homework_scanner_research/ (宿題スキャナー開発調査)

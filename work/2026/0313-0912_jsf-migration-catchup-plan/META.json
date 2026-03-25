@@ -1,0 +1,10 @@
+{
+  "id": "20260313-0912_jsf-migration-catchup-plan",
+  "title": "JSFレガシー移行の7週間キャッチアップ計画",
+  "requested_by": "もんちゃん",
+  "created_at": "2026-03-13T09:12:00+09:00",
+  "updated_at": "2026-03-13T09:30:00+09:00",
+  "status": "done",
+  "tags": ["java", "jsf", "jakarta-faces", "migration", "roadmap", "study-plan"],
+  "summary": "Java 8 + JSF 1.2 から Java 21 + Jakarta Faces 4 への移行案件に向け、JSF未経験者向け7週間の学習・調査・PoC計画を作成。"
+}

@@ -1,0 +1,26 @@
+# Result
+- Edited `udemy-mock/data/tests.json`
+- Normalized many AWS/service proper nouns back to English (e.g. Amazon Bedrock, Amazon Q Business, Amazon Comprehend, Amazon Textract, Amazon Macie, Amazon Inspector, Amazon Transcribe, Amazon Polly)
+- Smoothed obvious machine-translation artifacts in questions/options/explanations
+- Replaced many generic `whyWrong` entries with explanation text extracted from the detailed Japanese `explain` blocks
+- Further rewrote 18 low-quality / blank / malformed `whyWrong` entries into concise, option-specific Japanese explanations grounded in AWS service roles
+- Created GitHub repo: `https://github.com/quanwenxing/udemy-mock`
+- Pushed `main`
+- Deployed to Vercel production: `https://udemy-mock.vercel.app`
+- Remaining improvement area: some questions still deserve manual editorial review for wording consistency
+
+- Removed remaining generic `whyWrong` placeholders like 「この問題で求められている要件を満たしていません。詳細は上の解説を確認してください。」 and normalized correct-option `whyWrong` to blank
+- Applied additional terminology/style cleanup across explanations and options (Bedrock/Knowledge Bases/Agents wording, `Amazon Bedrock Data Automation`, `Amazon SageMaker`, etc.)
+- 2026-03-15 14:45 JST 追加で 406 件の劣化 `whyWrong` を、誤答サービスの役割と正解の役割を対比する具体的な日本語へ修正
+- 2026-03-15 14:46 JST commit `bcde164` を origin/main へ push。
+- 2026-03-15 14:46 JST Vercel production へ deploy: https://udemy-mock.vercel.app
+- 2026-03-15 14:53 JST 全テスト・全問題を対象に `whyWrong` / `explain` を総点検
+- 2026-03-15 14:53 JST 追加で 77 箇所を修正し、粗い `whyWrong` / truncated / generic な解説の残件 0 を確認
+- 2026-03-15 14:54 JST commit `8262f5c` を origin/main へ push。
+- 2026-03-15 14:54 JST Vercel production へ deploy: https://udemy-mock.vercel.app
+- 2026-03-15 15:16 JST multi-select 問題 44 件を修正。`data/tests.json` の該当問題は `answer` を配列化し、設問文にも `（2つ選択）` / `（3つ選択）` を付与。
+- フロントエンドは single-select / multi-select 両対応に更新。multi-select では複数選択トグル、必要数カウンタ付き「回答をチェック」、完全一致採点、複数正解表示、選択肢ごとの解説一覧を表示。
+- 検証: JSON 整合性、answer 範囲、whyWrong 配列長、multi-select 件数 44、`node --check js/app.js`、ブラウザで Practice Test 2 Q1/Q2 の実動確認。
+- commit `74dadc0` を origin/main へ push。
+- Vercel production へ deploy: https://udemy-mock.vercel.app
+- Caveat: multi-select の正解選択肢どうしの個別 explain は既存データ構造上 1 本の `explain` を共有しているため、正解側は共通の正解理由を表示しています。
