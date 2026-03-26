@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP 部内ミニ勉強会</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.min.css">
+    <style>
+        :root { --r-background-color: #fafafa; }
+        .reveal h1, .reveal h2, .reveal h3 { color: #1a1a2e; }
+        .reveal h1 { font-size: 2em; }
+        .reveal h2 { font-size: 1.5em; border-bottom: 3px solid #e94560; padding-bottom: 10px; }
+        .reveal blockquote { background: #f0f0f0; border-left: 5px solid #e94560; padding: 15px; font-style: italic; }
+        .reveal table { font-size: 0.7em; margin: 20px auto; }
+        .reveal table th { background: #1a1a2e; color: white; padding: 10px; }
+        .reveal table td { padding: 10px; border-bottom: 1px solid #ddd; }
+        .reveal pre { background: #1a1a2e; padding: 15px; border-radius: 8px; font-size: 0.5em; }
+        .reveal code { color: #e94560; }
+        .highlight { color: #e94560; font-weight: bold; }
+        .reveal ul { font-size: 0.8em; }
+        .reveal .slides section { text-align: left; }
+        .reveal .slides section.center { text-align: center; }
+        .agenda-item { display: flex; align-items: center; margin: 10px 0; }
+        .agenda-time { background: #e94560; color: white; padding: 5px 15px; border-radius: 20px; margin-right: 15px; font-size: 0.7em; }
+        .architecture-box { background: #f8f9fa; border: 2px solid #1a1a2e; border-radius: 10px; padding: 15px; margin: 10px 0; text-align: center; }
+        .arrow { text-align: center; font-size: 1.5em; color: #e94560; }
+        .check-icon { color: #28a745; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- タイトル -->
+            <section class="center">
+                <h1 style="border:none;">MCP 部内ミニ勉強会</h1>
+                <p style="font-size:1.2em; color:#666;">Model Context Protocol の仕組みと活用</p>
+                <p style="margin-top:50px; color:#999;">2026年3月</p>
+            </section>
+
+            <!-- アジェンダ -->
+            <section>
+                <h2>今日のアジェンダ</h2>
+                <div class="agenda-item"><span class="agenda-time">5分</span> MCPとは何か</div>
+                <div class="agenda-item"><span class="agenda-time">10分</span> 仕組み・構成</div>
+                <div class="agenda-item"><span class="agenda-time">10分</span> ユースケース紹介</div>
+                <div class="agenda-item"><span class="agenda-time">10分</span> ライブデモ</div>
+                <div class="agenda-item"><span class="agenda-time">5分</span> まとめ・QA</div>
+            </section>
+
+            <!-- MCPとは -->
+            <section>
+                <h2>1. MCPとは何か</h2>
+                <h3>Model Context Protocol</h3>
+                <blockquote>
+                    AIアシスタントと外部システムを繋ぐ<span class="highlight">オープン標準</span>
+                </blockquote>
+            </section>
+
+            <!-- MCPの背景 -->
+            <section>
+                <h2>MCPの基本情報</h2>
+                <table>
+                    <tr><th>項目</th><th>内容</th></tr>
+                    <tr><td>正式名称</td><td>Model Context Protocol</td></tr>
+                    <tr><td>発表</td><td>2024年11月 Anthropic</td></tr>
+                    <tr><td>目的</td><td>AIとデータのあるシステムを接続</td></tr>
+                    <tr><td>例え</td><td>生成AI界の「USB-Cポート」</td></tr>
+                </table>
+            </section>
+
+            <!-- USB-Cの例え -->
+            <section>
+                <h2>例え：USB-Cポート</h2>
+                <h3>従来</h3>
+                <ul>
+                    <li>ツールA → 専用ケーブルA</li>
+                    <li>ツールB → 専用ケーブルB</li>
+                    <li>ツールC → 専用ケーブルC</li>
+                </ul>
+                <h3 style="margin-top:30px;">MCP</h3>
+                <p style="font-size:1.2em;">どんなツールも <span class="highlight">USB-C一本</span> で接続</p>
+            </section>
+
+            <!-- なぜMCPか -->
+            <section>
+                <h2>なぜMCPが必要か</h2>
+                <div style="display:flex; gap:30px;">
+                    <div style="flex:1;">
+                        <h3>従来の問題</h3>
+                        <ul>
+                            <li>ツールごとに独自の連携方法</li>
+                            <li>実装の重複</li>
+                            <li>メンテナンス大変</li>
+                        </ul>
+                    </div>
+                    <div style="flex:1;">
+                        <h3>MCPの解決</h3>
+                        <ul>
+                            <li>統一的なプロトコル</li>
+                            <li>一度実装すればどこでも使える</li>
+                            <li>コミュニティによる共通化</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 仕組み -->
+            <section>
+                <h2>2. 仕組み・構成</h2>
+                <h3>アーキテクチャ（3層構造）</h3>
+                <div class="architecture-box">
+                    <strong>Host（AIアプリ）</strong><br>
+                    <small>Claude Desktop / Cursor etc</small>
+                </div>
+                <div class="arrow">↓ JSON-RPC 2.0</div>
+                <div class="architecture-box">
+                    <strong>MCP Client（クライアント）</strong><br>
+                    <small>Host ↔ MCP Server の仲介</small>
+                </div>
+                <div class="arrow">↓</div>
+                <div class="architecture-box">
+                    <strong>MCP Server（サーバー）</strong><br>
+                    <small>GitHub / Slack / DB / File etc</small>
+                </div>
+            </section>
+
+            <!-- 各層の役割 -->
+            <section>
+                <h2>各層の役割</h2>
+                <table>
+                    <tr><th>層</th><th>役割</th><th>例</th></tr>
+                    <tr><td>Host</td><td>AIアシスタント本体</td><td>Claude Desktop, Cursor</td></tr>
+                    <tr><td>Client</td><td>接続クライアント</td><td>Host内蔵のMCP Client</td></tr>
+                    <tr><td>Server</td><td>外部ツール接続</td><td>各種MCP Server</td></tr>
+                </table>
+            </section>
+
+            <!-- MCP Serverの種類 -->
+            <section>
+                <h2>MCP Serverの種類</h2>
+                <h3>公式提供</h3>
+                <ul>
+                    <li><code>@anthropics/mcp-server-fetch</code> - Web検索</li>
+                    <li><code>@anthropics/mcp-server-filesystem</code> - ファイル操作</li>
+                    <li><code>@modelcontextprotocol/server-github</code> - GitHub連携</li>
+                </ul>
+                <h3 style="margin-top:20px;">コミュニティ製</h3>
+                <p>300+ のServerが公開されている</p>
+                <p><small>github.com/modelcontextprotocol/servers</small></p>
+            </section>
+
+            <!-- 通信プロトコル -->
+            <section>
+                <h2>通信プロトコル</h2>
+                <h3>JSON-RPC 2.0</h3>
+                <ul>
+                    <li>軽量なRPCプロトコル</li>
+                    <li>リクエスト/レスポンス形式</li>
+                    <li>標準的で実装しやすい</li>
+                </ul>
+                <pre><code>{
+  "jsonrpc": "2.0",
+  "method": "tools/call",
+  "params": { "name": "search", "arguments": {...} },
+  "id": 1
+}</code></pre>
+            </section>
+
+            <!-- ユースケース -->
+            <section>
+                <h2>3. ユースケース紹介</h2>
+                <h3>開発支援：GitHub連携</h3>
+                <ul>
+                    <li>Issue/PRの確認</li>
+                    <li>コードレビュー支援</li>
+                    <li>ブランチ操作</li>
+                </ul>
+                <blockquote style="margin-top:20px;">
+                    「このリポジトリのopenなissueを一覧して」<br>
+                    → AIがGitHub API経由で取得・要約
+                </blockquote>
+            </section>
+
+            <!-- 情報検索 -->
+            <section>
+                <h2>情報検索・業務自動化</h2>
+                <div style="display:flex; gap:30px;">
+                    <div style="flex:1;">
+                        <h3>情報検索</h3>
+                        <ul>
+                            <li>Web検索連携</li>
+                            <li>社内Wiki連携</li>
+                            <li>最新情報の即時取得</li>
+                        </ul>
+                    </div>
+                    <div style="flex:1;">
+                        <h3>業務自動化</h3>
+                        <ul>
+                            <li>Slack通知送信</li>
+                            <li>メール作成・送信</li>
+                            <li>カレンダー予定調整</li>
+                            <li>Todoistタスク管理</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 導入事例 -->
+            <section>
+                <h2>導入事例</h2>
+                <h3>大手フィンテック企業</h3>
+                <ul>
+                    <li>社内ツール統合</li>
+                    <li>開発者生産性向上</li>
+                </ul>
+                <h3 style="margin-top:20px;">国内スタートアップ</h3>
+                <ul>
+                    <li>顧客対応自動化</li>
+                    <li>情報収集効率化</li>
+                </ul>
+            </section>
+
+            <!-- ライブデモ -->
+            <section>
+                <h2>4. ライブデモ</h2>
+                <h3>デモ1：既存MCP Serverを使う</h3>
+                <p><strong>Fetch Server（Web検索）</strong></p>
+                <pre><code>npx -y @anthropics/mcp-server-fetch</code></pre>
+                <p style="margin-top:20px;"><strong>Filesystem Server（ファイル操作）</strong></p>
+                <pre><code>npx -y @anthropics/mcp-server-filesystem ~/docs</code></pre>
+            </section>
+
+            <!-- デモ2 -->
+            <section>
+                <h2>デモ2：Claude Desktop設定</h2>
+                <pre><code>{
+  "mcpServers": {
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@anthropics/mcp-server-fetch"]
+    }
+  }
+}</code></pre>
+                <p style="margin-top:20px;"><strong>実際の利用：</strong></p>
+                <blockquote>
+                    ユーザー：「MCPの最新ニュースを調べて」<br>
+                    AI：→ Fetch Serverで検索 → 結果を要約
+                </blockquote>
+            </section>
+
+            <!-- デモ3 -->
+            <section>
+                <h2>デモ3：シンプルなMCP Server作成</h2>
+                <h3>最小構成（Python）</h3>
+                <pre><code>from mcp.server import Server
+from mcp.types import TextContent
+
+app = Server("my-server")
+
+@app.call_tool()
+async def get_weather(city: str) -> list:
+    result = await fetch_weather(city)
+    return [TextContent(text=result)]
+
+if __name__ == "__main__":
+    app.run()</code></pre>
+            </section>
+
+            <!-- まとめ -->
+            <section>
+                <h2>5. まとめ</h2>
+                <h3>キーテイクアウェイ</h3>
+                <ul>
+                    <li><span class="check-icon">✓</span> <strong>MCPはAIツール連携の「共通言語」</strong><br>
+                        <small>標準化により実装コスト削減</small></li>
+                    <li><span class="check-icon">✓</span> <strong>USB-Cのような存在</strong><br>
+                        <small>同じ接続方法で様々なツールが使える</small></li>
+                    <li><span class="check-icon">✓</span> <strong>既存APIのラッピングでOK</strong><br>
+                        <small>既存システムも簡単にMCP対応可能</small></li>
+                </ul>
+            </section>
+
+            <!-- 次のステップ -->
+            <section>
+                <h2>次のステップ</h2>
+                <ol>
+                    <li><strong>試してみる</strong><br>
+                        <small>Claude DesktopにMCP Serverを追加</small></li>
+                    <li style="margin-top:15px;"><strong>カスタムServer作成</strong><br>
+                        <small>社内ツールをMCP化</small></li>
+                    <li style="margin-top:15px;"><strong>コミュニティ参加</strong><br>
+                        <small>GitHubで事例を共有</small></li>
+                </ol>
+            </section>
+
+            <!-- 参考リソース -->
+            <section>
+                <h2>参考リソース</h2>
+                <table>
+                    <tr><th>リソース</th><th>URL</th></tr>
+                    <tr><td>公式ドキュメント</td><td>modelcontextprotocol.io</td></tr>
+                    <tr><td>GitHub</td><td>github.com/modelcontextprotocol</td></tr>
+                    <tr><td>Server一覧</td><td>github.com/modelcontextprotocol/servers</td></tr>
+                </table>
+            </section>
+
+            <!-- QA -->
+            <section class="center">
+                <h1 style="border:none;">QA</h1>
+                <p style="font-size:1.2em; color:#666;">質問をお待ちしています</p>
+            </section>
+
+            <!-- 終了 -->
+            <section class="center">
+                <h1 style="border:none;">ご清聴ありがとうございました</h1>
+                <p style="font-size:1.2em; margin-top:30px;">Model Context Protocol</p>
+                <p style="color:#e94560;">modelcontextprotocol.io</p>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide',
+            width: 1280,
+            height: 720
+        });
+    </script>
+</body>
+</html>
